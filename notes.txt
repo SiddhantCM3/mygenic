@@ -1,0 +1,25 @@
+Home
+
+- Carousel
+- Introduction
+- Our Products 
+
+About
+
+- Carousel
+- Basic Information
+- Company album (optional)
+- Why Us
+- Our Products 
+- Factsheet
+
+Products
+
+- Carousel
+- Categories and description
+
+Contact US
+
+- Carousal
+- Form
+- Map
