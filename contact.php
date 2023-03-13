@@ -13,7 +13,9 @@
                      <P>Namrata Patil (Manager)</P>
                      <P>Call- 08043851554 <br><span>We Accept Online Payments</span></P>
                      <p>Share us Via</p>
-                     <p><i class="bi bi-credit-card-2-front-fill"></i></p>
+                     <i class="bi bi-app"></i>
+                     <i class="bi bi-app"></i>
+                     <i class="bi bi-app"></i>
                   </div>
                   <div class="col-lg-6">
                      <h3 class="text-start"> GET IN TOUCH WITH US</h3>
