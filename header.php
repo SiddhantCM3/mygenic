@@ -17,16 +17,20 @@
     <!-- External javascript -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- Slick Carousal -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
     <title>MyGenic Healthcare</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light p-4">
+        <nav class="navbar navbar-expand-lg navbar-dark p-4">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="">
                     <img src="assets/img/mygenic_logo_tm.png" alt="mygenic-logo" width="130px" style="background-color:white">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
