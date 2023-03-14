@@ -22,7 +22,7 @@
              <h2 class="text-center">WHY US ?</h2>
              <p class="text-center">The key points for which we have won notice from our buyers include:</p>
                  <div>
-                     <ul>
+                     <ul class="d-flex flex-column" style="align-items: center;">
                          <li>Experience & core knowledge</li>
                           <li>Client-centric approach</li>
                          <li>Fair dealings</li>
