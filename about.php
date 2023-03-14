@@ -12,7 +12,9 @@
     <section id="about-company">
          <div class="container">
               <h2 class="text-center">COMPANY ALBUM</h2>
-              <div></div>
+              <div>
+                <img src="...." alt="....">
+              </div>
          </div>
     </section>
 
