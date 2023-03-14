@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+:root{
+    --blue:var(--blue)
+}
+
 /* Header */
 
 nav{
