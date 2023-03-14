@@ -47,6 +47,7 @@ h2{
 }
 .btn:hover{
     background-color: var(--primary-dark);
+    color: white;
 }
 
 /* Header */
@@ -99,7 +100,7 @@ nav i{
 #footer .row h5{
     padding-bottom: 25px;
 }
-#footer .btn{
+#footer .btn-f{
     background-color: white;
     padding: 4px 10px;
     border-radius: 100px;
@@ -109,4 +110,19 @@ nav i{
     font-weight: bold;
     width: 120px;
     margin: 5px;
+}
+#footer .icons i{
+    padding:5px;
+    font-size: 23px;
+}
+#footer .form-control{
+    border-radius:0px;
+    border: 1px solid black;
+}
+#footer hr{
+    height: 2px;
+    color: white;
+}
+#footer .footer-bottom p{
+    line-height: 7px;
 }

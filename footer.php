@@ -2,12 +2,12 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-9 col-md-9">
           <div class="row">
-            <div class="col-lg-2">
-              <img src="https://logodix.com/logo/413743.png" alt="mygenic logo" height="100px">
+            <div class="col-lg-2 col-md-2">
+              <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="background-color:white">
             </div>
-            <div class="col-lg-3 text-uppercase">
+            <div class="col-lg-3 col-md-3 text-uppercase">
               <h5>Our Company</h5>
               <p>About Us</p>
               <p>Our Products</p>
@@ -15,20 +15,20 @@
               <p>Sitemap</p>
               <p>Download Broucher</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <h5 class="text-uppercase">Reach Us</h5>
               <p class="text-capitalize">Mygenic Healthcare Private Limited</p>
               <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
               <p class="text-capitalize">Get Directions</p>
               <p class="text-capitalize">Namrata Patil (Manager)</p>
               <p class="text-capitalize">View Mobile Number</p>
-              <button class="btn">Send SMS</button>
-              <button class="btn">Send Email</button>
-              <button class="btn">Send Payment</button>
+              <button class="btn-f">Send SMS</button>
+              <button class="btn-f">Send Email</button>
+              <button class="btn-f">Send Payment</button>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-5">
+          <div class="row pt-2">
+            <div class="col-lg-5 col-md-5">
               <p class="text-capitalize fw-bold">We Accept Online Payments</p>
               <div class="payment-icons">
                 <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
@@ -37,7 +37,7 @@
                 <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
               </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7 icons">
               <p class="text-capitalize fw-bold">Share Us Via</p>
               <i class="bi bi-facebook"></i>
               <i class="bi bi-whatsapp"></i>
@@ -46,21 +46,28 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-3">
           <h5 class="text-capitalize">Leave a message, we will call you back!</h5>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
-            <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+91 ">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Message</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Requirement Details">
+          <div class="bg-white p-2">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-dark">Mobile Number</label>
+              <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+91 ">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-dark">Requirement Details</label>
+              <textarea class="form-control" placeholder="Additional details about your requirement..." id="floatingTextarea"></textarea>           
+            </div>
+            <div class="mb-3 text-center">
+              <button class="btn">Submit</button>
+            </div>
           </div>
         </div>
       </div>
       <hr>
-      <p>All Rights Reserved (Terms of Use)</p>
-      <p>Developed and Managed by IndiaMART InterMESH Limited</p>
+      <div class="footer-bottom">
+        <p>All Rights Reserved (Terms of Use)</p>
+        <p>Developed and Managed by IndiaMART InterMESH Limited</p>
+      </div>      
     </div>
   </div>
 </section>
