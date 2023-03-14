@@ -28,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav text-uppercase">
                         <li class="nav-item">
                             <a class="nav-link text-white" aria-current="page" href="index.php">Home</a>
                         </li>

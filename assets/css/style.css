@@ -54,6 +54,14 @@ h2{
 nav{
     background-color:var(--primary);
 }
+nav i{
+    color: white;
+    font-size: 25px;
+}
+.navbar button{
+    color: white;
+    border-color: white;
+}
 
 /* Carousel */
 
@@ -86,4 +94,25 @@ nav{
 #ourproducts .list-heading{
     background-color: var(--primary);
     color: white;
+}
+
+/* Footer */
+#footer{
+    background-color: var(--primary);
+    padding: 40px 0px 40px 0px;
+    color: white;
+}
+#footer .row h5{
+    padding-bottom: 25px;
+}
+#footer .btn{
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 100px;
+    border:none;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    margin: 5px;
 }
