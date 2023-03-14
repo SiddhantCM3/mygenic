@@ -4,7 +4,9 @@
     <section id="about-us">
         <div class="container">
              <h1 class="text-center">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
-             <p class="text-center">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
+             <div class="container">
+                 <p class="text-center">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
+             </div>
         </div>
     </section>
 
@@ -39,12 +41,11 @@
      <div class="container">
              <div class="row">
                      <div class="col-lg-4">
-                     <h3 class="text-center">OUR PRODUCTS</h3>
                      <ul class="list-group">
                     <li class="list-group-item active" aria-current="true">
                         <div class="dropdown">
                             <button class="btn" type="button" aria-expanded="false">
-                            Our Products
+                            <h3 class="text-center">OUR PRODUCTS</h3>
                             </button>
                         </div>
                     </li>
@@ -204,124 +205,123 @@
                      <h3 class="text-center">FACTSHEET</h3>
                      <div class="container">
                          <div class="row">
-                              <div class="col-sm">
-                                     Basic Information 
-                              </dCiv>
-                                  <div class="row">
-                                     <div class="col-lg-6 col-sm-6">
+                                  <div class="row" style="border-style: ridge;">
+                                      <h5>Basic Information</h5> 
+                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
                                           Nature of Business
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
                                            Exporter
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
                                           Additional Business
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
                                           <P>Wholesaler<br>
                                            <span>Distributor</span><br>
                                            <span>Service Provider</span><br>
                                            <span>Manufacturer</P>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Company CEO</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Namrata Patil</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Registered Address</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                           <p>Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Navi Mumbai - 410209, Maharashtra, India</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Total Number of Employees</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Upto 10 People</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Year of Establishment</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                           <p>2022</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                           <p>Legal Status of Firm</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                          <p>Limited Company (Ltd. / Pvt. Ltd.)</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                           <p>Annual Turnover</p>
                                       </div>
-                                      <div class="col-lg-6 col-sm-6">
+                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                           <p>Rs. 10 - 25 Crore</p>
                                       </div>
-                                 </div>
-                                         <div class="row">
+                                      <div class="row">
                                              <div class="col-sm">
-                                                  Trade & Market 
+                                                  <h5>Trade & Market </h5>
                                              </div>
                                               <div class="row">
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                          Export Percentage
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                        upto 20%
                                                    </div>
                                               </div>
                                          </div>
-                                         <div class="row">
-                                             <div class="col-sm">
-                                                    Statutory Profile 
+                                 </div>
+
+                                        <div class="row" style="border-style: ridge;">
+                                           <div class="col-sm">
+                                                   <h5>Statutory Profile</h5>
                                              </div>
                                               <div class="row">
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                          Import Export Code (IEC)
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                          AATCA*****
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                            Tan No.
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                           BPLA1*****
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                           GST No.
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                            27AATCA8561A1ZH
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                            CIN No.
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                           U85100MH2020PTC343851
                                                    </div>
                                               </div>
-                                         </div>
-                                         <div class="row">
+                                              <div class="row">
                                              <div class="col-sm">
-                                                   Packaging/Payment and Shipment Details 
+                                                  <h5>Packaging/Payment and Shipment Details</h5>
                                              </div>
                                               <div class="row">
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                          Payment Mode
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                          <p>Cash<br>Credit Card <br> Bank Transfer <br> Cheque <br> DD <br> Online <br></p>
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                            Shipment Mode
                                                    </div>
-                                                   <div class="col-lg-6 col-sm-6">
+                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                                            By Road
                                                    </div>
                                               </div>
+                                             </div>
                                          </div>
                                          
                          </div>
