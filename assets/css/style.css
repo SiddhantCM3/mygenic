@@ -81,3 +81,9 @@ nav{
     border-width: 1px;
     border-radius: 0px;
 }
+
+/*About us*/
+#ourproducts .list-heading{
+    background-color: var(--primary);
+    color: white;
+}

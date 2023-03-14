@@ -2,7 +2,7 @@
 <?php include("carousel.php"); ?>
 <!-----------------------about-us----------------------------------->
     <section id="about-us">
-        <div class="container">
+        <div class="container m-5">
              <h1 class="text-center">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
              <div class="container">
                  <p class="text-center">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
@@ -12,7 +12,7 @@
 
 <!-------------------------company-album---------------------------------------->
     <section id="about-company">
-         <div class="container">
+         <div class="container m-5">
               <h2 class="text-center">COMPANY ALBUM</h2>
               <div>
                 <img src="...." alt="....">
@@ -22,7 +22,7 @@
 
 <!------------------------why-us----------------------------------------------->
      <section id="whyus">
-         <div class="container">
+         <div class="container m-5">
              <h2 class="text-center">WHY US ?</h2>
              <p class="text-center">The key points for which we have won notice from our buyers include:</p>
                  <div>
@@ -41,20 +41,17 @@
      <div class="container">
              <div class="row">
                      <div class="col-lg-4">
-                     <ul class="list-group">
-                    <li class="list-group-item active" aria-current="true">
-                        <div class="dropdown">
-                            <button class="btn" type="button" aria-expanded="false">
-                            <h3 class="text-center">OUR PRODUCTS</h3>
-                            </button>
-                        </div>
+                     <ul class="list-group border border-dark rounded-0">
+                    <li class="list-group-item list-heading" aria-current="true">
+                        <h3 class="text-white">Our Products</h3>
                     </li>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Pharmaceutical Tablets
                                 </button>
+                                <p class="f-xs">131 products available</p>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -93,6 +90,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Pharmaceutical Injection
                                 </button>
+                                <p class="f-xs">111 products available</p>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -111,6 +109,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Anti Cancer Injection
                                 </button>
+                                <p class="f-xs">28 products available</p>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -129,6 +128,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Anti Cancer Capsules
                                 </button>
+                                <p class="f-xs">33 products available</p>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -147,6 +147,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 Pharmaceutical Tablet
                                 </button>
+                                <p class="f-xs">8 products available</p>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -165,6 +166,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 New Items
                                 </button>
+                                <p class="f-xs">3 products available</p>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -197,21 +199,22 @@
                             </div>
                         </div>
                     </div>
-                 </ul>
-                     </div>
+                </ul>
+            </div>
 
                  <!-------------second-colum----------------->
                   <div class="col-lg-8">
-                     <h3 class="text-center">FACTSHEET</h3>
                      <div class="container">
-                         <div class="row">
+                         <div class="row"> 
+
                                   <div class="row" style="border-style: ridge;">
+                                  <h3 class="text-center list-heading p-3">FACTSHEET</h3>
                                       <h5>Basic Information</h5> 
                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
-                                          Nature of Business
+                                          <p>Nature of Business</p>
                                       </div>
                                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
-                                           Exporter
+                                           <p>Exporter</p>
                                       </div>
                                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
                                           Additional Business
@@ -264,10 +267,10 @@
                                              </div>
                                               <div class="row">
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                         Export Percentage
+                                                          <p> Export Percentage</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                       upto 20%
+                                                        <p> upto 20%</p>
                                                    </div>
                                               </div>
                                          </div>
@@ -279,28 +282,28 @@
                                              </div>
                                               <div class="row">
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                         Import Export Code (IEC)
+                                                        <p>Import Export Code (IEC)</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                         AATCA*****
+                                                        <p>  AATCA*****</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                           Tan No.
+                                                       <p> Tan No.</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                          BPLA1*****
+                                                       <p> BPLA1***** </p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                          GST No.
+                                                      <p>GST No.</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                           27AATCA8561A1ZH
+                                                      <p>27AATCA8561A1ZH </p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                           CIN No.
+                                                      <p>CIN No.</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                          U85100MH2020PTC343851
+                                                     <p>U85100MH2020PTC343851</p>
                                                    </div>
                                               </div>
                                               <div class="row">
@@ -309,16 +312,16 @@
                                              </div>
                                               <div class="row">
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                         Payment Mode
+                                                      <p>Payment Mode</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                         <p>Cash<br>Credit Card <br> Bank Transfer <br> Cheque <br> DD <br> Online <br></p>
+                                                        <p>Cash<br>Credit Card <br> Bank Transfer <br> Cheque <br> DD <br> Online <br></p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                           Shipment Mode
+                                                      <p>Shipment Mode</p>
                                                    </div>
                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                           By Road
+                                                       <p> By Road</p>
                                                    </div>
                                               </div>
                                              </div>

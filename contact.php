@@ -3,11 +3,11 @@
 <body>
 <!--------------------contact-Form------------------------------------->
     <section id="contact-img">
-          <div class="container">
+          <div class="container m-5">
                <h1 class="text-center">CONTACT US</h1>
-              <div class="row">
+              <div class="row m-5">
                   <div class="col-lg-6">
-                     <h3 class="text-start">REACH US</h3>
+                     <h3 class="text-start mb-5">REACH US</h3>
                      <P>My Genic healthcare private limited</P>
                      <P>Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
                      <P>Namrata Patil (Manager)</P>
@@ -18,7 +18,7 @@
                      <i class="bi bi-app"></i>
                   </div>
                   <div class="col-lg-6">
-                     <h3 class="text-start"> GET IN TOUCH WITH US</h3>
+                     <h3 class="text-start mb-5"> GET IN TOUCH WITH US</h3>
                      <form>
                        <div class="form-group">
                              <div class="container">
