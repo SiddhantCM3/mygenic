@@ -2,7 +2,7 @@
 <?php include("carousel.php"); ?>
 <!-----------------------about-us----------------------------------->
     <section id="about-us">
-        <div class="container m-5">
+        <div class="container">
              <h1 class="text-center">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
              <div class="container">
                  <p class="text-center">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
@@ -12,17 +12,18 @@
 
 <!-------------------------company-album---------------------------------------->
     <section id="about-company">
-         <div class="container m-5">
+         <div class="container">
               <h2 class="text-center">COMPANY ALBUM</h2>
-              <div>
-                <img src="...." alt="....">
-              </div>
-         </div>
+              <div class="MagicScroll" data-options="mode: cover-flow; height: 275px;">
+                  <img src="example1.jpg">
+                  <img src="example2.jpg">
+              </div> 
+          </div>
     </section>
 
 <!------------------------why-us----------------------------------------------->
      <section id="whyus">
-         <div class="container m-5">
+         <div class="container">
              <h2 class="text-center">WHY US ?</h2>
              <p class="text-center">The key points for which we have won notice from our buyers include:</p>
                  <div>

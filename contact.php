@@ -3,7 +3,7 @@
 <body>
 <!--------------------contact-Form------------------------------------->
     <section id="contact-img">
-          <div class="container m-5">
+          <div class="container">
                <h1 class="text-center">CONTACT US</h1>
               <div class="row m-5">
                   <div class="col-lg-6">
@@ -21,7 +21,7 @@
                        </div>
                   </div>
                   <div class="col-lg-6">
-                     <h3 class="text-start mb-5"> GET IN TOUCH WITH US</h3>
+                     <h3 class="text-start text-center"> GET IN TOUCH WITH US</h3>
                      <form>
                        <div class="form-group">
                              <div class="container">
