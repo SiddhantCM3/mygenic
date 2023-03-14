@@ -23,7 +23,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light p-4">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">MyGenic</a>
+                <a class="navbar-brand text-white" href="">
+                    <img src="assets/img/mygenic_logo_tm.png" alt="mygenic-logo" width="130px" style="background-color:white">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,22 +37,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="about.php">About Us</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="product.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Our Products
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="product.php">Our Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                <i class="bi bi-telephone-fill"></i>
+                <a href="tel:0000000000"><i class="bi bi-telephone-fill"></i></a>
             </div>
         </nav>
     </header>

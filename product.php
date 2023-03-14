@@ -17,7 +17,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Pharmaceutical Tablets
                                 </button>
-                                <p class="f-xs">131 products available</p>
+                                <p class="f-xs text-muted">131 products available</p>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -56,7 +56,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Pharmaceutical Injection
                                 </button>
-                                <p class="f-xs">111 products available</p>
+                                <p class="f-xs text-muted">111 products available</p>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -75,7 +75,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Anti Cancer Injection
                                 </button>
-                                <p class="f-xs">28 products available</p>
+                                <p class="f-xs text-muted">28 products available</p>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -94,7 +94,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 Anti Cancer Capsules
                                 </button>
-                                <p class="f-xs">33 products available</p>
+                                <p class="f-xs text-muted">33 products available</p>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -113,7 +113,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 Pharmaceutical Tablet
                                 </button>
-                                <p class="f-xs">8 products available</p>
+                                <p class="f-xs text-muted">8 products available</p>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -132,7 +132,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 New Items
                                 </button>
-                                <p class="f-xs">3 products available</p>
+                                <p class="f-xs text-muted">3 products available</p>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
