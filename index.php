@@ -125,7 +125,7 @@
 
 
 
-<section id="product-card">
+<!-- <section id="product-card">
    <div class="container">
       <div class="card-slider">
       <div class="row">
@@ -194,6 +194,94 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
+
+
+
+
+
+
+<section id="product-card">
+   <div class="container-fluid">
+      <div class="slide-container swiper">
+         <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+            <div class="card swiper-slide">
+               <div class="image-box">
+                  <img src="assets\img\dummy-car.jpg" alt="">
+               </div>
+               <div class="profile-details">
+                  <img src="assets\img\afatinib-dimaleate-tablet-500x500.webp" alt="">
+                  <div class="name-job">
+                     <p class="name">Akshata Kathore</p>
+                     <p class="job">Developer</p>
+                  </div>
+               </div>               
+            </div>
+         </div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+   </div>
+</section>
 <?php include("footer.php")?>

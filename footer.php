@@ -80,6 +80,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Slick Carousal -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script type="text/javascript" src="assets\js\swiper-bundle.min.js"></script>
  
 
   </body>

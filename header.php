@@ -21,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 
+    <!-- Swiper -->
+    <link type="text/css" href="assets\css\swiper-bundle.min.css" rel="stylesheet">
+
+
     <title>MyGenic Healthcare</title>
   </head>
   <body>
