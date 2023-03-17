@@ -3,31 +3,69 @@
 <!-----------------------about-us----------------------------------->
     <section id="about-us">
         <div class="container">
-             <h1 class="text-center">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
+             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
              <div class="container">
-                 <p class="text-center">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
+                 <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
              </div>
         </div>
     </section>
 
 <!-------------------------company-album---------------------------------------->
-    <section id="about-company">
-         <div class="container">
-              <h2 class="text-center">COMPANY ALBUM</h2>
-              <div class="MagicScroll" data-options="mode: cover-flow; height: 275px;">
-                  <img src="example1.jpg">
-                  <img src="example2.jpg">
-              </div> 
-          </div>
-    </section>
+        <section id="about-company">
+            <div class="container-fluid">
+                <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">COMPANY ALBUM</h2>
+                <div class="content-slider">
+                    <div class="slider">
+                        <div class="mask">
+                            <ul>
+                                <li class="anim1 text-center">
+                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                </li>
+                                <li class="anim2 text-center">
+                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                </li>
+                                <li class="anim3 text-center">
+                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                </li>
+                                <li class="anim4 text-center">
+                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                </li>
+                                <li class="anim5 text-center">
+                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+<!------------------------Vision - Mission----------------------------------------------->
+<section class="vision-mission" style="background-image:url('assets\img\dummy-car.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="stmt-1">
+                    Who We Are What We Do
+                </div>
+                <div class="stmt-2">Our Mission</div>
+                <div class="stmt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure, quos unde totam culpa tenetur facilis quod nostrum animi velit temporibus, nam ipsum non odit! Excepturi praesentium repellat qui aperiam.</div>
+            </div>
+            <div class="col">
+                <div class="stmt-1">What We Aspire Today</div>
+                <div class="stmt-2">Our Vision</div>
+                <div class="stmt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quidem, sequi tenetur explicabo aspernatur ea minima libero vero eum animi corporis vitae rem veritatis eos id, et repudiandae hic sapiente.</div>
+            </div>
+        </div>
+    </div>
+</section>
 <!------------------------why-us----------------------------------------------->
      <section id="whyus">
          <div class="container">
-             <h2 class="text-center">WHY US ?</h2>
-             <p class="text-center">The key points for which we have won notice from our buyers include:</p>
+             <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">WHY US ?</h2>
+             <p class="text-center" data-aos="zoom-out" data-aos-delay="200">The key points for which we have won notice from our buyers include:</p>
                  <div>
-                     <ul class="d-flex flex-column" style="align-items: center;">
+                     <ul class="d-flex flex-column" style="align-items: center;" data-aos="zoom-out" data-aos-delay="200">
                          <li>Experience & core knowledge</li>
                           <li>Client-centric approach</li>
                          <li>Fair dealings</li>
@@ -41,7 +79,9 @@
 <section id="ourproducts">
      <div class="container">
              <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-lg-4" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                      <ul class="list-group border border-dark rounded-0">
                     <li class="list-group-item list-heading" aria-current="true">
                         <h3 class="text-white">Our Products</h3>
@@ -204,7 +244,9 @@
             </div>
 
                  <!-------------second-colum----------------->
-                  <div class="col-lg-8">
+                  <div class="col-lg-8" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                      <div class="container">
                          <div class="row"> 
 

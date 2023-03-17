@@ -4,27 +4,25 @@
       <div class="row">
         <div class="col-lg-9 col-md-9">
           <div class="row">
-            <div class="col-lg-2 col-md-2">
-              <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="background-color:white">
+            <div class="col-lg-2 col-md-2 logo">
+              <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="">
             </div>
             <div class="col-lg-3 col-md-3 text-uppercase">
               <h5>Our Company</h5>
-              <p>About Us</p>
-              <p>Our Products</p>
-              <p>Contact Us</p>
-              <p>Sitemap</p>
-              <p>Download Broucher</p>
+              <p><a href="index.php">Home</a></p>
+              <p><a href="about.php">About Us</a></p>
+              <p><a href="product.php">Our Products</a></p>
+              <p><a href="contact.php">Contact Us</a></p>
             </div>
             <div class="col-lg-6 col-md-6">
               <h5 class="text-uppercase">Reach Us</h5>
               <p class="text-capitalize">Mygenic Healthcare Private Limited</p>
               <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
-              <p class="text-capitalize">Get Directions</p>
+              <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i>Get Directions</a></p>
               <p class="text-capitalize">Namrata Patil (Manager)</p>
               <p class="text-capitalize">View Mobile Number</p>
-              <button class="btn-f">Send SMS</button>
-              <button class="btn-f">Send Email</button>
-              <button class="btn-f">Send Payment</button>
+              <a href="#"><button class="btn-f">Send SMS</button></a>
+              <a href="#"><button class="btn-f">Send Email</button></a>
             </div>
           </div>
           <div class="row pt-2">
@@ -39,10 +37,10 @@
             </div>
             <div class="col-lg-7 col-md-7 icons">
               <p class="text-capitalize fw-bold">Share Us Via</p>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-whatsapp"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-twitter"></i>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -72,18 +70,13 @@
   </div>
 </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <!-- JQuery -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- Slick Carousal -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
-    <!-- Swiper JS -->
-    <script type="text/javascript" src="assets\js\swiper-bundle.min.js"></script>
- 
-
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>

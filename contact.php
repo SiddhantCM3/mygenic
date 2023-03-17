@@ -2,55 +2,55 @@
 <?php include("carousel.php"); ?>
 <body>
 <!--------------------contact-Form------------------------------------->
-    <section id="contact-img">
-          <div class="container">
-               <h1 class="text-center">CONTACT US</h1>
-              <div class="row m-5">
-                  <div class="col-lg-6">
-                     <h3 class="text-start mb-5">REACH US</h3>
-                     <P>My Genic healthcare private limited</P>
-                     <P>Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
-                     <P>Namrata Patil (Manager)</P>
-                     <P>Call- 08043851554 <br><span>We Accept Online Payments</span></P>
-                     <p>Share us Via</p>
-                       <div class="payment-icons">
-                             <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
-                             <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
-                             <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
-                             <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
-                       </div>
-                  </div>
-                  <div class="col-lg-6">
-                     <h3 class="text-start text-center"> GET IN TOUCH WITH US</h3>
-                     <form>
-                       <div class="form-group">
-                             <div class="container">
-                                 <div class="row">
-                                     <div class="col-lg-12">
-                                         <input type="text" name="Full Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="FULL NAME"><br>
-                                     </div>
-                                      <div class="col-lg-12">
-                                         <input type="email"  name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
-                                      </div>
-                                      <div class="col-lg-12">
-                                          <input type="phone" name="Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PHONE NO."><br>
-                                      </div>
-                                      <div class="col-lg-12">
-                                          <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SUBJECT"><br>
-                                      </div>
-                                       <div class="col-lg-12">
-                                         <input type="text" name="MASSAGE" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="MASSAGE"><br>
-                                      </div>
-                                      <button type="button" class="btn btn-primary btn-lg">SEND MASSAGE</button>
-                                      </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </form>
-                 </div>
-             </div>
-         </div>
-     </section>
+<section id="contact-img">
+    <div class="container">
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">CONTACT US</h1>
+        <div class="row m-5">
+            <div class="col-lg-6">
+                <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
+                <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
+                <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
+                <P data-aos="zoom-out" data-aos-delay="200">Namrata Patil (Manager)</P>
+                <P data-aos="zoom-out" data-aos-delay="200">Call- 08043851554 <br><span>We Accept Online Payments</span></P>
+                <p data-aos="zoom-out" data-aos-delay="200">Share us Via</p>
+                <div class="payment-icons">
+                    <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
+                    <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
+                    <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
+                    <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
+                <form>
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <input type="text" name="Full Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="FULL NAME"><br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="email"  name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="phone" name="Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PHONE NO."><br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SUBJECT"><br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="text" name="MASSAGE" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="MASSAGE"><br>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-lg">SEND MASSAGE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
 
 <!-------------------------------Map------------------------------------------>
 <section>
