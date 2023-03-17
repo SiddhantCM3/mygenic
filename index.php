@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<section style="background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-217-01.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=605421b998a41a0ec058e09e722d8e27'); background-size:cover;">
+<section class="section-product-card" style="background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-217-01.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=605421b998a41a0ec058e09e722d8e27'); background-size:cover;">
    <h1 class="text-center">Our Products</h1>
    <div class="product-card">
       <input type="radio" name="position" checked />

@@ -143,14 +143,7 @@ nav i{
 
 /* Company Album */ 
   
-  #about-company .content-slider {
-    /* width: 100%; */
-    /* height: 500px; */
-  }
-  
   #about-company  .slider {
-    /* height: 500px; */
-    /* width: 680px; */
     margin: 40px auto 0;
     overflow: visible;
     position: relative;
@@ -162,8 +155,6 @@ nav i{
   }
   
   #about-company .slider ul {
-    /* margin: 0;
-    padding: 0; */
     position: relative;
   display: flex;
   justify-content: center;
@@ -171,7 +162,6 @@ nav i{
   }
   
   #about-company .slider li {
-    /* height: 500px; */
     position: absolute;
     top: -325px;
     list-style: none;
@@ -390,6 +380,9 @@ nav i{
   }
   
   /* Index -> product card */
+  .section-product-card{
+    background-attachment: fixed;
+  }
 .product-card {
     height: 600px;
     margin: 0;
@@ -510,7 +503,12 @@ div.item:nth-of-type(5) {
  .product-card input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
   }
-
+/* why us */
+.list-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   /* about -> vision & mission */
   .vision-mission{
     background-image:
@@ -522,6 +520,7 @@ div.item:nth-of-type(5) {
   background-size: cover;
   opacity: 0.8;
   color: #fff;
+  background-attachment: fixed;
   }
   .vision-mission .stmt-1, .stmt-2{
     text-transform: uppercase;
@@ -548,7 +547,3 @@ div.item:nth-of-type(5) {
     text-shadow: 5px 5px 5px black;
     text-align: left;
   }
-
-
-
-  /* vision-mission */
