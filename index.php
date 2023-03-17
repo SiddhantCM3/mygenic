@@ -4,95 +4,100 @@
 <section id="introduction">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1 class="displat-1" data-aos="zoom-in" data-aos-delay="200">Introduction</h1>
-                <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="assets/img/dummy-car.jpg" alt="" class="img-fluid" data-aos="flip-down" data-aos-delay="200">
             </div>
-            <div class="col">
-                <img src="assets/img/dummy-car.jpg" alt="" class="img-fluid" data-aos="flip-down" data-aos-delay="200">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h1 class="displat-1 heading" data-aos="zoom-in" data-aos-delay="200">Introduction</h1>
+                <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+                <p data-aos="zoom-out" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti voluptatibus minus modi ipsam maxime qui odio molestiae asperiores rem! Repudiandae architecto tempora quod ratione excepturi est molestias cumque? Quibusdam facere id sit earum!</p>
+                <p data-aos="zoom-out" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti voluptatibus minus modi ipsam maxime qui odio molestiae asperiores rem! Repudiandae architecto tempora quod ratione excepturi est molestias cumque? Quibusdam facere id sit earum!</p>
             </div>
         </div>    
     </div>
 </section>
 
-<section class="product-card"  style="background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-217-01.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=605421b998a41a0ec058e09e722d8e27'); background-size:cover;">
-   <input type="radio" name="position" checked />
-   <input type="radio" name="position" />
-   <input type="radio" name="position" />
-   <input type="radio" name="position" />
-   <input type="radio" name="position" />
-   <main id="carousel">
-      <div class="item">
-         <img src="assets\img\dummy-car.jpg" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
+<section style="background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-217-01.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=605421b998a41a0ec058e09e722d8e27'); background-size:cover;">
+   <h1 class="text-center">Our Products</h1>
+   <div class="product-card">
+      <input type="radio" name="position" checked />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <main id="carousel">
+         <div class="item">
+            <img src="assets\img\pharmaceutical tablets.webp" alt="" class="img-fluid">
+            <div>
+               <p class="fl">Pharmaceutical Tablets</p>
+            </div>
+            <ul>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <div class="btn-div">
+               <button class="btn" style="color:#1f4094;">View More</button>
+            </div>
          </div>
-         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn" style="color:#1f4094;">View More</button>
+         <div class="item">
+            <img src="assets\img\pharmaceutical injections.webp" alt="" class="img-fluid">
+            <div>
+               <p class="fl">Pharmaceutical Injection</p>
+            </div>
+            <ul>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <div class="btn-div">
+               <button class="btn" style="color:#cc8517;">View More</button>
+            </div>
          </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\dummy-car.jpg" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
+         <div class="item">
+            <img src="assets\img\anti cancer injections.webp" alt="" class="img-fluid">
+            <div>
+               <p class="fl">Anti Cancer Injection</p>
+            </div>
+            <ul>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <div class="btn-div">
+               <button class="btn" style="color:#048a9a;">View More</button>
+            </div>
          </div>
-         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn" style="color:#cc8517;">View More</button>
+         <div class="item">
+            <img src="assets\img\anti cancer capsule.webp" alt="" class="img-fluid">
+            <div>
+               <p class="fl">Anti Cancer Capsules</p>
+            </div>
+            <ul>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <div class="btn-div">
+               <button class="btn" style="color:#2b2a29;">View More</button>
+            </div>
          </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\dummy-car.jpg" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
+         <div class="item">
+            <img src="assets\img\pharmaceutical tablets-2.webp" alt="" class="img-fluid">
+            <div>
+               <p class="fl">Pharmaceutical Tablet</p>
+            </div>
+            <ul>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+               <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <div class="btn-div">
+               <button class="btn" style="color:#818181;">View More</button>
+            </div>
          </div>
-         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn" style="color:#048a9a;">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\dummy-car.jpg" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
-         </div>
-         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn" style="color:#2b2a29;">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\dummy-car.jpg" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
-         </div>
-         <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn" style="color:#818181;">View More</button>
-         </div>
-      </div>
-   <main>
+      <main>
+</div>
 </section>
 
 <!--------------------contact-Form------------------------------------->

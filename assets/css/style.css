@@ -9,7 +9,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+  overflow-x: hidden;
+}
 :root{
     --primary: #1f4094;
     --primary-dark: #183375;
@@ -26,12 +28,13 @@ a:hover{
     opacity: 0.9;
 }
 h1,h3{
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 }
 h2{
     text-transform: capitalize;
 }
+
 .fl{
     font-size: 18px;
     font-weight: bold;
@@ -68,8 +71,6 @@ nav i{
     color: white;
     border-color: white;
 }
-
-/* Carousel */
 
 /* Product Page */
 #product .list-heading{
@@ -143,12 +144,12 @@ nav i{
 /* Company Album */ 
   
   #about-company .content-slider {
-    width: 100%;
-    height: 360px;
+    /* width: 100%; */
+    /* height: 500px; */
   }
   
   #about-company  .slider {
-    height: 320px;
+    /* height: 500px; */
     /* width: 680px; */
     margin: 40px auto 0;
     overflow: visible;
@@ -157,18 +158,20 @@ nav i{
   
   #about-company .mask {
     overflow: hidden;
-    height: 320px;
+    height: 450px;
   }
   
   #about-company .slider ul {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
   #about-company .slider li {
-    width: 680px;
-    height: 320px;
+    /* height: 500px; */
     position: absolute;
     top: -325px;
     list-style: none;
@@ -385,8 +388,7 @@ nav i{
       z-index: 0;
     }
   }
-
-
+  
   /* Index -> product card */
 .product-card {
     height: 600px;
@@ -418,7 +420,7 @@ nav i{
 .product-card  div.item {
     position: absolute;
     width: 300px;
-    height: 400px;
+    min-height: 480px;
     background-color:var(--primary);
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
@@ -510,18 +512,43 @@ div.item:nth-of-type(5) {
   }
 
   /* about -> vision & mission */
+  .vision-mission{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://t3.ftcdn.net/jpg/01/03/45/84/360_F_103458413_SdAbpOr8OXXHKZHFgfZfSkhdXN3s7WaP.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  color: #fff;
+  }
   .vision-mission .stmt-1, .stmt-2{
     text-transform: uppercase;
   }
   
   .vision-mission .stmt-1{
-    color: black;
     background-color: #cc8517;
+    padding: 2px 6px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #8b5708;
+    text-align: left;
   }
   .vision-mission .stmt-2{
-    color: #fff;
-    font-size: 20px;
+    font-size: 30px;
+    /* transform: scale(1,2); */
+    /* line-height: 2em; */
+    font-weight: 600;
+    text-shadow: 2px 2px 5px black;
+    text-align: left;
   }
   .vision-mission .stmt-3{
-    color: var(--primary);
+    text-shadow: 5px 5px 5px black;
+    text-align: left;
   }
+
+
+
+  /* vision-mission */

@@ -18,7 +18,7 @@
               <h5 class="text-uppercase">Reach Us</h5>
               <p class="text-capitalize">Mygenic Healthcare Private Limited</p>
               <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
-              <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i>Get Directions</a></p>
+              <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i> Get Directions</a></p>
               <p class="text-capitalize">Namrata Patil (Manager)</p>
               <p class="text-capitalize">View Mobile Number</p>
               <a href="#"><button class="btn-f">Send SMS</button></a>

@@ -4,7 +4,7 @@
     <section id="about-us">
         <div class="container">
              <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">MYGENIC HELTHCARE PRIVATE LIMITED</h1>
-             <div class="container">
+             <div>
                  <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
              </div>
         </div>
@@ -12,77 +12,95 @@
 
 <!-------------------------company-album---------------------------------------->
         <section id="about-company">
-            <div class="container-fluid">
+            <div class="container">
                 <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">COMPANY ALBUM</h2>
-                <div class="content-slider">
+                <!-- <div class="content-slider"> -->
                     <div class="slider">
                         <div class="mask">
                             <ul>
                                 <li class="anim1 text-center">
-                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                    <img src="assets\img\album-1.jpg" alt="" class="img-fluid">
                                 </li>
                                 <li class="anim2 text-center">
-                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                    <img src="assets\img\album-2.jpg" alt="" class="img-fluid">
                                 </li>
                                 <li class="anim3 text-center">
-                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                    <img src="assets\img\album-3.jpg" alt="" class="img-fluid">
                                 </li>
                                 <li class="anim4 text-center">
-                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                    <img src="assets\img\album-4.jpg" alt="" class="img-fluid">
                                 </li>
                                 <li class="anim5 text-center">
-                                    <img src="https://images.medicaldaily.com/sites/medicaldaily.com/files/2013/08/04/0/59/5973.jpg" alt="" class="img-fluid">
+                                    <img src="assets\img\album-5.jpg" alt="" class="img-fluid">
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </section>
 
 <!------------------------Vision - Mission----------------------------------------------->
-<section class="vision-mission" style="background-image:url('assets\img\dummy-car.jpg');">
+<section class="vision-mission" style="background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.8)),
+    url('https://www.openaccessgovernment.org/wp-content/uploads/2020/02/dreamstime_xxl_125816003.jpg');">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="stmt-1">
-                    Who We Are What We Do
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 m-3">
+                <span class="stmt-1">Who We Are What We Do</span>
                 <div class="stmt-2">Our Mission</div>
-                <div class="stmt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure, quos unde totam culpa tenetur facilis quod nostrum animi velit temporibus, nam ipsum non odit! Excepturi praesentium repellat qui aperiam.</div>
+                <div class="stmt-3">Our mission at Mygenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
             </div>
-            <div class="col">
-                <div class="stmt-1">What We Aspire Today</div>
+            <div class="col-lg-4 col-md-4 col-sm-12 m-3">
+                <span class="stmt-1">What We Aspire Today</span>
                 <div class="stmt-2">Our Vision</div>
-                <div class="stmt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quidem, sequi tenetur explicabo aspernatur ea minima libero vero eum animi corporis vitae rem veritatis eos id, et repudiandae hic sapiente.</div>
+                <div class="stmt-3">Our vision at Mygenic Healthcare Private Limited is to become a global leader in the pharmaceutical industry, known for our excellence in research and development, quality products, and customer-centric approach. We aim to improve the lives of patients and make a significant contribution to global healthcare through our commitment to innovation, sustainability, and social responsibility.</div>
             </div>
         </div>
     </div>
 </section>
+
+
+<section class="mission">
+    <div class="container">
+        <span class="stmt-1">Who We Are What We Do</span>
+        <div class="stmt-2">Our Mission</div>
+        <div class="stmt-3">Our mission at Mygenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
+    </div>
+    
+    <div class="blank"></div>
+    
+    <div class="container second">
+    <div class="container">
+        <span class="stmt-1">Who We Are What We Do</span>
+        <div class="stmt-2">Our Mission</div>
+        <div class="stmt-3">Our mission at Mygenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
+    </div>
+    </div>
+    <div class="blank"></div>
+</section>
 <!------------------------why-us----------------------------------------------->
-     <section id="whyus">
-         <div class="container">
-             <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">WHY US ?</h2>
-             <p class="text-center" data-aos="zoom-out" data-aos-delay="200">The key points for which we have won notice from our buyers include:</p>
-                 <div>
-                     <ul class="d-flex flex-column" style="align-items: center;" data-aos="zoom-out" data-aos-delay="200">
-                         <li>Experience & core knowledge</li>
-                          <li>Client-centric approach</li>
-                         <li>Fair dealings</li>
-                         <li>Ethical business dealings</li>
-                         <li>Competitive pricing</li>
-                     </ul>
-                  </div>
-         </div>
-     </section>
+    <section id="whyus">
+        <div class="container">
+            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">WHY US ?</h2>
+            <p class="text-center" data-aos="zoom-out" data-aos-delay="200">The key points for which we have won notice from our buyers include:</p>
+            <div>
+                <ul class="d-flex flex-column" style="align-items: center;" data-aos="zoom-out" data-aos-delay="200">
+                    <li>Experience & core knowledge</li>
+                    <li>Client-centric approach</li>
+                    <li>Fair dealings</li>
+                    <li>Ethical business dealings</li>
+                    <li>Competitive pricing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 <!--------------------------------our products---------------------------------------------->
 <section id="ourproducts">
-     <div class="container">
-             <div class="row">
-                     <div class="col-lg-4" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-                     <ul class="list-group border border-dark rounded-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <ul class="list-group border border-dark rounded-0">
                     <li class="list-group-item list-heading" aria-current="true">
                         <h3 class="text-white">Our Products</h3>
                     </li>
@@ -244,137 +262,133 @@
             </div>
 
                  <!-------------second-colum----------------->
-                  <div class="col-lg-8" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-                     <div class="container">
-                         <div class="row"> 
-
-                                  <div class="row" style="border-style: ridge;">
-                                  <h3 class="text-center list-heading p-3">FACTSHEET</h3>
-                                      <h5>Basic Information</h5> 
-                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
-                                          <p>Nature of Business</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
-                                           <p>Exporter</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
-                                          Additional Business
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
-                                          <P>Wholesaler<br>
-                                           <span>Distributor</span><br>
-                                           <span>Service Provider</span><br>
-                                           <span>Manufacturer</P>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Company CEO</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Namrata Patil</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Registered Address</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                          <p>Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Navi Mumbai - 410209, Maharashtra, India</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Total Number of Employees</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Upto 10 People</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Year of Establishment</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                          <p>2022</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                          <p>Legal Status of Firm</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                         <p>Limited Company (Ltd. / Pvt. Ltd.)</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                          <p>Annual Turnover</p>
-                                      </div>
-                                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                          <p>Rs. 10 - 25 Crore</p>
-                                      </div>
-                                      <div class="row">
-                                             <div class="col-sm">
-                                                  <h5>Trade & Market </h5>
-                                             </div>
-                                              <div class="row">
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                          <p> Export Percentage</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                        <p> upto 20%</p>
-                                                   </div>
-                                              </div>
-                                         </div>
-                                 </div>
-
-                                        <div class="row" style="border-style: ridge;">
-                                           <div class="col-sm">
-                                                   <h5>Statutory Profile</h5>
-                                             </div>
-                                              <div class="row">
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                        <p>Import Export Code (IEC)</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                        <p>  AATCA*****</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                       <p> Tan No.</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                       <p> BPLA1***** </p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                      <p>GST No.</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                      <p>27AATCA8561A1ZH </p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                      <p>CIN No.</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                     <p>U85100MH2020PTC343851</p>
-                                                   </div>
-                                              </div>
-                                              <div class="row">
-                                             <div class="col-sm">
-                                                  <h5>Packaging/Payment and Shipment Details</h5>
-                                             </div>
-                                              <div class="row">
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                      <p>Payment Mode</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                        <p>Cash<br>Credit Card <br> Bank Transfer <br> Cheque <br> DD <br> Online <br></p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                      <p>Shipment Mode</p>
-                                                   </div>
-                                                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                                       <p> By Road</p>
-                                                   </div>
-                                              </div>
-                                             </div>
-                                         </div>
-                                         
-                         </div>
-                     </div>
-                  </div>
-             </div>
-     </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="container">
+                    <div class="row">
+                        <div class="row" style="border-style: ridge;">
+                            <h3 class="text-center list-heading p-3">FACTSHEET</h3>
+                            <h5 class="fw-bolder text-decoration-underline">Basic Information</h5> 
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Nature of Business:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Exporter</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Additional Business:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <P>Wholesaler<br>
+                                    <span>Distributor</span><br>
+                                    <span>Service Provider</span><br>
+                                    <span>Manufacturer</span>
+                                </P>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Company CEO:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Namrata Patil</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Registered Address:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Navi Mumbai - 410209, Maharashtra, India</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Total Number of Employees:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Upto 10 People</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Year of Establishment:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>2022</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Legal Status of Firm:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Limited Company (Ltd. / Pvt. Ltd.)</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="fw-bold">Annual Turnover:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p>Rs. 10 - 25 Crore</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bolder text-decoration-underline">Trade & Market </h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p class="fw-bold"> Export Percentage:</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p> upto 20%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="border-style: ridge;">
+                            <div class="col-sm">
+                                <h5 class="fw-bolder text-decoration-underline">Statutory Profile</h5>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p class="fw-bold">Import Export Code (IEC):</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p>  AATCA*****</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p class="fw-bold"> Tan No.:</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p> BPLA1***** </p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p class="fw-bold">GST No.:</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p>27AATCA8561A1ZH </p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p class="fw-bold">CIN No.:</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <p>U85100MH2020PTC343851</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h5 class="fw-bolder text-decoration-underline">Packaging/Payment and Shipment Details</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p class="fw-bold">Payment Mode:</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p>Cash<br>Credit Card <br> Bank Transfer <br> Cheque <br> DD <br> Online <br></p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p class="fw-bold">Shipment Mode:</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <p> By Road</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include("footer.php"); ?>
