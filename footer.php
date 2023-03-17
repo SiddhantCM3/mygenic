@@ -4,10 +4,8 @@
       <div class="row">
         <div class="col-lg-9 col-md-9">
           <div class="row">
-            <div class="col-lg-2 col-md-2 logo">
-              <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="">
-            </div>
-            <div class="col-lg-3 col-md-3 text-uppercase">
+            <div class="col-lg-5 col-md-5 text-uppercase">
+            <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="">
               <h5>Our Company</h5>
               <p><a href="index.php">Home</a></p>
               <p><a href="about.php">About Us</a></p>
