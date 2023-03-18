@@ -5,20 +5,31 @@
 <section id="contact-img">
     <div class="container">
         <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">CONTACT US</h1>
-        <div class="row m-5">
+        <div class="row mt-5">
             <div class="col-lg-6">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
                 <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Namrata Patil (Manager)</P>
-                <P data-aos="zoom-out" data-aos-delay="200">Call- 08043851554 <br><span>We Accept Online Payments</span></P>
-                <p data-aos="zoom-out" data-aos-delay="200">Share us Via</p>
-                <div class="payment-icons">
-                    <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
-                    <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
-                    <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
-                    <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
+                <P data-aos="zoom-out" data-aos-delay="200">Call- 08043851554</P>
+                <div data-aos="zoom-out" data-aos-delay="200">
+                    <p class="text-capitalize fw-bold">We Accept Online Payments</p>
+                    <div class="payment-icons">
+                        <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
+                        <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
+                        <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
+                        <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
+                    </div>
                 </div>
+                <br>
+                <div class="social-icons"data-aos="zoom-out" data-aos-delay="200">
+                    <p class="text-capitalize fw-bold">Share Us Via</p>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+                
             </div>
             <div class="col-lg-6">
                 <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
@@ -27,19 +38,19 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <input type="text" name="Full Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="FULL NAME"><br>
+                                    <input type="text" name="fname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name"><br>
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="email"  name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
+                                    <input type="email"  name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"><br>
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="phone" name="Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PHONE NO."><br>
+                                    <input type="phone" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone No."><br>
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SUBJECT"><br>
+                                    <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject"><br>
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="text" name="MASSAGE" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="MASSAGE"><br>
+                                    <input type="text" name="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message"><br>
                                 </div>
                                 <button type="button" class="btn btn-primary btn-lg">SEND MASSAGE</button>
                             </div>

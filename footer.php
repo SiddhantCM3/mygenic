@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-9 col-md-9">
           <div class="row">
-            <div class="col-lg-5 col-md-5 text-uppercase">
+            <div class="col-lg-5 col-md-5 text-uppercase logo">
             <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="">
               <h5>Our Company</h5>
               <p><a href="index.php">Home</a></p>

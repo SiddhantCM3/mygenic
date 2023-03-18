@@ -28,7 +28,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark p-4">
             <div class="container-fluid logo">
-                <a class="navbar-brand text-white" href="">
+                <a class="navbar-brand text-white" href="#">
                     <img src="assets/img/mygenic_logo_tm.png" alt="mygenic-logo" width="130px">
                 </a>
                 <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

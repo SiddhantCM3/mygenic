@@ -353,9 +353,9 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <!-- <div class="col-sm-12"> -->
                                     <h5 class="fw-bolder text-decoration-underline">Packaging/Payment and Shipment Details</h5>
-                                </div>
+                                <!-- </div> -->
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <p class="fw-bold">Payment Mode:</p>
