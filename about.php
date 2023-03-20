@@ -46,12 +46,12 @@
     url('assets/img/vision-mission-bg.jpg');">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-4 col-sm-12 m-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-right" data-aos-delay="200">
                 <span class="stmt-1">Who We Are What We Do</span>
                 <div class="stmt-2">Our Mission</div>
                 <div class="stmt-3">Our mission at Mygenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 m-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-left" data-aos-delay="200">
                 <span class="stmt-1">What We Aspire Today</span>
                 <div class="stmt-2">Our Vision</div>
                 <div class="stmt-3">Our vision at Mygenic Healthcare Private Limited is to become a global leader in the pharmaceutical industry, known for our excellence in research and development, quality products, and customer-centric approach. We aim to improve the lives of patients and make a significant contribution to global healthcare through our commitment to innovation, sustainability, and social responsibility.</div>
