@@ -10,8 +10,6 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h1 class="displat-1 heading" data-aos="zoom-in" data-aos-delay="200">Introduction</h1>
                 <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
-                <p data-aos="zoom-out" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti voluptatibus minus modi ipsam maxime qui odio molestiae asperiores rem! Repudiandae architecto tempora quod ratione excepturi est molestias cumque? Quibusdam facere id sit earum!</p>
-                <p data-aos="zoom-out" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti voluptatibus minus modi ipsam maxime qui odio molestiae asperiores rem! Repudiandae architecto tempora quod ratione excepturi est molestias cumque? Quibusdam facere id sit earum!</p>
             </div>
         </div>    
     </div>
@@ -34,7 +32,7 @@
             <ul>
                <li>Afatinib Dimaleate Tablets</li>
                <li>Tenofovir Alafenamide Tablets</li>
-               <li>Tenofovir Alafenamide and Emtricitabine Tablets</li>
+               <li>Tenofovir Alafenamide and Emtricitabine Tab</li>
             </ul>
             <div class="btn-div">
                <button class="btn" style="color:#1f4094;">View More</button>
@@ -60,7 +58,7 @@
                <p class="fl">Anti Cancer Injection</p>
             </div>
             <ul>
-               <li>Romiplostim Powder and Solvent For Injection</li>
+               <li>Romiplostim Powder and Solvent</li>
                <li>Mitoxantrone Injection USP</li>
                <li>Azacitidine For Injection</li>
             </ul>
@@ -105,7 +103,7 @@
 <div class="container">
         <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">CONTACT US</h1>
         <div class="row mt-5">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
                 <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
@@ -130,7 +128,7 @@
                 </div>
                 
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
                 <form>
                     <div class="form-group" data-aos="fade-up" data-aos-delay="300">

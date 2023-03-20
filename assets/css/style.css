@@ -568,17 +568,26 @@ div.item:nth-of-type(5) {
     .product-card  div.item{
       width: 93%;
     }
+    #about-company .mask {
+      height: 120px;
+    }
   }
 
   @media (min-width: 306px) and (max-width: 576px){
     .product-card  div.item{
       width: 50%;
     }
+    #about-company .mask {
+      height: 300px;
+    }
   }
 
   @media (min-width: 577px) and (max-width: 768px){
     .product-card  div.item{
       width: 37%;
+    }
+    #about-company .mask {
+      height: 270px;
     }
   }
 

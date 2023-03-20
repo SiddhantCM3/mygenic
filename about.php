@@ -18,19 +18,19 @@
                     <div class="slider">
                         <div class="mask">
                             <ul>
-                                <li class="anim1 text-center">
+                                <li class="anim1">
                                     <img src="assets\img\album-1.jpg" alt="" class="img-fluid">
                                 </li>
-                                <li class="anim2 text-center">
+                                <li class="anim2">
                                     <img src="assets\img\album-2.jpg" alt="" class="img-fluid">
                                 </li>
-                                <li class="anim3 text-center">
+                                <li class="anim3">
                                     <img src="assets\img\album-3.jpg" alt="" class="img-fluid">
                                 </li>
-                                <li class="anim4 text-center">
+                                <li class="anim4">
                                     <img src="assets\img\album-4.jpg" alt="" class="img-fluid">
                                 </li>
-                                <li class="anim5 text-center">
+                                <li class="anim5">
                                     <img src="assets\img\album-5.jpg" alt="" class="img-fluid">
                                 </li>
                             </ul>
@@ -43,7 +43,7 @@
 <!------------------------Vision - Mission----------------------------------------------->
 <section class="vision-mission" style="background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.8)),
-    url('https://www.openaccessgovernment.org/wp-content/uploads/2020/02/dreamstime_xxl_125816003.jpg');">
+    url('assets/img/vision-mission-bg.jpg');">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4 col-sm-12 m-3">
@@ -227,12 +227,12 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 +View All
                                 </button>
                             </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">An item</li>
