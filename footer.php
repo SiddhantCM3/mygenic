@@ -18,9 +18,8 @@
               <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
               <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i> Get Directions</a></p>
               <p class="text-capitalize">Namrata Patil (Manager)</p>
-              <p class="text-capitalize">View Mobile Number</p>
-              <a href="#"><button class="btn-f">Send SMS</button></a>
-              <a href="#"><button class="btn-f">Send Email</button></a>
+              <a href="#"><button class="btn-f btn btn-bottom-animation-1">Send SMS</button></a>
+              <a href="#"><button class="btn-f btn btn-bottom-animation-1">Send Email</button></a>
             </div>
           </div>
           <div class="row pt-2">
@@ -54,7 +53,7 @@
               <textarea class="form-control" placeholder="Additional details about your requirement..." id="floatingTextarea"></textarea>           
             </div>
             <div class="mb-3 text-center">
-              <button class="btn">Submit</button>
+              <button class="btn btn-white btn-animation-1">Submit</button>
             </div>
           </div>
         </div>
@@ -62,7 +61,7 @@
       <hr>
       <div class="footer-bottom">
         <p>All Rights Reserved (Terms of Use)</p>
-        <p>Developed and Managed by IndiaMART InterMESH Limited</p>
+        <p>Developed and Managed by Mygenic Healthcare Pvt Ltd</p>
       </div>      
     </div>
   </div>

@@ -26,8 +26,27 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark p-4">
-            <div class="container-fluid logo">
+        <div class="container-fluid p-1 top-header">
+            <div class="">
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <a href="#"><i class="bi bi-envelope-at-fill"></i> example@gmail.com</a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <a href="#"><i class="bi bi-telephone-forward-fill"></i> +91 12345 67890</a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 text-white">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">
                     <img src="assets/img/mygenic_logo_tm.png" alt="mygenic-logo" width="130px">
                 </a>
@@ -37,20 +56,20 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav text-uppercase">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link underline" aria-current="page" href="index.php" style="color:#048a9a">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="about.php">About Us</a>
+                            <a class="nav-link underline" href="about.php" style="color:#048a9a">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="product.php">Our Products</a>
+                            <a class="nav-link underline" href="product.php" style="color:#048a9a">Our Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.php">Contact Us</a>
+                            <a class="nav-link underline" href="contact.php" style="color:#048a9a">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                <a href="tel:0000000000"><i class="bi bi-telephone-fill"></i></a>
+                <button class="btn btn-white btn-animation-1"><a href="contact.php">Enquiry Now!</a></button>
             </div>
         </nav>
     </header>

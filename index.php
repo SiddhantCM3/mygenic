@@ -1,22 +1,24 @@
 <?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
-<section id="introduction">
+<section id="introduction" style="background-image:url('assets/img/corousel image banner_01.jpg'); background-size:cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="assets/img/dummy-car.jpg" alt="" class="img-fluid" data-aos="flip-down" data-aos-delay="200">
+            <!-- <img src="assets/img/dummy-car.jpg" alt="" class="img-fluid" data-aos="flip-down" data-aos-delay="200"> -->
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <h1 class="displat-1 heading" data-aos="zoom-in" data-aos-delay="200">Introduction</h1>
-                <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+            <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
+                <div class="intro-text main-heading">
+                  <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>Introduction</span></h1>
+                  <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+                </div>
             </div>
         </div>    
     </div>
 </section>
 
-<section class="section-product-card" style="background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-217-01.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=605421b998a41a0ec058e09e722d8e27'); background-size:cover;">
-   <h1 class="text-center">Our Products</h1>
+<section class="section-product-card" style="background-image:url('https://www.fundoodata.com/learning-center/wp-content/uploads/Top-10-Pharmaceutical-companies-in-Ahmedabad-F.png'); background-size:cover;">
+   <h1 class="text-center main-heading"><span>Our Products</span></h1>
    <div class="product-card">
       <input type="radio" name="position" />
       <input type="radio" name="position" />
@@ -25,6 +27,7 @@
       <input type="radio" name="position" />
       <main id="carousel">
          <div class="item">
+            <div class="slide">
             <img src="assets\img\pharmaceutical tablets.webp" alt="" class="img-fluid">
             <div>
                <p class="fl">Pharmaceutical Tablets</p>
@@ -37,8 +40,10 @@
             <div class="btn-div">
                <button class="btn" style="color:#1f4094;">View More</button>
             </div>
+            </div>
          </div>
          <div class="item">
+            <div class="sli">
             <img src="assets\img\pharmaceutical injections.webp" alt="" class="img-fluid">
             <div>
                <p class="fl">Pharmaceutical Injection</p>
@@ -51,8 +56,10 @@
             <div class="btn-div">
                <button class="btn" style="color:#cc8517;">View More</button>
             </div>
+            </div>
          </div>
          <div class="item">
+            <div class="slide">
             <img src="assets\img\anti cancer injections.webp" alt="" class="img-fluid">
             <div>
                <p class="fl">Anti Cancer Injection</p>
@@ -65,8 +72,10 @@
             <div class="btn-div">
                <button class="btn" style="color:#048a9a;">View More</button>
             </div>
+            </div>
          </div>
          <div class="item">
+            <div class="slide">
             <img src="assets\img\anti cancer capsule.webp" alt="" class="img-fluid">
             <div>
                <p class="fl">Anti Cancer Capsules</p>
@@ -79,8 +88,10 @@
             <div class="btn-div">
                <button class="btn" style="color:#2b2a29;">View More</button>
             </div>
+            </div>
          </div>
          <div class="item">
+            <div class="slide">
             <img src="assets\img\pharmaceutical tablets-2.webp" alt="" class="img-fluid">
             <div>
                <p class="fl">Pharmaceutical Tablet</p>
@@ -93,7 +104,10 @@
             <div class="btn-div">
                <button class="btn" style="color:#818181;">View More</button>
             </div>
+            </div>
          </div>
+         <a id="prev" href="#">&#8810;</a>
+         <a id="next" href="#">&#8811;</a>
       <main>
 </div>
 </section>
@@ -101,7 +115,7 @@
 <!--------------------contact-Form------------------------------------->
 <section id="contact-img">
 <div class="container">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">CONTACT US</h1>
+        <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT US</span></h1>
         <div class="row mt-5">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
@@ -149,7 +163,7 @@
                                 <div class="col-lg-12">
                                     <input type="text" name="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message"><br>
                                 </div>
-                                <button type="button" class="btn btn-primary btn-lg">SEND MASSAGE</button>
+                                <button type="button" class="btn btn-lg">SEND MASSAGE</button>
                             </div>
                         </div>
                     </div>
@@ -159,4 +173,6 @@
     </div>
 </div>
 </section>
+
+
 <?php include("footer.php")?>

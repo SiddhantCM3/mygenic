@@ -13,7 +13,7 @@
 <!-------------------------company-album---------------------------------------->
         <section id="about-company">
             <div class="container">
-                <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">COMPANY ALBUM</h2>
+                <h2 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>COMPANY ALBUM</span></h2>
                 <!-- <div class="content-slider"> -->
                     <div class="slider">
                         <div class="mask">

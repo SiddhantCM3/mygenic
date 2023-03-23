@@ -52,7 +52,7 @@
                                 <div class="col-lg-12">
                                     <input type="text" name="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message"><br>
                                 </div>
-                                <button type="button" class="btn btn-primary btn-lg">SEND MASSAGE</button>
+                                <button type="button" class="btn btn-lg">SEND MASSAGE</button>
                             </div>
                         </div>
                     </div>

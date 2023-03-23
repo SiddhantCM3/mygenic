@@ -3,7 +3,7 @@
 
 <section id="product">
     <div class="container">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">Our Products</h1>
+        <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>Our Products</span></h1>
         <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Pharmaceutical Tablets And Pharmaceutical Injections</p>
         <div class="row pt-3">
             <div class="col-lg-4 col-md-4 col-sm-12" data-aos="flip-left"
@@ -176,12 +176,10 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 card" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-                <div class="row pt-3 pb-3">
+            <div class="col-lg-8 col-md-8 col-sm-12 card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                        <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                        <img src="assets/img/pharmaceutical tablets.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Tablets</p>
@@ -189,9 +187,9 @@
                         <!-- <button class="btn">View More</button> -->
                     </div>
                 </div>
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets/img/pharmaceutical injections.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Injection</p>
@@ -199,9 +197,9 @@
                         <!-- <button class="btn">View More</button> -->
                     </div>
                 </div>
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets/img/anti cancer injections.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Anti Cancer Injection</p>
@@ -209,9 +207,9 @@
                         <!-- <button class="btn">View More</button> -->
                     </div>
                 </div>
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets/img/anti cancer capsule.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Anti Cancer Capsules</p>
@@ -219,9 +217,9 @@
                         <!-- <button class="btn">View More</button> -->
                     </div>
                 </div>
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets/img/pharmaceutical tablets-2.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Tablet</p>
@@ -229,9 +227,9 @@
                         <!-- <button class="btn">View More</button> -->
                     </div>
                 </div>
-                <div class="row pt-3 pb-3">
+                <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/afatinib-dimaleate-tablet-500x500.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets/img/new item.webp" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">New Items</p>
