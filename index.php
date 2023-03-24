@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
-<section id="introduction" style="background-image:url('https://instinctif.com/wp-content/uploads/shutterstock_709617709.jpg'); background-size:cover;">
+<section id="introduction" style="background-image:url('https://instinctif.com/wp-content/uploads/shutterstock_709617709.jpg'); background-position: top center;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -10,180 +10,107 @@
                 <div class="intro-text main-heading">
                   <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>Introduction</span></h1>
                   <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+                  <p data-aos="zoom-out" data-aos-delay="200">Mygenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
+                  <p data-aos="zoom-out" data-aos-delay="200">We offer a wide range of pharmaceutical products, including tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using the latest technology and in strict adherence to industry regulations and quality standards. This ensures that our products are safe, effective, and of the highest quality.</p>
                 </div>
             </div>
         </div>    
     </div>
 </section>
 
-<!-- <section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
+<section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
+<div class="container">
+<div class="product-card">
    <h1 class="text-center main-heading"><span>Our Products</span></h1>
-   <div class="product-card">
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" checked />
-      <input type="radio" name="position" />
-      <input type="radio" name="position" />
-      <main id="carousel">
-         <div class="item">
-            <div class="slide">
+   <main id="carousel" class="owl-carousel owl-theme cards">
+      <div class="item card">
+         <div class="card_image">
             <img src="assets\img\pharmaceutical tablets.webp" alt="" class="img-fluid">
-            <div>
-               <p class="fl">Pharmaceutical Tablets</p>
-            </div>
-            <ul>
+         </div>
+         <div class="card_content">
+         
+               <p class="fl note">Pharmaceutical Tablets</p>
+            
+            <ul class="card_text">
                <li>Afatinib Dimaleate Tablets</li>
-               <li>Tenofovir Alafenamide Tablets</li>
-               <li>Tenofovir Alafenamide and Emtricitabine Tab</li>
+               <li>Lapatinib Tablets IP</li>
+               <li>Letrozole Tablets USP</li>
             </ul>
-            <div class="btn-div">
-               <button class="btn" style="color:#1f4094;">View More</button>
-            </div>
+            <div class="text-center">
+               <button class="btn align-self-end upcharge">View More</button>
             </div>
          </div>
-         <div class="item">
-            <div class="sli">
+      </div>
+      <div class="item card">
+         <div class="card_image">
             <img src="assets\img\pharmaceutical injections.webp" alt="" class="img-fluid">
-            <div>
-               <p class="fl">Pharmaceutical Injection</p>
-            </div>
-            <ul>
+         </div>
+         <div class="card_content">         
+         
+               <p class="fl note">Pharmaceutical Injection</p>
+            
+            <ul class="card_text">
                <li>L-Asparaginase For Injection</li>
                <li>Bleomycin Injection IP</li>
                <li>Arsenic Trioxide Injection</li>
             </ul>
-            <div class="btn-div">
-               <button class="btn" style="color:#cc8517;">View More</button>
-            </div>
+            <div class="text-center">
+               <button class="btn align-self-end upcharge">View More</button>
             </div>
          </div>
-         <div class="item">
-            <div class="slide">
+      </div>
+      <div class="item card">
+         <div class="card_image">
             <img src="assets\img\anti cancer injections.webp" alt="" class="img-fluid">
-            <div>
-               <p class="fl">Anti Cancer Injection</p>
-            </div>
-            <ul>
-               <li>Romiplostim Powder and Solvent</li>
+         </div>
+         <div class="card_content">         
+         
+               <p class="fl note">Anti Cancer Injection</p>
+            
+            <ul class="card_text">
                <li>Mitoxantrone Injection USP</li>
                <li>Azacitidine For Injection</li>
+               <li>Mitomycin Injection IP</li>
             </ul>
-            <div class="btn-div">
-               <button class="btn" style="color:#048a9a;">View More</button>
-            </div>
+            <div class="text-center">
+               <button class="btn align-self-end upcharge">View More</button>
             </div>
          </div>
-         <div class="item">
-            <div class="slide">
+      </div>
+      <div class="item card">
+         <div class="card_image">
             <img src="assets\img\anti cancer capsule.webp" alt="" class="img-fluid">
-            <div>
-               <p class="fl">Anti Cancer Capsules</p>
-            </div>
-            <ul>
+         </div>
+         <div class="card_content">         
+         
+               <p class="fl note">Anti Cancer Capsules</p>
+            
+            <ul class="card_text">
                <li>Exemestane Tablets IP</li>
                <li>Etoposide Capsule USP</li>
                <li>Lenvatinib Capsules</li>
             </ul>
-            <div class="btn-div">
-               <button class="btn" style="color:#2b2a29;">View More</button>
-            </div>
+            <div class="text-center">
+               <button class="btn align-self-end upcharge">View More</button>
             </div>
          </div>
-         <div class="item">
-            <div class="slide">
+      </div>
+      <div class="item card">
+         <div class="card_image">
             <img src="assets\img\pharmaceutical tablets-2.webp" alt="" class="img-fluid">
-            <div>
-               <p class="fl">Pharmaceutical Tablet</p>
-            </div>
-            <ul>
-               <li>Lamivudine Stavudine and Nevirapine Tablets IP</li>
+         </div>
+         <div class="card_content">   
+         
+               <p class="fl note">Pharmaceutical Tablet</p>
+            
+            <ul class="card_text">
+               <li>Imatinib Tablets IP</li>
                <li>Qvir Tablet Kit</li>
                <li>Methotrexate Tablets IP</li>
             </ul>
-            <div class="btn-div">
-               <button class="btn" style="color:#818181;">View More</button>
+            <div class="text-center">
+               <button class="btn align-self-end upcharge">View More</button>
             </div>
-            </div>
-         </div>
-         <a id="prev" href="#">&#8810;</a>
-         <a id="next" href="#">&#8811;</a>
-      <main>
-</div>
-</section> -->
-
-<section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
-<div class="">
-<div class="product-card">
-   <h1 class="text-center main-heading"><span>Our Products</span></h1>
-   <main id="carousel" class="owl-carousel owl-theme">
-      <div class="item">
-         <img src="assets\img\pharmaceutical tablets.webp" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablets</p>
-         </div>
-         <ul>
-            <li>Afatinib Dimaleate Tablets</li>
-            <li>Tenofovir Alafenamide Tablets</li>
-            <li>Tenofovir Alafenamide and Emtricitabine Tab</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn align-self-end">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\pharmaceutical injections.webp" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Injection</p>
-         </div>
-         <ul>
-            <li>L-Asparaginase For Injection</li>
-            <li>Bleomycin Injection IP</li>
-            <li>Arsenic Trioxide Injection</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn align-self-end">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\anti cancer injections.webp" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Anti Cancer Injection</p>
-         </div>
-         <ul>
-            <li>Romiplostim Powder and Solvent</li>
-            <li>Mitoxantrone Injection USP</li>
-            <li>Azacitidine For Injection</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn align-self-end">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\anti cancer capsule.webp" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Anti Cancer Capsules</p>
-         </div>
-         <ul>
-            <li>Exemestane Tablets IP</li>
-            <li>Etoposide Capsule USP</li>
-            <li>Lenvatinib Capsules</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn align-self-end">View More</button>
-         </div>
-      </div>
-      <div class="item">
-         <img src="assets\img\pharmaceutical tablets-2.webp" alt="" class="img-fluid">
-         <div>
-            <p class="fl">Pharmaceutical Tablet</p>
-         </div>
-         <ul>
-            <li>Lamivudine Stavudine and Nevirapine Tablets IP</li>
-            <li>Qvir Tablet Kit</li>
-            <li>Methotrexate Tablets IP</li>
-         </ul>
-         <div class="btn-div">
-            <button class="btn align-self-end">View More</button>
          </div>
       </div>
    </main>
@@ -267,10 +194,10 @@
         0:{
             items:1,
         },
-        600:{
+        577:{
             items:2
         },
-        1000:{
+        768:{
             items:3
         }
     }

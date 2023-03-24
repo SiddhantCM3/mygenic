@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">
                     <img src="assets/img/mygenic_logo_tm.png" alt="mygenic-logo" width="130px">
@@ -77,7 +77,9 @@
                         </li>
                     </ul>
                 </div>
+                <span>
                 <button class="btn btn-white btn-animation-1"><a href="contact.php">Enquiry Now!</a></button>
+                </span>
             </div>
         </nav>
     </header>

@@ -11,9 +11,19 @@ body{
   overflow-x: hidden;
 }
 :root{
-    --primary: #048a9a;
+    --primary: rgb(4, 138, 154);
     --primary-dark: #046e7a;
-    --secondary: #cc8517;
+    --secondary: rgb(204, 133, 23);
+
+    /* product card colors */
+    --purple: #603f8b;
+    --aqua: #b4fee7;
+    --violet: #a16ae8;
+    --fuchsia: #fd49a0;
+    --white: #efefef;
+    --black: #222;
+    --trueBlack: #000;
+
 }
 section{
     margin-top: 40px;
@@ -110,6 +120,9 @@ p, h5{
 .navbar{
   background-color:#fff;
 }
+.navbar .container-fluid{
+  flex-wrap: nowrap;
+}
 .nav-item a:hover{
   color: var(--primary);
 }
@@ -153,7 +166,7 @@ p, h5{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 @keyframes example {
-  0%   {border-left: 2px solid #048a9a;}
+  0%   {border-left: 2px solid rgb(4, 138, 154);}
   25%  {border-left: 3px solid #048a9a;}
   50%  {border-left: 4px solid #048a9a;}
   100% {border-left: 5px solid #048a9a;}
@@ -680,70 +693,52 @@ text-shadow:1px 1px 2px #2b292b;
 
   /* Media Queries */
   @media (min-width: 0px) and (max-width: 300px){
-    /* .product-card  div.item{
-      width: 93%;
-    } */
     #about-company .mask {
       height: 120px;
     }
   }
+  @media (min-width: 200px) and (max-width: 380px){
+    nav span button {
+      width: 20px;
+      height: 10px;
+    }
+    nav span button a{
+      left: -18px;
+      top: -12px;
+      position: relative;
+      font-size: 10px;
+    }
+    nav img{
+      width: 75px;
+    }
+  }
 
   @media (min-width: 306px) and (max-width: 576px){
-    /* .product-card  div.item{
-      width: 50%;
-    } */
     #about-company .mask {
       height: 300px;
     }
   }
 
   @media (min-width: 577px) and (max-width: 768px){
-    /* .product-card  div.item{
-      width: 37%;
-    } */
     #about-company .mask {
       height: 270px;
     }
-    /* .product-card  div.item{
-      min-height: 650px;
-    } */
-  }
-  @media (min-width:500px) and (max-width:581px) {
-    .product-card  div.item{
-      min-height: 630px;
-    }
-  }
-  @media (min-width:1300px){
-    .product-card  div.item{
-      min-height: 650px;
-    }
   }
 
-  /* @media (min-width: 769px) and (max-width: 992px){
-    .product-card  div.item{
-      width: 28%;
-    }
-  } */
+/* --------------------------------------Index-> Prodct Card------------------------------------- */
 
-  /* @media (min-width: 993px) and (max-width: 1200px){
-    .product-card  div.item{
-      width: 23%;
-    } */
-  /* } */
-
-/* Index-> Prodct Card */
-.product-card .owl-carousel{
+/* .product-card .owl-carousel{
   margin-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
 .product-card  div.item {
-  /* min-width: 200px ; */
   height: 560px;
   background-color:var(--primary);
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 25px 20px -20px;
   margin-right: 0;
+  border-radius: 500px;
 }
 .product-card  div.item li{
   color: #fff;
@@ -764,4 +759,172 @@ text-shadow:1px 1px 2px #2b292b;
   color:var(--primary);
   position: absolute;
   bottom: 15px;
+} */
+.section-product-card .owl-carousel{
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.section-product-card .main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-product-card .cards {
+  display: grid;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.section-product-card .cards_item {
+  display: flex;
+}
+.section-product-card .card_image {
+  display: flex;
+  height: 250px;
+  box-shadow: 0 50px 100px 0 var(--primary);
+}
+.section-product-card .card_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all 0.6s ease-out;
+}
+.section-product-card .card_image img:hover{
+  transform: scale(1.1);
+}
+.section-product-card .card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  border-radius: 5px 25px 5px 50px;
+  transition: transform 0.1s linear, box-shadow 0.2s;
+}
+.section-product-card .card:focus,
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+}
+.section-product-card .card_content {
+  padding: 0.5rem 1rem 1rem;
+  color: var(--white);
+}
+
+@media (min-width: 535px) {
+  .section-product-card .card_title {
+    animation: 0.5s 0.25s fly-out 1 both;
+  }
+}
+.section-product-card.card:focus .card_title,
+.section-product-card.card:hover .card_title {
+  animation: 0.5s ease-in 0s fly-in 1 both;
+}
+.section-product-card .card_text {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
+    Helvetica Neue, Arial, sans-serif;
+  line-height: 1.5;
+  text-size-adjust: 0.2px;
+  padding: 0 1rem;
+}
+@media (min-width: 480px) {
+  .section-product-card .card_text {
+    overflow: auto;
+    max-height: 20rem;
+    scrollbar-width: thin;
+    scrollbar-color: var(--aqua) var(--violet);
+  }
+}
+.section-product-card .note{
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 900;
+  background-image: linear-gradient(
+    -45deg,
+    transparent 10%,
+    var(--aqua) 10.5%,
+    var(--aqua) 90%,
+    transparent 90.5%
+  );
+  color: var(--black);
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 1rem;
+}
+.section-product-card .upcharge {
+  position: relative;
+  font-weight: 600;
+  background-color: var(--primary-dark);
+  padding: 0.5rem 0.75rem;
+  color: var(--aqua);
+  border-radius: 0 10px;
+  z-index: 0;
+  overflow: hidden;
+}
+.section-product-card .upcharge::after,
+.section-product-card .upcharge::before {
+  content: "+";
+  display: block;
+  line-height: 0;
+  font-size: 3rem;
+  position: absolute;
+  color: var(--primary);
+  z-index: -1;
+  opacity: 0.3;
+}
+.section-product-card .upcharge::before {
+  left: 0;
+  top: 0.5rem;
+}
+.section-product-card .upcharge::after {
+  right: 0;
+  bottom: 1.25rem;
+}
+@keyframes fly-in {
+  0% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
+
+  25% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  26% {
+    font-size: 2rem;
+  }
+
+  100% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+}
+
+@keyframes fly-out {
+  0% {
+    top: 2rem;
+    right: 0;
+    font-size: 2rem;
+  }
+
+  50% {
+    top: 0;
+    right: -200%;
+    font-size: 1.325rem;
+  }
+
+  100% {
+    top: 0;
+    right: 0;
+    font-size: 1.325rem;
+  }
 }

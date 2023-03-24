@@ -1,4 +1,4 @@
-<section id="footer" data-aos="fade-up" data-aos-duration="3000">
+<section id="footer">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
