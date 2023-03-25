@@ -9,9 +9,10 @@
 }
 body{
   overflow-x: hidden;
+  background-color: #dfdfdf;
 }
 :root{
-    --primary: rgb(4, 138, 154);
+    --primary: #048a9a;
     --primary-dark: #046e7a;
     --secondary: rgb(204, 133, 23);
 
@@ -26,7 +27,7 @@ body{
 
 }
 section{
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px 0px 10px 0px;
 }
 a{
@@ -77,12 +78,14 @@ h2{
   border-radius:100px;
   display:inline-block;
   transition: all .5s;
+  background-color: var(--primary);
 }
 .btn:hover{
   box-shadow:0px 10px 10px rgba(0,0,0,0.2);
   transform : translateY(-3px);
   animation:comeFromBottom 1s ease-out .8s;
   color: white;
+  background-color: var(--primary);
 }
 .btn-bottom-animation-1{
   animation:comeFromBottom 1s ease-out .8s;
@@ -105,10 +108,7 @@ p, h5{
 .top-header a:hover{
   text-shadow:1px 1px 2px #2b2a29;
   animation: shake .5s;
-		  /* -moz-animation: shake 150ms 2 linear;
-		  -webkit-animation: shake 150ms 2 linear;
-		  -o-animation: shake 150ms 2 linear; */
-      position: relative;
+  position: relative;
 }
 @keyframes shake {
   0%   {left:0px; right:3px;}
@@ -119,9 +119,8 @@ p, h5{
 }
 .navbar{
   background-color:#fff;
-}
-.navbar .container-fluid{
-  flex-wrap: nowrap;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .nav-item a:hover{
   color: var(--primary);
@@ -148,6 +147,9 @@ p, h5{
   }
 }
 /* Introduction */
+#introduction{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0));
+}
 #introduction .intro-text{
   background: rgb(255, 255, 255);
   margin: 10px;
@@ -727,204 +729,111 @@ text-shadow:1px 1px 2px #2b292b;
 
 /* --------------------------------------Index-> Prodct Card------------------------------------- */
 
-/* .product-card .owl-carousel{
-  margin-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.product-card  div.item {
-  height: 560px;
-  background-color:var(--primary);
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 25px 20px -20px;
-  margin-right: 0;
-  border-radius: 500px;
-}
-.product-card  div.item li{
-  color: #fff;
-  font-size: 0.9em;
-}
-.product-card  div.item p{
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-}
-.product-card  div.item .btn-div{
+#product-card .product{
   display: flex;
   justify-content: center;
-  color: var(--primary);
+  align-items: center;
+  min-height: 100vh;
 }
-.product-card  div.item button{
-  background-color: #fff;
-  color:var(--primary);
-  position: absolute;
-  bottom: 15px;
-} */
-.section-product-card .owl-carousel{
-  margin-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.section-product-card .main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.section-product-card .cards {
-  display: grid;
+#product-card .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
 }
-.section-product-card .cards_item {
-  display: flex;
-}
-.section-product-card .card_image {
-  display: flex;
-  height: 250px;
-  box-shadow: 0 50px 100px 0 var(--primary);
-}
-.section-product-card .card_image img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  transition: all 0.6s ease-out;
-}
-.section-product-card .card_image img:hover{
-  transform: scale(1.1);
-}
-.section-product-card .card {
-  display: flex;
-  flex-direction: column;
+#product-card .container .box {
   position: relative;
+  width: 275px;
+  height: 275px;
+  transition: 0.5s;
+  transform-style: preserve-3d;
   overflow: hidden;
-  background-color: var(--primary);
-  border-radius: 5px 25px 5px 50px;
-  transition: transform 0.1s linear, box-shadow 0.2s;
+  margin-right: 15px;
+  margin-top: 45px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.section-product-card .card:focus,
-.card:hover {
-  transform: scale(1.01);
-  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+#product-card .container:hover .box {
+  transform: rotateY(15deg);
 }
-.section-product-card .card_content {
-  padding: 0.5rem 1rem 1rem;
-  color: var(--white);
+#product-card .container .box:hover ~ .box {
+  transform: rotateY(-15deg);
 }
-
-@media (min-width: 535px) {
-  .section-product-card .card_title {
-    animation: 0.5s 0.25s fly-out 1 both;
-  }
+#product-card .container .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
 }
-.section-product-card.card:focus .card_title,
-.section-product-card.card:hover .card_title {
-  animation: 0.5s ease-in 0s fly-in 1 both;
-}
-.section-product-card .card_text {
-  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica,
-    Helvetica Neue, Arial, sans-serif;
-  line-height: 1.5;
-  text-size-adjust: 0.2px;
-  padding: 0 1rem;
-}
-@media (min-width: 480px) {
-  .section-product-card .card_text {
-    overflow: auto;
-    max-height: 20rem;
-    scrollbar-width: thin;
-    scrollbar-color: var(--aqua) var(--violet);
-  }
-}
-.section-product-card .note{
-  display: block;
-  text-align: center;
-  padding: 0.5rem;
-  font-weight: 900;
-  background-image: linear-gradient(
-    -45deg,
-    transparent 10%,
-    var(--aqua) 10.5%,
-    var(--aqua) 90%,
-    transparent 90.5%
-  );
-  color: var(--black);
-  font-size: 1em;
-  font-style: italic;
-  margin-top: 1rem;
-}
-.section-product-card .upcharge {
-  position: relative;
-  font-weight: 600;
-  background-color: var(--primary-dark);
-  padding: 0.5rem 0.75rem;
-  color: var(--aqua);
-  border-radius: 0 10px;
-  z-index: 0;
-  overflow: hidden;
-}
-.section-product-card .upcharge::after,
-.section-product-card .upcharge::before {
-  content: "+";
-  display: block;
-  line-height: 0;
-  font-size: 3rem;
+#product-card .container .box .imgBx {
   position: absolute;
-  color: var(--primary);
-  z-index: -1;
-  opacity: 0.3;
-}
-.section-product-card .upcharge::before {
+  top: 0;
   left: 0;
-  top: 0.5rem;
+  width: 100%;
+  height: 100%;
 }
-.section-product-card .upcharge::after {
-  right: 0;
-  bottom: 1.25rem;
+#product-card .container .box .imgBx:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,rgb(4, 138, 154),rgb(0, 0, 0));
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
 }
-@keyframes fly-in {
-  0% {
-    top: 0;
-    right: 0;
-    font-size: 1.325rem;
-  }
-
-  25% {
-    top: 0;
-    right: -200%;
-    font-size: 1.325rem;
-  }
-
-  26% {
-    font-size: 2rem;
-  }
-
-  100% {
-    top: 2rem;
-    right: 0;
-    font-size: 2rem;
-  }
+#product-card .container .box:hover .imgBx:before {
+  opacity: 1;
 }
-
-@keyframes fly-out {
-  0% {
-    top: 2rem;
-    right: 0;
-    font-size: 2rem;
-  }
-
-  50% {
-    top: 0;
-    right: -200%;
-    font-size: 1.325rem;
-  }
-
-  100% {
-    top: 0;
-    right: 0;
-    font-size: 1.325rem;
-  }
+#product-card .container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#product-card .container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+#product-card .container .box .content .title {
+  color:black;
+  font-weight: bold;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+  position: relative;
+}
+#product-card .container .box:hover .content .title {
+  transform: translateY(0px);
+  background-color: white;
+}
+#product-card .container .box .content .description {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 10px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+  position: relative;
+  z-index: 1000;
+  text-shadow: 1px 1px 1px black;
+}
+#product-card .container .box:hover .content .description {
+  transform: translateY(0px);
 }

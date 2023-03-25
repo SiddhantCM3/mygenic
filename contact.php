@@ -6,7 +6,7 @@
     <div class="container">
         <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT US</span></h1>
         <div class="row mt-5">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
                 <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
@@ -31,7 +31,7 @@
                 </div>
                 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
                 <form>
                     <div class="form-group" data-aos="fade-up" data-aos-delay="300">

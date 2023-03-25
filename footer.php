@@ -1,4 +1,4 @@
-<section id="footer">
+<section id="footer" data-aos="fade-up" data-aos-delay="200">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -53,7 +53,7 @@
               <textarea class="form-control" placeholder="Additional details about your requirement..." id="floatingTextarea"></textarea>           
             </div>
             <div class="mb-3 text-center">
-              <button class="btn btn-white btn-animation-1">Submit</button>
+              <button class="btn btn-bottom-animation-1">Submit</button>
             </div>
           </div>
         </div>
@@ -67,9 +67,7 @@
   </div>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- AOS Animation -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

@@ -1,12 +1,12 @@
 <?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
-<section id="introduction" style="background-image:url('https://instinctif.com/wp-content/uploads/shutterstock_709617709.jpg'); background-position: top center;">
+<section id="introduction" style="background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0)),url('https://wallpaperaccess.com/full/4204916.jpg'); background-position: top center;">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-2 col-sm-0">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 intro-box">
+            <div class="col-lg-6 col-md-10 col-sm-12 intro-box">
                 <div class="intro-text main-heading">
                   <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>Introduction</span></h1>
                   <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
@@ -18,7 +18,7 @@
     </div>
 </section>
 
-<section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
+<!-- <section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
 <div class="container">
 <div class="product-card">
    <h1 class="text-center main-heading"><span>Our Products</span></h1>
@@ -116,14 +116,80 @@
    </main>
 </div>
 </div>
-</section>
+</section> -->
 
-<!--------------------contact-Form------------------------------------->
-<section id="contact-img">
+<!--------------------Our Products------------------------------------->
+<section id="product-card">
+   <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>Our Products</span></h1>
 <div class="container">
+  <div class="box">
+    <div class="imgBx">
+      <img src="assets\img\pharmaceutical tablets.webp" class="img-fluid">
+    </div>
+    <div class="content">
+      <div>
+        <p class="title">Pharmaceutical Tablets</p>
+        <p class="description">Pioneers in the industry, we offer Afatinib Dimaleate Tablets, Tenofovir Alafenamide Tablets, Tenofovir Alafenamide and Emtricitabine Tablets and Emtricitabine and Tenofovir Alafenamide Tablets from India.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="assets\img\pharmaceutical injections.webp" class="img-fluid">
+    </div>
+    <div class="content">
+      <div>
+        <p class="title">Pharmaceutical Injection</p>
+        <p class="description">Providing you the best range of L-Asparaginase For Injection, Bleomycin Injection IP, Arsenic Trioxide Injection, Recombinant Human Erythropoietin Injection and Erythropoietin Injection I.P. with effective & timely delivery.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="assets\img\anti cancer injections.webp" class="img-fluid">
+    </div>
+    <div class="content">
+      <div>
+        <p class="title">Anti Cancer Injection</p>
+        <p class="description">Our range of products include Romiplostim Powder and Solvent For Solution For Injection, Mitoxantrone Injection USP, Azacitidine For Injection, Mitomycin Injection IP and Ifosfamide Injection U.S.P. With Mesna Injection.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="assets\img\anti cancer capsule.webp" class="img-fluid">
+    </div>
+    <div class="content">
+      <div>
+        <p class="title">Anti Cancer Capsules</p>
+        <p class="description">Prominent & Leading Exporter from Raigad, we offer Lenvatinib Capsules, Exemestane Tablets IP, Etoposide Capsule USP and Enzalutamide Capsules.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="assets\img\pharmaceutical tablets-2.webp" class="img-fluid">
+    </div>
+    <div class="content">
+      <div>
+        <p class="title">Pharmaceutical Tablet</p>
+        <p class="description">Our range of products include Imatinib Tablets IP, Imatinib Tablets, Lamivudine Stavudine and Nevirapine Tablets IP, Qvir Tablet Kit and Methotrexate Tablets IP.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--------------------contact-Form------------------------------------->
+<section id="contact-img" class="pt-5">
+    <div class="container">
         <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT US</span></h1>
         <div class="row mt-5">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
                 <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
@@ -148,7 +214,7 @@
                 </div>
                 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
                 <form>
                     <div class="form-group" data-aos="fade-up" data-aos-delay="300">
@@ -178,7 +244,6 @@
         </div>
     </div>
 </div>
-</section>
 
 <script>
   $(function() {
