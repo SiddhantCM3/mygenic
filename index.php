@@ -1,16 +1,54 @@
 <?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
+<!-- ----------------------------------------what we provide----------------------------------- -->
+<section id="what-we-provide">
+  <div class="section-head">
+  <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>what we</span> provide</h1>
+  </div>
+<div class="container">
+  <a class="card1" href="#">
+    <h3>Manufacturing</h3>
+    <p class="small">MyGenic Healthcare Private Limited may manufacture a range of pharmaceutical products including tablets, injections, and anti-cancer capsules.</p>
+    <div class="go-corner" href="#">
+      <div class="go-arrow">
+        →
+      </div>
+    </div>
+  </a>  
+  <a class="card1" href="#">
+    <h3>Exporting</h3>
+    <p class="small">By developing effective processes and partnerships, the company can efficiently export their pharmaceutical products to a range of global markets.</p>
+    <div class="go-corner" href="#">
+      <div class="go-arrow">
+        →
+      </div>
+    </div>
+  </a>  
+  <a class="card1" href="#">
+    <h3>Quality Control</h3>
+    <p class="small">MyGenic Healthcare Private Limited likely has a quality control system in place to ensure that their products meet industry standards and regulations.</p>
+    <div class="go-corner" href="#">
+      <div class="go-arrow">
+        →
+      </div>
+    </div>
+  </a>  
+</div>
+</section>
+
 <section id="introduction" style="background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0)),url('https://wallpaperaccess.com/full/4204916.jpg'); background-position: top center;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-2 col-sm-0">
             </div>
             <div class="col-lg-6 col-md-10 col-sm-12 intro-box">
-                <div class="intro-text main-heading">
-                  <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>Introduction</span></h1>
-                  <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
-                  <p data-aos="zoom-out" data-aos-delay="200">Mygenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
+                <div class="intro-text">
+                  <div class="section-head">
+                    <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200">Introduction</h1>
+                  </div>
+                  <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+                  <p data-aos="zoom-out" data-aos-delay="200">MyGenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
                   <p data-aos="zoom-out" data-aos-delay="200">We offer a wide range of pharmaceutical products, including tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using the latest technology and in strict adherence to industry regulations and quality standards. This ensures that our products are safe, effective, and of the highest quality.</p>
                 </div>
             </div>
@@ -21,7 +59,7 @@
 <!-- <section class="section-product-card" style="background-image:linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(57, 57, 57, 0.73)),url('http://www.unite.ai/wp-content/uploads/2022/12/biotech.jpg'); background-size:cover;">
 <div class="container">
 <div class="product-card">
-   <h1 class="text-center main-heading"><span>Our Products</span></h1>
+   <h1 class="text-center"><span>Our Products</span></h1>
    <main id="carousel" class="owl-carousel owl-theme cards">
       <div class="item card">
          <div class="card_image">
@@ -120,7 +158,10 @@
 
 <!--------------------Our Products------------------------------------->
 <section id="product-card">
-   <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>Our Products</span></h1>
+  <div class="section-head">
+  <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>Our</span> Products</h1>
+
+  </div>
 <div class="container">
   <div class="box">
     <div class="imgBx">
@@ -187,7 +228,9 @@
 <!--------------------contact-Form------------------------------------->
 <section id="contact-img" class="pt-5">
     <div class="container">
-        <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT US</span></h1>
+      <div class="section-head">
+      <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT </span>US</h2>
+      </div>
         <div class="row mt-5">
             <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
@@ -245,30 +288,6 @@
     </div>
 </div>
 
-<script>
-  $(function() {
-  // Owl Carousel
-  var owl = $(".owl-carousel");
-  owl.owlCarousel({
-   items : 3,
-    margin: 15,
-    loop: true,
-    autoplay: true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-        },
-        577:{
-            items:2
-        },
-        768:{
-            items:3
-        }
-    }
-  });
-});
-  
-</script>
+
 
 <?php include("footer.php")?>

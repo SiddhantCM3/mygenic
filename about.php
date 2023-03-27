@@ -3,9 +3,11 @@
 <!-----------------------about-us----------------------------------->
     <section id="about-us">
         <div class="container">
-             <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>MYGENIC HELTHCARE PRIVATE LIMITED</span></h1>
+        <div class="section-head">
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>about </span>us</h1>
+      </div>
              <div>
-                 <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“Mygenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
+                 <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
              </div>
         </div>
     
@@ -13,7 +15,9 @@
 <!-------------------------company-album---------------------------------------->
         <section id="about-company">
             <div class="container">
-                <h2 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>COMPANY ALBUM</span></h2>
+            <div class="section-head">
+      <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>company </span>album</h2>
+      </div>
                 <!-- <div class="content-slider"> -->
                     <div class="slider">
                         <div class="mask">
@@ -49,30 +53,76 @@
             <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-right" data-aos-delay="200">
                 <span class="stmt-1">Who We Are What We Do</span>
                 <div class="stmt-2">Our Mission</div>
-                <div class="stmt-3">Our mission at Mygenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
+                <div class="stmt-3">Our mission at MyGenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-left" data-aos-delay="200">
                 <span class="stmt-1">What We Aspire Today</span>
                 <div class="stmt-2">Our Vision</div>
-                <div class="stmt-3">Our vision at Mygenic Healthcare Private Limited is to become a global leader in the pharmaceutical industry, known for our excellence in research and development, quality products, and customer-centric approach. We aim to improve the lives of patients and make a significant contribution to global healthcare through our commitment to innovation, sustainability, and social responsibility.</div>
+                <div class="stmt-3">Our vision at MyGenic Healthcare Private Limited is to become a global leader in the pharmaceutical industry, known for our excellence in research and development, quality products, and customer-centric approach. We aim to improve the lives of patients and make a significant contribution to global healthcare through our commitment to innovation, sustainability, and social responsibility.</div>
             </div>
         </div>
     </div>
 </section>
 
 <!------------------------why-us----------------------------------------------->
-    <section id="whyus">
+    <section id="why-choose-us">
         <div class="container">
-            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200">WHY US ?</h2>
-            <p class="text-center" data-aos="zoom-out" data-aos-delay="200">The key points for which we have won notice from our buyers include:</p>
-            <div class="list-center">
-                <ul class="d-flex flex-column" style="align-items: left;" data-aos="zoom-out" data-aos-delay="200">
-                    <li>Experience & core knowledge</li>
-                    <li>Client-centric approach</li>
-                    <li>Fair dealings</li>
-                    <li>Ethical business dealings</li>
-                    <li>Competitive pricing</li>
-                </ul>
+            <div class="feat bg-gray pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-head col-sm-12">
+                            <h4><span>Why Choose</span> Us?</h4>
+                            <p>The key points for which we have won noise from our buyers include:</p>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="item">
+                                <span class="icon feature_box_col_one">
+                                    <i class="bi bi-award-fill"></i>
+                                </span>
+                                <h6>Experience & core knowledge</h6>
+                                <!-- <p>We use latest technology for the latest world because we know the demand of peoples.</p> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="item">
+                                <span class="icon feature_box_col_one">
+                                    <i class="bi bi-arrows-move"></i>
+                                </span>
+                                <h6>Client-centric approach</h6>
+                                <!-- <p>We use latest technology for the latest world because we know the demand of peoples.</p> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="item">
+                                <span class="icon feature_box_col_one">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                </span>
+                                <h6>Fair dealings</h6>
+                                <!-- <p>We use latest technology for the latest world because we know the demand of peoples.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="item">
+                                <span class="icon feature_box_col_one">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </span>
+                                <h6>Ethical business dealings</h6>
+                                <!-- <p>We use latest technology for the latest world because we know the demand of peoples.</p> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="item">
+                                <span class="icon feature_box_col_one">
+                                    <i class="bi bi-currency-exchange"></i>
+                                </span>
+                                <h6>Competitive pricing</h6>
+                                <!-- <p>We use latest technology for the latest world because we know the demand of peoples.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -89,39 +139,54 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                Pharmaceutical Tablets
+                                ANTI CANCER CAPSULES
                                 </button>
-                                <p class="f-xs">131 products available</p>
+                                <!-- <p class="f-xs">131 products available</p> -->
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Afatinib Dimaleate Tablets</li>
-                                        <li class="list-group-item">Tenofovir Alafenamide Tablets</li>
-                                        <li class="list-group-item">Tenofovir Alafenamide and Emtricitabine Tablets</li>
-                                        <li class="list-group-item">Emtricitabine and Tenofovir Alafenamide Tablets</li>
-                                        <li class="list-group-item">Tenofovir Alafenamide Tablets</li>
-                                        <li class="list-group-item">Dolutegravir Emtricitabine and Tenofovir Alafenamide Tablets</li>
-                                        <li class="list-group-item">Tenofovir Alafenamide Tablets</li>
-                                        <li class="list-group-item">Azacitidine Tablets</li>
-                                        <li class="list-group-item">Melphalan Tablets IP</li>
-                                        <li class="list-group-item">Abiraterone Acetate Tablets</li>
-                                        <li class="list-group-item">Denosumab Solution For Injection</li>
-                                        <li class="list-group-item">Pazopanib Hydrochloride Tablets</li>
-                                        <li class="list-group-item">Efavirenz Emtricitabine and Tenofovir Tablets IP</li>
-                                        <li class="list-group-item">Dolutegravir Lamivudine and Tenofovir Disoproxil Fumarate Tablets</li>
-                                        <li class="list-group-item">Tenofovir Disoproxil Fumarate Lamivudine and Efavirenz Tablets IP</li>
-                                        <li class="list-group-item">Atazanavir and Ritonavir Tablets</li>
-                                        <li class="list-group-item">Sofosbuvir Velpatasvir Tablets</li>
-                                        <li class="list-group-item">Efavirenz Emtricitabine and Tenofovir Disoproxil Fumarate Tablets IP</li>
-                                        <li class="list-group-item">Sofosbuvir and Velpatasvir Tablets</li>
-                                        <li class="list-group-item">Velpatasvir and Sofosbuvir Tablets</li>
-                                        <li class="list-group-item">Imatinib Capsules IP</li>
-                                        <li class="list-group-item">Sofosbuvir Velpatasvir Tablets</li>
-                                        <li class="list-group-item">Tenofovir Disoproxil Fumarate Efavirenz and Emtricitabine Tablets IP</li>
-                                        <li class="list-group-item">Linagliptin Film-coated Tablets</li>
-                                        <li class="list-group-item">Lapatinib Ditosylate Monohydrate Tablets</li>
-                                        <li class="list-group-item">And Much More...</li>
+                                        <li class="list-group-item">ALECTINIB 150MG</li>
+                                        <li class="list-group-item">ALTRETAMINE</li>
+                                        <li class="list-group-item">APREPITANT 125/80MG</li>
+                                        <li class="list-group-item">CERITINIB 150MG</li>
+                                        <li class="list-group-item">CRIZOTINIB 250MG</li>
+                                        <li class="list-group-item">DIMETHYL FUMARATE 120MG</li>
+                                        <li class="list-group-item">DIMETHYL FUMARATE 240MG</li>
+                                        <li class="list-group-item">ENZALUTAMIDE 40MG</li>
+                                        <li class="list-group-item">ESTRAMUSTINE 140MG</li>
+                                        <li class="list-group-item">ETOPOSIDE 50MG</li>
+                                        <li class="list-group-item">HYDROXYUREA 500MG</li>
+                                        <li class="list-group-item">IMATINIB MESYLATE 100MG</li>
+                                        <li class="list-group-item">IMBRUTINIB 140MG</li>
+                                        <li class="list-group-item">LENALIDOMIDE 10MG</li>
+                                        <li class="list-group-item">LENALIDOMIDE 15MG</li>
+                                        <li class="list-group-item">LENALIDOMIDE 25MG</li>
+                                        <li class="list-group-item">LENALIDOMIDE 5MG</li>
+                                        <li class="list-group-item">LENVATINIB MESYLATE 4MG</li>
+                                        <li class="list-group-item">NETUPITANT 300MG & PALONOSETRON 0.5MG</li>
+                                        <li class="list-group-item">NILOTINIB 150MG</li>
+                                        <li class="list-group-item">NILOTINIB 200MG</li>
+                                        <li class="list-group-item">NINTEDANIB 100MG</li>
+                                        <li class="list-group-item">NINTEDANIB 150MG</li>
+                                        <li class="list-group-item">PALBOCICLIB 125MG</li>
+                                        <li class="list-group-item">POLYMYXIN B SULPHATE 500000IU</li>
+                                        <li class="list-group-item">POMALIDOMIDE 1MG</li>
+                                        <li class="list-group-item">POMALIDOMIDE 2MG</li>
+                                        <li class="list-group-item">POMALIDOMIDE 3MG</li>
+                                        <li class="list-group-item">POMALIDOMIDE 4MG</li>
+                                        <li class="list-group-item">SUNITINIB 12.5MG</li>
+                                        <li class="list-group-item">SUNITINIB 25 MG</li>
+                                        <li class="list-group-item">SUNITINIB 50MG</li>
+                                        <li class="list-group-item">TEGAFER 100MG & URACIL 224MG</li>
+                                        <li class="list-group-item">TEMOZOLAMIDE 100MG</li>
+                                        <li class="list-group-item">TEMOZOLAMIDE 140MG</li>
+                                        <li class="list-group-item">TEMOZOLAMIDE 180MG</li>
+                                        <li class="list-group-item">TEMOZOLAMIDE 20MG</li>
+                                        <li class="list-group-item">TEMOZOLAMIDE 250MG</li>
+                                        <li class="list-group-item">THALIDOMIDE 100MG</li>
+                                        <li class="list-group-item">THALIDOMIDE 50MG</li>
+                                        <li class="list-group-item">TRETINONIA 10MG</li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,18 +194,18 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Pharmaceutical Injection
+                                ANTI CANCER INJECTION
                                 </button>
-                                <p class="f-xs">111 products available</p>
+                                <!-- <p class="f-xs">111 products available</p> -->
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Degarelix For Injection</li>
-                                        <li class="list-group-item">Carfilzomib For Injection</li>
-                                        <li class="list-group-item">L-Asparaginase For Injection</li>
-                                        <li class="list-group-item">Bleomycin Injection IP</li>
-                                        <li class="list-group-item">Arsenic Trioxide Injection</li>
+                                        <li class="list-group-item">ARSENIC TRIOXIDE</li>
+                                        <li class="list-group-item">ATEZOLIZUMAB</li>
+                                        <li class="list-group-item">AZACITIDINE 100MG</li>
+                                        <li class="list-group-item">BASILIXIMAB</li>
+                                        <li class="list-group-item">BCG FOR IMMUNOTHERAPY</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -149,18 +214,18 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Anti Cancer Injection
+                                ANTI CANCER TABLETS
                                 </button>
-                                <p class="f-xs">28 products available</p>
+                                <!-- <p class="f-xs">28 products available</p> -->
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Romiplostim Powder and Solvent For Solution For Injection</li>
-                                        <li class="list-group-item">Peg L-Asparaginase Injection</li>
-                                        <li class="list-group-item">Mitoxantrone Injection USP</li>
-                                        <li class="list-group-item">Azacitidine For Injection</li>
-                                        <li class="list-group-item">Mitomycin Injection IP</li>
+                                        <li class="list-group-item">ABIRATERONE ACETATE 250MG</li>
+                                        <li class="list-group-item">ABIRATERONE ACETATE 500MG</li>
+                                        <li class="list-group-item">AFATINIB DIMALEATE 20MG</li>
+                                        <li class="list-group-item">AFATINIB DIMALEATE 30MG</li>
+                                        <li class="list-group-item">AFATINIB DIMALEATE 40MG</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -169,18 +234,18 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Anti Cancer Capsules
+                                ANTI FUNGALS MEDICINES
                                 </button>
-                                <p class="f-xs">33 products available</p>
+                                <!-- <p class="f-xs">33 products available</p> -->
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Exemestane Tablets IP</li>
-                                        <li class="list-group-item">Etoposide Capsule USP</li>
-                                        <li class="list-group-item">Lenvatinib Capsules</li>
-                                        <li class="list-group-item">Enzalutamide Capsules</li>
-                                        <li class="list-group-item">Enzalutamide Capsules</li>
+                                        <li class="list-group-item">ANIDULAFUNGIN 100MG</li>
+                                        <li class="list-group-item">CASPOFUNGIN ACETATE 50MG</li>
+                                        <li class="list-group-item">CASPOFUNGIN ACETATE 70MG</li>
+                                        <li class="list-group-item">LIPOSOMAL AMPHOTERICIN B 50MG</li>
+                                        <li class="list-group-item">MICAFUNGIN SODIUM 100MG</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -189,18 +254,18 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Pharmaceutical Tablet
+                                ANTI HIV MEDICINES
                                 </button>
-                                <p class="f-xs">8 products available</p>
+                                <!-- <p class="f-xs">8 products available</p> -->
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Lamivudine Stavudine and Nevirapine Tablets IP</li>
-                                        <li class="list-group-item">Qvir Tablet Kit</li>
-                                        <li class="list-group-item">Methotrexate Tablets IP</li>
-                                        <li class="list-group-item">Imatinib Tablets IP</li>
-                                        <li class="list-group-item">Imatinib Tablets</li>
+                                        <li class="list-group-item">1 TABLET OF ATAZANAVIR 300MG & RITONAVIR 600MG + 1 TABLET OF TENOFOVIR 300MG & EMTRICITABINE 200MG</li>
+                                        <li class="list-group-item">ABACAVIR 300MG & LAMIVUDINE 600MG</li>
+                                        <li class="list-group-item">ABACAVIR SULPHATE 300MG</li>
+                                        <li class="list-group-item">ABACAVIR SULPHATE 600MG & LAMIVUDINE 300MG</li>
+                                        <li class="list-group-item">ATAZANAVIR 300MG</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -209,18 +274,18 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                New Items
+                                ARTHRITIS MEDICINES
                                 </button>
-                                <p class="f-xs">3 products available</p>
+                                <!-- <p class="f-xs">3 products available</p> -->
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Urografin Injection</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">A fourth item</li>
-                                        <li class="list-group-item">And a fifth one</li>
+                                        <li class="list-group-item">ADALIMUMAB 40MG</li>
+                                        <li class="list-group-item">BARICITINIB</li>
+                                        <li class="list-group-item">ETANERCEPT 25MG</li>
+                                        <li class="list-group-item">ETANERCEPT 50MG</li>
+                                        <li class="list-group-item">GOLIMUMAB</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -229,17 +294,183 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingSeven">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                +View All
+                                CONTRAST MEDIA
                                 </button>
                             </h2>
                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">A fourth item</li>
-                                        <li class="list-group-item">And a fifth one</li>
+                                        <li class="list-group-item">AMIDOTRIZOATE & DIATRIZOATE</li>
+                                        <li class="list-group-item">GADOBUTROL</li>
+                                        <li class="list-group-item">GADODIAMIDE</li>
+                                        <li class="list-group-item">GADOPENTETATE DIMEGLUMINE</li>
+                                        <li class="list-group-item">IODIXANOL</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                HEPATITIS C MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">DACLATASVIR DIHYDROCHLORIDE 60MG</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA 1A</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA 2B</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA-2B</li>
+                                        <li class="list-group-item">RIBAVIRIN 200MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                HORMONES MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CHORIONIC GONADOTROPHIN 5000IU</li>
+                                        <li class="list-group-item">FOLLITROPIN BETA</li>
+                                        <li class="list-group-item">MENOTROPIN</li>
+                                        <li class="list-group-item">SOMATROPIN</li>
+                                        <li class="list-group-item">UROFOLLITROPIN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                LIFE SAVING MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ALBUMIN 20%</li>
+                                        <li class="list-group-item">Aprotinin (3000KIU) + Fibrinogen (70mg) + Thrombin (500IU)</li>
+                                        <li class="list-group-item">HUMAN NORMAL IMMUNOGLOBULIN 5GM</li>
+                                        <li class="list-group-item">SOMAINTERFERON BETA 1ATROPIN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                NEPHROLOGY & KIDNEY MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ANTI-THYMOCYTE GLOBULIN</li>
+                                        <li class="list-group-item">CYCLOSPORIN 100MG</li>
+                                        <li class="list-group-item">CYCLOSPORINE 25MG</li>
+                                        <li class="list-group-item">CYCLOSPORINE 50MG</li>
+                                        <li class="list-group-item">DARBEPOITIN ALPHA 100MCG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                NEW PRODUCTS
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">AMPHOTERICIN B</li>
+                                        <li class="list-group-item">CALCIUM LEUCOVORIN</li>
+                                        <li class="list-group-item">CETUXIMAB 500MG</li>
+                                        <li class="list-group-item">DABIGATRAN ETEXILATE 110MG</li>
+                                        <li class="list-group-item">DABIGATRAN ETEXILATE 150MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                PHARMACEUTICAL MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ABCIXIMAB</li>
+                                        <li class="list-group-item">ALBUMIN 20%</li>
+                                        <li class="list-group-item">ALL TRANCE RETIONIC ACID</li>
+                                        <li class="list-group-item">ALPHA KETOANALOGUES</li>
+                                        <li class="list-group-item">AMBRISENTAN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                PSORIASIS MEDICINE
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">APREMILAST</li>
+                                        <li class="list-group-item">SECUKINUMAB 150MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                SKIN & COSMETOLOGY
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">BOTULINUM TOXIN TYPE A</li>
+                                        <li class="list-group-item">CLOSTRIDIUM BOLULINUM TYPE A</li>
+                                        <li class="list-group-item">HYALURONIC ACID 15MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
+                                        <li class="list-group-item">HYALURONIC ACID 24MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                VACCINES
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ANTI SNAKE VENON</li>
+                                        <li class="list-group-item">HAEMOPHILUS TYPE B CONJUGATE</li>
+                                        <li class="list-group-item">HEPATITIS A VACCINE</li>
+                                        <li class="list-group-item">HEPATITIS B VACCINE (RDNA)</li>
+                                        <li class="list-group-item">HUMAN PAPILLOMAVIRUS 9 - VALENT VACCINE, RECOMBINANT</li>
                                         <li class="list-group-item">And Much More...</li>
                                     </ul>
                                 </div>
@@ -434,6 +665,7 @@
     </div>
 </section>
 </section>
+
 
 <?php include("footer.php"); ?>
 </body>

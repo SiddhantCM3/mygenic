@@ -38,10 +38,10 @@
             <div class="">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <a href="#"><i class="bi bi-envelope-at-fill"></i> example@gmail.com</a>
+                        <a href="#" class="text-white"><i class="bi bi-envelope-at-fill"></i> example@gmail.com</a>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <a href="#"><i class="bi bi-telephone-forward-fill"></i> +91 12345 67890</a>
+                        <a href="#" class="text-white"><i class="bi bi-telephone-forward-fill"></i> +91 12345 67890</a>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12 text-white">
                         <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -70,7 +70,7 @@
                             <a class="nav-link underline" href="about.php" style="color:#048a9a">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link underline" href="product.php" style="color:#048a9a">Our Products</a>
+                            <a class="nav-link underline" href="product.php" style="color:#048a9a">Third Party Pharma Manufacturer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link underline" href="contact.php" style="color:#048a9a">Contact Us</a>

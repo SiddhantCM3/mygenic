@@ -4,7 +4,9 @@
 <!--------------------contact-Form------------------------------------->
 <section id="contact-img">
     <div class="container">
-        <h1 class="text-center main-heading" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT US</span></h1>
+    <div class="section-head">
+      <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT </span>US</h2>
+      </div>
         <div class="row mt-5">
             <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
                 <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>

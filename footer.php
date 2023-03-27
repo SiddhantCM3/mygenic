@@ -5,7 +5,7 @@
         <div class="col-lg-9 col-md-9">
           <div class="row">
             <div class="col-lg-5 col-md-5 text-uppercase logo">
-            <img src="assets/img/mygenic_logo_tm.png" alt="mygenic logo" width="115px" class="img-fluid mb-5" style="">
+            <img src="assets/img/mygenic_logo_tm.png" alt="MyGenic logo" width="115px" class="img-fluid mb-5" style="">
               <h5>Our Company</h5>
               <p><a href="index.php">Home</a></p>
               <p><a href="about.php">About Us</a></p>
@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6 col-md-6">
               <h5 class="text-uppercase">Reach Us</h5>
-              <p class="text-capitalize">Mygenic Healthcare Private Limited</p>
+              <p class="text-capitalize">MyGenic Healthcare Private Limited</p>
               <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
               <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i> Get Directions</a></p>
               <p class="text-capitalize">Namrata Patil (Manager)</p>
@@ -61,7 +61,7 @@
       <hr>
       <div class="footer-bottom">
         <p>All Rights Reserved (Terms of Use)</p>
-        <p>Developed and Managed by Mygenic Healthcare Pvt Ltd</p>
+        <p>Developed and Managed by MyGenic Healthcare Pvt Ltd</p>
       </div>      
     </div>
   </div>
