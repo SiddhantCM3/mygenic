@@ -1,14 +1,14 @@
 <?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
-<section id="product">
+<section id="product" class="section-bg">
     <div class="container">
-    <div class="section-head">
-      <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>our </span>products</h2>
-      </div>
+        <div class="section-head">
+            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>our </span>products</h2>
+        </div>
         <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Pharmaceutical Tablets And Pharmaceutical Injections</p>
         <div class="row pt-3">
-        <div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <ul class="list-group border border-dark rounded-0">
                     <li class="list-group-item list-heading" aria-current="true">
                         <h3 class="text-white">Our Products</h3>
@@ -422,4 +422,5 @@
         </div>
     </div>
 </section>
+
 <?php include("footer.php")?>

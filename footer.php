@@ -1,4 +1,4 @@
-<section id="footer" data-aos="fade-up" data-aos-delay="200">
+<section id="footer" data-aos="fade-up" data-aos-delay="200" style="background-color: #048a9a;">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -58,8 +58,11 @@
           </div>
         </div>
       </div>
+      <div class="row mt-5 text-center" style="opacity:0.6">
+        <p>Disclaimer: Product Names, Logos, Brands and other tradermark featured or referred to are the property of their respective tradermark holders.</p>
+      </div>
       <hr>
-      <div class="footer-bottom">
+      <div class="footer-bottom" style="opacity:0.6">
         <p>All Rights Reserved (Terms of Use)</p>
         <p>Developed and Managed by MyGenic Healthcare Pvt Ltd</p>
       </div>      
