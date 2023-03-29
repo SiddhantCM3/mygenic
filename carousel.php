@@ -1,15 +1,16 @@
+
 <main id="carousel" class="owl-carousel owl-theme">
     <div class="item">
-        <img src="assets\img\corousel image banner_01.jpg" alt="" class="img-fluid">
+        <img src="assets\img\minimalistic-science-banner-with-pills.jpg" alt="" class="img-fluid">
     </div>
     <div class="item">
-        <img src="assets\img\corousel image banner_02.jpg" alt="" class="img-fluid">
+        <img src="assets\img\shopping-cart-with-pill-foils.jpg" alt="" class="img-fluid">
     </div>
     <div class="item">
-        <img src="assets\img\corousel image banner_03.jpg" alt="" class="img-fluid">
+        <img src="assets\img\covid-still-life-with-vaccine.jpg" alt="" class="img-fluid">
     </div>
     <div class="item">
-        <img src="assets\img\corousel image banner_04.jpg" alt="" class="img-fluid">
+        <img src="assets\img\360_F_244941752_blcmwFb9nuztXpp7F8GAXAsptt0FNyko.jpg" alt="" class="img-fluid">
     </div>
 </main>
 

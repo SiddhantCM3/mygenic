@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>duct card
+<?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
 <!-- ----------------------------------------what we provide----------------------------------- -->
