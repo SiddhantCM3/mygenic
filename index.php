@@ -60,12 +60,15 @@
 
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
+   <div class="section-head">
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>OUR</span> PRODUCTS</h1>
+    </div>
   <div class="container">
 
     <figure class="snip1401">
-      <img src="assets\img\pharmaceutical tablets.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_tablets.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Tablets</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
       <i class="ion-ios-home-outline"></i>
@@ -73,9 +76,9 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\pharmaceutical injections.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Injections</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
       <i class="ion-ios-home-outline"></i>
@@ -83,9 +86,9 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\anti cancer injections.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_tablets-2.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Tablets-2</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
       <i class="ion-ios-home-outline"></i>
@@ -93,26 +96,25 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\anti cancer capsule.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\anti_cancer_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
-      </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
-    </figure>
-    
-    <figure class="snip1401">
-      <img src="assets\img\pharmaceutical tablets-2.webp" alt="sample67" class="img-fluid" />
-      <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Anti Cancer Injections</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
       <i class="ion-ios-home-outline"></i>
       <a href="#"></a>
     </figure>
 
-    
+    <figure class="snip1401">
+      <img src="assets\img\products\anti_cancer_capsule.png" alt="sample67" class="img-fluid" />
+      <figcaption>
+        <h3>Anti Cancer Capsule</h3>
+        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+      </figcaption>
+      <i class="ion-ios-home-outline"></i>
+      <a href="#"></a>
+    </figure>
+        
   </div>
 </section>
 
