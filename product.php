@@ -360,7 +360,7 @@
             <div class="col-lg-8 col-md-8 col-sm-12 card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                        <img src="assets/img/pharmaceutical tablets.webp" width="70%"alt="" class="mx-auto d-block">
+                        <img src="assets\img\products\pharmaceutical_tablets.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Tablets</p>
@@ -370,7 +370,7 @@
                 </div>
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/pharmaceutical injections.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets\img\products\pharmaceutical_injections.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Injection</p>
@@ -380,7 +380,7 @@
                 </div>
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/anti cancer injections.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets\img\products\anti_cancer_injections.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Anti Cancer Injection</p>
@@ -390,7 +390,7 @@
                 </div>
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/anti cancer capsule.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets\img\products\anti_cancer_capsule.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Anti Cancer Capsules</p>
@@ -400,7 +400,7 @@
                 </div>
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/pharmaceutical tablets-2.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets\img\products\pharmaceutical_tablets-2.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">Pharmaceutical Tablet</p>
@@ -410,7 +410,7 @@
                 </div>
                 <div class="row pt-3 pb-3 item">
                     <div class="col-5">
-                    <img src="assets/img/new item.webp" width="70%"alt="" class="mx-auto d-block">
+                    <img src="assets\img\products\new_item.png" width="70%"alt="" class="mx-auto d-block">
                     </div>
                     <div class="col-7">
                         <p class="fl">New Items</p>
