@@ -49,6 +49,7 @@
           <p data-aos="zoom-out" data-aos-delay="200">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
           <p data-aos="zoom-out" data-aos-delay="200">MyGenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
           <p data-aos="zoom-out" data-aos-delay="200">We offer a wide range of pharmaceutical products, including tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using the latest technology and in strict adherence to industry regulations and quality standards. This ensures that our products are safe, effective, and of the highest quality.</p>
+          <p><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 intro-img">
@@ -60,49 +61,51 @@
 
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
+   <div class="section-head">
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>OUR</span> PRODUCTS</h1>
+    </div>
   <div class="container">
 
     <figure class="snip1401">
-      <img src="assets\img\pharmaceutical tablets.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_tablets.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Tablets</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\pharmaceutical injections.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Injections</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\anti cancer injections.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\pharmaceutical_tablets-2.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Pharmaceutical Tablets-2</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\anti cancer capsule.webp" alt="sample67" class="img-fluid" />
+      <img src="assets\img\products\anti_cancer_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
-        <h3>Eleanor Fant</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
-      </figcaption>
-    </figure>
-    
-    <figure class="snip1401">
-      <img src="assets\img\pharmaceutical tablets-2.webp" alt="sample67" class="img-fluid" />
-      <figcaption>
-        <h3>Eleanor Fant</h3>
+        <h3>Anti Cancer Injections</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
     </figure>
 
-    
+    <figure class="snip1401">
+      <img src="assets\img\products\anti_cancer_capsule.png" alt="sample67" class="img-fluid" />
+      <figcaption>
+        <h3>Anti Cancer Capsule</h3>
+        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+      </figcaption>
+    </figure>
+        
   </div>
 </section>
 

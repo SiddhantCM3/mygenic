@@ -984,12 +984,12 @@ a:focus {
   margin: 10px;
   min-width: 230px;
   max-width: 315px;
-  max-height: 220px;
+  max-height: 318px;
   width: 100%;
   color: #000000;
   text-align: right;
   font-size: 16px;
-  background-color: #000000;
+  background-color:var(--primary);
 }
 #product-card .snip1401 * {
   -webkit-box-sizing: border-box;
@@ -1007,10 +1007,10 @@ a:focus {
   bottom: 0;
   right: 0;
   z-index: 1;
-  opacity: 1;
-  padding: 30px 0 30px 10px;
-  background-color: var(--primary);
-  width: 40%;
+  /* opacity: 0.5; */
+  /*padding: 30px 0 30px 10px;*/
+  background-color: var(--trueBlack);
+  width: 25%;
   -webkit-transform: translateX(150%);
   transform: translateX(150%);
 }
@@ -1024,18 +1024,18 @@ a:focus {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 120px 120px 120px 0;
-  border-color: transparent var(--primary) transparent transparent;
+  border-width: 160px 160px 160px 0;
+  border-color: transparent var(--trueBlack) transparent transparent;
 }
 #product-card .snip1401:after {
   position: absolute;
   bottom: 50%;
-  right: 40%;
+  right: 25%;
   content: '';
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 120px 120px 0 120px;
+  border-width: 160px 160px 0 160px;
   border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1050,32 +1050,20 @@ a:focus {
   margin: 0;
 }
 #product-card .snip1401 h3 {
-  margin: 0 0 5px;
+  margin: 0 0 3px;
+  padding-top: 60px;
   line-height: 1.1em;
   font-weight: 900;
-  font-size: 1.4em;
-  opacity: 0.75;
-  color: white;
+  font-size: 1em;
+  /* opacity: 0.75; */
+  display: grid;
+  color: var(--primary);
+  text-align: right;
+  word-break: break-all;
 }
 #product-card .snip1401 p {
   font-size: 0.8em;
-}
-#product-card .snip1401 i {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 20px 30px;
-  font-size: 44px;
-  color: #ffffff;
-  opacity: 0;
-}
-#product-card .snip1401 a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  color: white;
 }
 #product-card .snip1401:hover img,
 #product-card .snip1401.hover img {
@@ -1092,5 +1080,5 @@ a:focus {
 #product-card .snip1401.hover i {
   -webkit-transform: translateX(0);
   transform: translateX(0);
-  opacity: 1;
+  /* opacity: 0.7; */
 }

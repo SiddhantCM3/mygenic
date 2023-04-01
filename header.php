@@ -77,13 +77,13 @@
                             <a class="nav-link underline" href="product.php" style="color:#048a9a">Third Party Pharma Manufacturer</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link underline" href="R&D.php" style="color:#048a9a">R&D</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link underline" href="contact.php" style="color:#048a9a">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                <!-- <span>
-                <button class="btn btn-white btn-animation-1"><a href="contact.php">Enquiry Now!</a></button>
-                </span> -->
             </div>
         </nav>
     </header>
