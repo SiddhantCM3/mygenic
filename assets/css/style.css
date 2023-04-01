@@ -120,8 +120,6 @@ p, h5{
 }
 .navbar{
   background-color:#fff;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .nav-item a:hover{
   color: var(--primary);
@@ -293,7 +291,7 @@ p, h5{
 .section-head h4 span, .section-head h1 span, .section-head h2 span {
   font-weight: 700;
   padding-bottom: 5px;
-  color:#ed6f1e;
+  color: #000000;
 }
 
 /* Product Page */
@@ -379,6 +377,7 @@ p, h5{
 }
 .logo img{
   filter: drop-shadow(0 0 0.4rem rgb(0, 0, 0));
+  margin-bottom: 25px;
 }
 #footer a{
   text-decoration: none;
@@ -725,6 +724,20 @@ text-shadow:1px 1px 2px #2b292b;
     }
   }
 
+  @media (max-width: 768px){
+    #footer{
+      align-items: center;
+      text-align: center;
+    }
+    #footer .row h5{
+    padding-bottom: 0px;
+    padding-top: 25px;
+    }
+    .logo img{
+      margin-bottom: 0px;
+    }
+  }
+
 /* -----------------Why Choose Us---------------- */
 #why-choose-us 
 a,
@@ -966,7 +979,6 @@ a:focus {
   justify-content: center;
 }
 #product-card .snip1401 {
-  font-family: 'Playfair Display', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
@@ -1013,7 +1025,7 @@ a:focus {
   height: 0;
   border-style: solid;
   border-width: 120px 120px 120px 0;
-  border-color: transparent #ffffff transparent transparent;
+  border-color: transparent var(--primary) transparent transparent;
 }
 #product-card .snip1401:after {
   position: absolute;
@@ -1043,6 +1055,7 @@ a:focus {
   font-weight: 900;
   font-size: 1.4em;
   opacity: 0.75;
+  color: white;
 }
 #product-card .snip1401 p {
   font-size: 0.8em;

@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>duct card
+<?php include("header.php"); ?>
 <?php include("carousel.php"); ?>
 
 <!-- ----------------------------------------what we provide----------------------------------- -->
@@ -68,8 +68,6 @@
         <h3>Eleanor Fant</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
     </figure>
 
     <figure class="snip1401">
@@ -78,8 +76,6 @@
         <h3>Eleanor Fant</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
     </figure>
 
     <figure class="snip1401">
@@ -88,8 +84,6 @@
         <h3>Eleanor Fant</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
     </figure>
 
     <figure class="snip1401">
@@ -98,8 +92,6 @@
         <h3>Eleanor Fant</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
     </figure>
     
     <figure class="snip1401">
@@ -108,8 +100,6 @@
         <h3>Eleanor Fant</h3>
         <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
       </figcaption>
-      <i class="ion-ios-home-outline"></i>
-      <a href="#"></a>
     </figure>
 
     

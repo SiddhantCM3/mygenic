@@ -65,7 +65,7 @@
         <div class="container">
             <div class="feat bg-gray pt-5 pb-5">
                 <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="section-head col-sm-12">
                             <h4><span>Why Choose</span> Us?</h4>
                             <p>The key points for which we have won noise from our buyers include:</p>
