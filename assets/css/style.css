@@ -12,7 +12,7 @@ body{
   color: #666666;
 }
 :root{
-    --primary: rgb(4, 138, 154);
+    --primary: #048a9a;
     --primary-dark: #046e7a;
     --secondary: #ed6f1e;
 
@@ -100,8 +100,17 @@ p, h5{
 .intro-box{
   display: grid;
   align-items: center;
+  place-items: center;
 }
-
+.intro-box img{
+  border-radius: 50%;
+  filter: drop-shadow(3px 3px 5px rgb(0, 0, 0, 0.6));
+  width: 350px;
+}
+.intro-text{
+  display: grid;
+  justify-content: center;
+}
 /* Header */
 .top-header{
   background-color: var(--primary);
@@ -177,6 +186,63 @@ p, h5{
     width: 100%;
   }
 }
+
+/* --------------------------------------Carousel-------------------------------------------- */
+#carousel{
+  position: relative;
+  text-align: center;
+}
+#carousel .item p{
+  text-transform: capitalize;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.5);
+  font-weight: 600;
+}
+#carousel .item:hover p{
+  color: var(--primary);
+  background-position: 0 100%;
+}
+#carousel .item p span{
+  color: var(--secondary);
+}
+#carousel .item:hover p span{
+  color: var(--secondary);
+}
+#carousel .item .right{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 40%;
+  text-align: right;
+  font-size: 3vw;
+  animation: slideinright 5s infinite;
+  padding-right: 10px;
+  padding-left: 0;
+}
+@keyframes slideinright {
+  0% { margin-left:800px; }
+  20% { margin-left:800px; }
+  35% { margin-left:0px; }
+  100% { margin-left:0px; }
+}
+#carousel .item .left{
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  left: 0;
+  text-align: left;
+  font-size: 3vw;
+  animation: slideintop 5s infinite;
+  padding-left: 10px;
+  padding-right: 0;
+}
+@keyframes slideintop {
+  0% { margin-top:-350px; }
+  20% { margin-top:-350px; }
+  35% { margin-bottom:0px; }
+  100% { margin-bottom:0px; }
+}
+
 /* -----------------------------------what we provide--------------------------------------- */
 #what-we-provide{
   transition: all 0.3s ease-out;
@@ -1034,7 +1100,7 @@ a:focus {
   width: 100%;
   color: #000000;
   text-align: right;
-  font-size: 16px;
+  /* font-size: 16px; */
   background-color:var(--primary);
 }
 #product-card .snip1401 * {
@@ -1091,21 +1157,18 @@ a:focus {
 #product-card .snip1401 h3,
 #product-card .snip1401 p {
   line-height: 1.5em;
-  -webkit-transform: translateX(-30px);
-  transform: translateX(-30px);
+  -webkit-transform: translateX(-15px);
+  transform: translateX(-15px);
   margin: 0;
 }
 #product-card .snip1401 h3 {
   margin: 0 0 3px;
-  padding-top: 60px;
+  padding-top: 30px;
   line-height: 1.1em;
   font-weight: 900;
   font-size: 1em;
-  /* opacity: 0.75; */
-  display: grid;
   color: var(--primary);
   text-align: right;
-  word-break: break-all;
 }
 #product-card .snip1401 p {
   font-size: 0.8em;
@@ -1126,5 +1189,13 @@ a:focus {
 #product-card .snip1401.hover i {
   -webkit-transform: translateX(0);
   transform: translateX(0);
-  /* opacity: 0.7; */
+}
+
+/* --------------------------Services----------------------------- */
+.service h3{
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+  color: var(--secondary);
+  text-decoration: underline;
 }

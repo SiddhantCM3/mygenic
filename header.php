@@ -76,10 +76,10 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link underline dropbtn" href="product.php" style="color:#048a9a">Services</a>
                             <div class="dropdown-content">
-                                <a href="#">Contract Manufacturer</a>
-                                <a href="#">Third Party Pharma Manufacturer</a>
-                                <a href="#">Quality Medicine Supplier</a>
-                                <a href="#">Leading Pharmaceutical Exporter</a>
+                                <a href="contractmanufacturer.php">Contract Manufacturer</a>
+                                <a href="thirdparty.php">Third Party Pharma Manufacturer</a>
+                                <a href="qualitymedicine.php">Quality Medicine Supplier</a>
+                                <a href="leadingpharma.php">Leading Pharmaceutical Exporter</a>
                             </div>
                         </li>
                         <li class="nav-item">

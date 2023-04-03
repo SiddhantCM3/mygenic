@@ -8,7 +8,7 @@
   </div>
   <div class="container">
     <a class="card1" href="#">
-      <h3>Manufacturing</h3>produ
+      <h3>Manufacturing</h3>
       <p class="small">MyGenic Healthcare Private Limited may manufacture a range of pharmaceutical products including tablets, injections, and anti-cancer capsules.</p>
       <div class="go-corner" href="#">
         <div class="go-arrow">
@@ -49,7 +49,7 @@
           <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
           <p data-aos="zoom-out" data-aos-delay="1000">MyGenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
           <p data-aos="zoom-out" data-aos-delay="1000">We offer a wide range of pharmaceutical products, including tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using the latest technology and in strict adherence to industry regulations and quality standards. This ensures that our products are safe, effective, and of the highest quality.</p>
-          <p><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
+          <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 intro-img">
@@ -62,7 +62,7 @@
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
    <div class="section-head">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>OUR</span> PRODUCTS</h1>
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>OUR</span> SERVICES</h1>
     </div>
   <div class="container">
 
@@ -70,7 +70,7 @@
       <img src="assets\img\products\pharmaceutical_tablets.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Hospital Supplies</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+        <p>We drive the process most efficiently to meet the requirements of hospitals including private and government sectors... <a href="#" style="color:#048a9a;">Read more</a> and we even supply the medical equipments to every part of the world.</p>
       </figcaption>
     </figure>
 
@@ -78,7 +78,7 @@
       <img src="assets\img\products\pharmaceutical_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Government Supplies</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+        <p>We manage the government supplies initiating proper documentation and continuous corresp... <a href="#" style="color:#048a9a;">Read more</a>ondence.</p>
       </figcaption>
     </figure>
 
@@ -86,7 +86,7 @@
       <img src="assets\img\products\pharmaceutical_tablets-2.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Contract Manufacturer</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+        <p>We are recognised as niche contributor in the contract manufacturing in pharmaceutical... <a href="#" style="color:#048a9a;">Read more</a> industry, where we are delivering the customer needs from the formulation and composition to manufacturing.</p>
       </figcaption>
     </figure>
 
@@ -94,7 +94,7 @@
       <img src="assets\img\products\anti_cancer_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Cold Chain Shipping</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+        <p>In the dynamic activity of logistics, we enhanced our capabilities and ensure the parameters of the... <a href="#" style="color:#048a9a;">Read more</a>temperatures are maintained during the supply chain for the biologics in the cold chain shipping.</p>
       </figcaption>
     </figure>
 
@@ -102,7 +102,7 @@
       <img src="assets\img\products\anti_cancer_capsule.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Bulk Pharma Export</h3>
-        <p>Which is worse, that everyone has his price, or that the price is always so low.</p>
+        <p>We are the leading exporter in the western region and we contribute maximum quantum as a pharmac...<a href="#" style="color:#048a9a;">Read more</a> eutical bulk drugs exporter from Mumbai.</p>
       </figcaption>
     </figure>
         

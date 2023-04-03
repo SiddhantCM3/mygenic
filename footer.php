@@ -1,4 +1,4 @@
-<section id="footer" data-aos="fade-down" data-aos-delay="1000" style="background-color: #048a9a;">
+<section id="footer" style="background-color: #048a9a;">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -23,6 +23,15 @@
             </div>
           </div>
           <div class="row pt-2">
+            <div class="col-lg-5 col-md-5">
+              <p class="text-capitalize fw-bold">We Accept Online Payments</p>
+              <div class="payment-icons">
+                <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
+                <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
+                <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
+                <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
+              </div>
+            </div>
             <div class="col-lg-7 col-md-7 icons">
               <p class="text-capitalize fw-bold">Share Us Via</p>
               <a href="#"><i class="bi bi-facebook"></i></a>
