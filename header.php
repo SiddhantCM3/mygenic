@@ -73,8 +73,14 @@
                         <li class="nav-item">
                             <a class="nav-link underline" href="about.php" style="color:#048a9a">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link underline" href="product.php" style="color:#048a9a">Third Party Pharma Manufacturer</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link underline dropbtn" href="product.php" style="color:#048a9a">Services</a>
+                            <div class="dropdown-content">
+                                <a href="#">Contract Manufacturer</a>
+                                <a href="#">Third Party Pharma Manufacturer</a>
+                                <a href="#">Quality Medicine Supplier</a>
+                                <a href="#">Leading Pharmaceutical Exporter</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link underline" href="R&D.php" style="color:#048a9a">R&D</a>

@@ -14,15 +14,6 @@
                 <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Namrata Patil (Manager)</P>
                 <P data-aos="zoom-out" data-aos-delay="200">Call- 08043851554</P>
-                <div data-aos="zoom-out" data-aos-delay="200">
-                    <p class="text-capitalize fw-bold">We Accept Online Payments</p>
-                    <div class="payment-icons">
-                        <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
-                        <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
-                        <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
-                        <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
-                    </div>
-                </div>
                 <br>
                 <div class="social-icons"data-aos="zoom-out" data-aos-delay="200">
                     <p class="text-capitalize fw-bold">Share Us Via</p>

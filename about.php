@@ -2,45 +2,23 @@
 <?php include("carousel.php"); ?>
 <!-----------------------about-us----------------------------------->
 <section id="about-us" class="section-bg">
-    <div class="container">
-        <div class="section-head">
-            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>about </span>us</h1>
-        </div>
-        <div>
-            <p class="text-center" data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited”<br> are one of the leading Exporter of a premium range of Pharmaceutical Tablets,<br> Pharmaceutical Injection & Anti Cancer Capsules and many more</p>
-        </div>
-    </div>
-    
-
-<!-------------------------company-album---------------------------------------->
-        <section id="about-company" class="section-bg">
-            <div class="container">
-                <div class="section-head">
-                    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>company </span>album</h2>
+        <div class="container about">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 intro-img text-center">
+                    <img src="assets\img\about us.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
                 </div>
-                <div class="slider">
-                    <div class="mask">
-                        <ul>
-                            <li class="anim1">
-                                <img src="assets\img\album-1.jpg" alt="" class="img-fluid">
-                            </li>
-                            <li class="anim2">
-                                <img src="assets\img\album-2.jpg" alt="" class="img-fluid">
-                            </li>
-                            <li class="anim3">
-                                <img src="assets\img\album-3.jpg" alt="" class="img-fluid">
-                            </li>
-                            <li class="anim4">
-                                <img src="assets\img\album-4.jpg" alt="" class="img-fluid">
-                            </li>
-                            <li class="anim5">
-                                <img src="assets\img\album-5.jpg" alt="" class="img-fluid">
-                            </li>
-                        </ul>
+                <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
+                    <div class="intro-text">
+                        <div class="section-head">
+                            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>about </span>us</h1>
+                        </div>
+                        <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
+                        <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
                     </div>
-                </div>
-            </div>
-        </section>
+                </div>                
+            </div>    
+        </div>
+
 
 <!------------------------Vision - Mission----------------------------------------------->
         <section class="vision-mission" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.8)),url('assets/img/vision-mission-bg.jpg');">
@@ -656,6 +634,38 @@
         </div>
     </section>
 </section>
+
+    
+
+<!-------------------------Photo Gallery---------------------------------------->
+<section id="about-company" class="section-bg">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Certificates</h2>
+                </div>
+                <div class="slider">
+                    <div class="mask">
+                        <ul>
+                            <li class="anim1">
+                                <img src="https://thepharmacourses.com/wp-content/uploads/2021/12/certificate-1665681833419-300x232.jpg" alt="" class="img-fluid">
+                            </li>
+                            <li class="anim2">
+                                <img src="https://www.biopharmainstitute.com/images/Sample-Certificate1.jpg" alt="" class="img-fluid">
+                            </li>
+                            <li class="anim3">
+                                <img src="https://piktochart.com/wp-content/uploads/2022/11/large-158.jpg" alt="" class="img-fluid">
+                            </li>
+                            <li class="anim4">
+                                <img src="https://pharma-research.in/wp-content/uploads/2022/12/pg-diploma1.jpg" alt="" class="img-fluid">
+                            </li>
+                            <li class="anim5">
+                                <img src="https://media.istockphoto.com/id/1034467592/vector/certificate-or-diploma-retro-vintage-design-template.jpg?s=612x612&w=0&k=20&c=SAwn84m93JtMDjASvulqHsh7zXu_95hJjgbADF7aJXY=" alt="" class="img-fluid">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 <?php include("footer.php"); ?>
