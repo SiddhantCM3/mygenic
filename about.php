@@ -41,7 +41,7 @@
 <!------------------------why-us----------------------------------------------->
     <section id="why-choose-us" class="section-bg">
         <div class="container">
-            <div class="feat bg-gray pt-5 pb-5">
+            <div class="feat bg-gray">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="section-head col-sm-12">
@@ -647,19 +647,19 @@
                     <div class="mask">
                         <ul>
                             <li class="anim1">
-                                <img src="https://thepharmacourses.com/wp-content/uploads/2021/12/certificate-1665681833419-300x232.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificate-1.jpg" alt="" class="img-fluid">
                             </li>
                             <li class="anim2">
-                                <img src="https://www.biopharmainstitute.com/images/Sample-Certificate1.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificate-2.jpg" alt="" class="img-fluid">
                             </li>
                             <li class="anim3">
-                                <img src="https://piktochart.com/wp-content/uploads/2022/11/large-158.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificate-3.png" alt="" class="img-fluid">
                             </li>
                             <li class="anim4">
-                                <img src="https://pharma-research.in/wp-content/uploads/2022/12/pg-diploma1.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificate-4.jpg" alt="" class="img-fluid">
                             </li>
                             <li class="anim5">
-                                <img src="https://media.istockphoto.com/id/1034467592/vector/certificate-or-diploma-retro-vintage-design-template.jpg?s=612x612&w=0&k=20&c=SAwn84m93JtMDjASvulqHsh7zXu_95hJjgbADF7aJXY=" alt="" class="img-fluid">
+                                <img src="assets\img\certificate-5.jpg" alt="" class="img-fluid">
                             </li>
                         </ul>
                     </div>

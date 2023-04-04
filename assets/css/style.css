@@ -10,6 +10,7 @@
 body{
   overflow-x: hidden;
   color: #666666;
+  scroll-behavior: smooth;
 }
 :root{
     --primary: #048a9a;
@@ -27,8 +28,8 @@ body{
 
 }
 section{
-    /* margin-top: 20px; */
-    padding: 15px 0px 15px 0px;
+    /* padding: 15px 0px 15px 0px; */
+    margin-bottom: 15px;
 }
 
 a{
@@ -114,6 +115,7 @@ p, h5{
 /* Header */
 .top-header{
   background-color: var(--primary);
+  overflow: hidden;
 }
 .top-header ul li{
   padding-left: 5px;
@@ -164,7 +166,7 @@ p, h5{
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1000;
+  z-index: 2000;
 }
 .dropdown-content a {
   padding: 12px 16px;
@@ -197,6 +199,13 @@ p, h5{
   color: black;
   background-color: rgb(255, 255, 255, 0.5);
   font-weight: 600;
+  padding-right: 10px;
+  padding-left: 10px;
+  width:fit-content;
+  animation: slideintop 5s infinite;
+  top: 20%;
+  position: absolute;
+  font-size: 3vw;
 }
 #carousel .item:hover p{
   color: var(--primary);
@@ -209,15 +218,8 @@ p, h5{
   color: var(--secondary);
 }
 #carousel .item .right{
-  position: absolute;
-  top: 20%;
   right: 0;
-  left: 40%;
   text-align: right;
-  font-size: 3vw;
-  animation: slideinright 5s infinite;
-  padding-right: 10px;
-  padding-left: 0;
 }
 @keyframes slideinright {
   0% { margin-left:800px; }
@@ -226,15 +228,8 @@ p, h5{
   100% { margin-left:0px; }
 }
 #carousel .item .left{
-  position: absolute;
-  top: 20%;
-  right: 40%;
   left: 0;
   text-align: left;
-  font-size: 3vw;
-  animation: slideintop 5s infinite;
-  padding-left: 10px;
-  padding-right: 0;
 }
 @keyframes slideintop {
   0% { margin-top:-350px; }
@@ -286,7 +281,6 @@ p, h5{
   margin-top: -4px;
   margin-right: -4px;
   color: white;
-  font-family: courier, sans;
 }
 .card1{
   display: block;
@@ -333,22 +327,37 @@ p, h5{
               rgba(2, 75, 83, 0.9)), url(
 'https://wallpaperaccess.com/full/4204916.jpg');
 }
+
+#introduction{
+  background-image:
+            linear-gradient(45deg,
+              rgba(2, 75, 83, 0.9),
+              rgba(2, 75, 83, 0.9)), url(
+'https://wallpaperaccess.com/full/4204916.jpg');
+}
 #introduction .intro-text{
   background: rgb(255, 255, 255);
   margin: 10px;
   margin-top: 5%;
-  max-width: 100%;
   padding: 20px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 #introduction .intro-text:hover{
+  background: var(--primary);
+  color: white;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   animation-name: example;
   animation-duration: 0.25s;
   border-left: 8px solid var(--primary);
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#introduction .intro-text:hover .section-head h1{
+  color: white;
+}
+#introduction .intro-text:hover .section-head h1:before {
+background: white;
 }
 @keyframes example {
   0%   {border-left: 2px solid rgb(4, 138, 154);}
@@ -361,7 +370,7 @@ p, h5{
   place-content: center;
 }
 .section-head{
-  margin-bottom: 60px;
+  padding: 20px;
 }
 .section-head h4, .section-head h1, .section-head h2{
   position: relative;
@@ -373,7 +382,6 @@ p, h5{
   font-weight: 700;  
   text-align:center;
   text-transform:uppercase;
-  margin-bottom:30px;
 }
 .section-head h4:before, .section-head h1:before, .section-head h2:before {
   content: '';
@@ -504,7 +512,7 @@ p, h5{
 /* Company Album */ 
   
   #about-company  .slider {
-    margin: 40px auto 0;
+    margin: 0 auto 0;
     overflow: visible;
     position: relative;
   }
@@ -753,7 +761,7 @@ p, h5{
   .vision-mission{
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('https://t3.ftcdn.net/jpg/01/03/45/84/360_F_103458413_SdAbpOr8OXXHKZHFgfZfSkhdXN3s7WaP.jpg');
+    url('assets\img\vision-mission-bg.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -891,9 +899,6 @@ a:focus {
   display: inline-block;
   text-decoration: none;
   color: inherit;
-}
-.section-head {
-  margin-bottom: 60px;
 }
 #why-choose-us .section-head h4 {
   position: relative;
@@ -1102,6 +1107,8 @@ a:focus {
   text-align: right;
   /* font-size: 16px; */
   background-color:var(--primary);
+  display: grid;
+  place-content: center;
 }
 #product-card .snip1401 * {
   -webkit-box-sizing: border-box;
@@ -1160,15 +1167,22 @@ a:focus {
   -webkit-transform: translateX(-15px);
   transform: translateX(-15px);
   margin: 0;
+  display: none;
 }
 #product-card .snip1401 h3 {
-  margin: 0 0 3px;
-  padding-top: 30px;
+  margin: 135px -85px;
+  padding-right: 84px;
   line-height: 1.1em;
   font-weight: 900;
-  font-size: 1em;
+  font-size: 1.3em;
   color: var(--primary);
-  text-align: right;
+  word-wrap: normal;
+}
+#product-card .snip1401:hover h3, p{
+  display: block;
+}
+#product-card .snip1401:hover .snip1401 h3{
+  visibility:visible;
 }
 #product-card .snip1401 p {
   font-size: 0.8em;
@@ -1194,8 +1208,55 @@ a:focus {
 /* --------------------------Services----------------------------- */
 .service h3{
   font-weight: 500;
-  text-align: center;
   padding-bottom: 10px;
   color: var(--secondary);
-  text-decoration: underline;
+}
+
+/* --------------------------R&D----------------------------- */
+.research h3{
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: var(--secondary);
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.research .tabcontent .zoom{
+  max-height: 340px;
+  max-width: 340px;
+  float:right;
+  overflow: hidden;
+  margin: 3px;
+}
+.research .tabcontent .zoom img{
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.research .tabcontent:hover img{
+  transform: scale(1.1);
 }

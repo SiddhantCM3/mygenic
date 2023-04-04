@@ -62,7 +62,7 @@
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
    <div class="section-head">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>OUR</span> SERVICES</h1>
+        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Services</span> we provide</h1>
     </div>
   <div class="container">
 
@@ -70,7 +70,7 @@
       <img src="assets\img\products\pharmaceutical_tablets.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Hospital Supplies</h3>
-        <p>We drive the process most efficiently to meet the requirements of hospitals including private and government sectors... <a href="#" style="color:#048a9a;">Read more</a> and we even supply the medical equipments to every part of the world.</p>
+        <p>Medical equipment and materials provision.</p>
       </figcaption>
     </figure>
 
@@ -78,7 +78,7 @@
       <img src="assets\img\products\pharmaceutical_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Government Supplies</h3>
-        <p>We manage the government supplies initiating proper documentation and continuous corresp... <a href="#" style="color:#048a9a;">Read more</a>ondence.</p>
+        <p>Public sector procurement and distribution.</p>
       </figcaption>
     </figure>
 
@@ -86,7 +86,7 @@
       <img src="assets\img\products\pharmaceutical_tablets-2.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Contract Manufacturer</h3>
-        <p>We are recognised as niche contributor in the contract manufacturing in pharmaceutical... <a href="#" style="color:#048a9a;">Read more</a> industry, where we are delivering the customer needs from the formulation and composition to manufacturing.</p>
+        <p>Outsourced manufacturing services provider.</p>
       </figcaption>
     </figure>
 
@@ -94,7 +94,7 @@
       <img src="assets\img\products\anti_cancer_injections.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Cold Chain Shipping</h3>
-        <p>In the dynamic activity of logistics, we enhanced our capabilities and ensure the parameters of the... <a href="#" style="color:#048a9a;">Read more</a>temperatures are maintained during the supply chain for the biologics in the cold chain shipping.</p>
+        <p>Temperature-controlled transport of goods.</p>
       </figcaption>
     </figure>
 
@@ -102,7 +102,7 @@
       <img src="assets\img\products\anti_cancer_capsule.png" alt="sample67" class="img-fluid" />
       <figcaption>
         <h3>Bulk Pharma Export</h3>
-        <p>We are the leading exporter in the western region and we contribute maximum quantum as a pharmac...<a href="#" style="color:#048a9a;">Read more</a> eutical bulk drugs exporter from Mumbai.</p>
+        <p>Export of pharmaceutical products in large quantities.</p>
       </figcaption>
     </figure>
         
@@ -110,12 +110,12 @@
 </section>
 
 <!--------------------contact-Form------------------------------------->
-<section id="contact-img" class="pt-5 section-bg">
+<section id="contact-img" class="section-bg pb-4">
   <div class="container">
     <div class="section-head">
       <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>CONTACT </span>US</h2>
     </div>
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
         <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="1000">REACH US</h3>
         <P data-aos="zoom-out" data-aos-delay="1000">My Genic healthcare private limited</P>
@@ -123,13 +123,6 @@
         <P data-aos="zoom-out" data-aos-delay="1000">Namrata Patil (Manager)</P>
         <P data-aos="zoom-out" data-aos-delay="1000">Call- 08043851554</P>
         <div data-aos="zoom-out" data-aos-delay="1000">
-          <p class="text-capitalize fw-bold">We Accept Online Payments</p>
-          <div class="payment-icons">
-            <img src="https://www.citypng.com/public/uploads/preview/png-mastercard-credit-card-payment-icon-21635273828qgouwpcfsb.png" alt="" width="40px">
-            <img src="https://aux2.iconspalace.com/uploads/maestro-payment-icon-256.png" alt="" width="40px">
-            <img src="https://cdn0.iconfinder.com/data/icons/flat-design-business-set-3/24/payment-method-visa-512.png" alt="" width="40px">
-            <img src="https://pbs.twimg.com/profile_images/626248418885697537/tbVsMedp_400x400.png" alt="" width="40px">
-          </div>
         </div>
         <br>
         <div class="social-icons"data-aos="zoom-out" data-aos-delay="1000">

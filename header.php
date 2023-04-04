@@ -73,9 +73,12 @@
                         <li class="nav-item">
                             <a class="nav-link underline" href="about.php" style="color:#048a9a">About Us</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link underline" href="product.php" style="color:#048a9a">Our Products</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link underline dropbtn" href="product.php" style="color:#048a9a">Services</a>
-                            <div class="dropdown-content">
+                            <a class="nav-link underline dropbtn" href="contractmanufacturer.php" style="color:#048a9a">Services</a>
+                            <div class="dropdown-content z-3">
                                 <a href="contractmanufacturer.php">Contract Manufacturer</a>
                                 <a href="thirdparty.php">Third Party Pharma Manufacturer</a>
                                 <a href="qualitymedicine.php">Quality Medicine Supplier</a>
