@@ -109,6 +109,91 @@
   </div>
 </section>
 
+<!--------------------Why Choose Us?------------------------------------->
+<!-- <section id="why-choose-us" class="why-choose-us pb-5 pt-1">
+  <div class="section-head">
+    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>why </span> choose us?</h2>
+  </div>
+  <div class="container">
+    <div class="text-center mb-2-8 mb-lg-6">
+      <span>choosing our pharmaceutical company means choosing a reliable partner who is committed to delivering quality products and services that meet the needs of patients, healthcare providers, and partners worldwide.</span>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-sm-6 col-lg-4 mb-2-9 mb-sm-0">
+        <div class="pr-md-3">
+          <div class="text-center text-sm-right mb-2-9 why-choose-item">
+            <div class="mb-4">
+              <img src="assets\img\why choose us\quality_products.png" alt="quality products" class="rounded-circle">
+            </div>
+            <h4 class="sub-info">Quality products</h4>
+            <p class="display-30 mb-0">We prioritize quality in every aspect of our operations, from research and development to manufacturing and distribution. Our products are made using the latest technologies and adhere to strict quality control measures to ensure safety and efficacy.</p>
+          </div>
+          <div class="text-center text-sm-right why-choose-item">
+            <div class="mb-4">
+              <img src="assets\img\why choose us\experties.png" alt="experties" class="rounded-circle">
+            </div>
+            <h4 class="sub-info">Expertise</h4>
+            <p class="display-30 mb-0">Our team of experienced professionals includes scientists, researchers, and pharmaceutical experts who are dedicated to developing innovative solutions to address some of the most pressing healthcare issues of our time.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block text-center">
+        <div class="why-choose-center-image">
+          <img src="assets\img\why choose us\pharma-collage.jpg" alt="pharma-collage" class="rounded-circle">
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="pl-md-3">
+          <div class="text-center text-sm-left mb-2-9 why-choose-item">
+            <div class="mb-4">
+              <img src="assets\img\why choose us\regulatory_compliance.png" alt="regulatory_compliance" class="rounded-circle">
+            </div>
+            <h4 class="sub-info">Regulatory compliance</h4>
+            <p class="display-30 mb-0">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations.</p>
+          </div>
+          <div class="text-center text-sm-left why-choose-item">
+            <div class="mb-4">
+              <img src="assets\img\why choose us\cost_effective.png" alt="cost_effective" class="rounded-circle">
+            </div>
+            <h4 class="sub-info">Cost-effective solutions</h4>
+            <p class="display-30 mb-0">We are committed to providing cost-effective solutions that deliver value to our customers and partners without compromising on quality or safety.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!--------------------Who We are------------------------------------->
+<section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+        <div class="inner-column">
+          <div class="section-head">
+            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Who</span> we are?</h1>
+          </div>
+          <p data-aos="zoom-out" data-aos-delay="1000">We are a pharmaceutical company that is committed to improving the health and wellbeing of people globally. Our team of experienced professionals includes scientists, researchers, and pharmaceutical experts who are dedicated to developing innovative solutions to address some of the most pressing healthcare issues of our time.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">We specialize in the development, manufacturing, and distribution of high-quality pharmaceutical products that meet the needs of patients, healthcare providers, and partners worldwide. Our products are made using the latest technologies and adhere to strict quality control measures to ensure safety and efficacy.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">At our core, we are a customer-focused company that believes in building long-term relationships with our customers and partners by providing exceptional customer service and support. We listen to our customers' needs and work collaboratively to develop tailored solutions that meet their unique requirements.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations. Our commitment to quality, innovation, and regulatory compliance has earned us a reputation as a reliable and trusted partner in the pharmaceutical industry.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">Overall, we are a company that is driven by a passion for improving healthcare outcomes and making a positive impact on the lives of people around the world.</p>
+        </div>
+      </div>
+      <!-- Image Column -->
+      <div class="image-column col-lg-6 col-md-12 col-sm-12">
+        <div class="inner-column">
+          <figure class="image-1">
+            <img src="https://images.unsplash.com/photo-1610833804933-264b7f75c99c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBoYXJtYWNldXRpY2FsfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!--------------------contact-Form------------------------------------->
 <section id="contact-img" class="section-bg pb-4">
   <div class="container">
