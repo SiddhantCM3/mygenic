@@ -13,6 +13,7 @@
           <p><a href="index.php">Home</a></p>
           <p><a href="about.php">About Us</a></p>
           <p><a href="product.php">Our Products</a></p>
+          <p><a href="R&D.php">R&D</a></p>
           <p><a href="contact.php">Contact Us</a></p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 icons">

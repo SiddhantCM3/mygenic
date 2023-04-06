@@ -104,7 +104,7 @@ p, h5{
   place-items: center;
 }
 .intro-box img{
-  border-radius: 50%;
+  /* border-radius: 50%; */
   filter: drop-shadow(3px 3px 5px rgb(0, 0, 0, 0.6));
   width: 350px;
 }
@@ -202,7 +202,7 @@ p, h5{
   padding-right: 10px;
   padding-left: 10px;
   width:fit-content;
-  animation: slideintop 5s infinite;
+  animation: grow 4.96s ease-in infinite;
   top: 20%;
   position: absolute;
   font-size: 3vw;
@@ -220,22 +220,43 @@ p, h5{
 #carousel .item .right{
   right: 0;
   text-align: right;
+  margin-right: 10%;
 }
-@keyframes slideinright {
+/* @keyframes slideinright {
   0% { margin-left:800px; }
   20% { margin-left:800px; }
   35% { margin-left:0px; }
   100% { margin-left:0px; }
-}
+} */
 #carousel .item .left{
   left: 0;
   text-align: left;
+  margin-left: 10%;
 }
-@keyframes slideintop {
+/* @keyframes slideintop {
   0% { margin-top:-350px; }
   20% { margin-top:-350px; }
   35% { margin-bottom:0px; }
   100% { margin-bottom:0px; }
+} */
+
+/* @keyframes grow {
+  0% {
+    font-size: 0vw;
+  }
+  50% {
+    font-size: 3vw;
+  }
+  100% {
+    font-size:3vw;
+  }
+} */
+
+#carousel .item img{
+  transition: transform 4s;
+}
+#carousel .item:hover img{
+  transform: scale(1.5);
 }
 
 /* -----------------------------------what we provide--------------------------------------- */
@@ -1124,6 +1145,8 @@ a:focus {
   width: 25%;
   -webkit-transform: translateX(150%);
   transform: translateX(150%);
+  display: grid;
+  place-content: center;
 }
 #product-card .snip1401 figcaption:before {
   position: absolute;
@@ -1162,23 +1185,33 @@ a:focus {
   display: none;
 }
 #product-card .snip1401 h3 {
-  margin: 135px -85px;
-  padding-right: 84px;
-  line-height: 1.1em;
-  font-weight: 900;
-  font-size: 1.3em;
-  color: var(--primary);
-  word-wrap: normal;
+  margin: 0px -79px;
+    padding-right: 84px;
+    line-height: 1.1em;
+    font-weight: 900;
+    font-size: 1.3em;
+    color: var(--primary);
+    word-wrap: normal;
 }
-#product-card .snip1401:hover h3, p{
+#product-card .snip1401 p {
+  font-size: 0.8em;
+    color: white;
+    margin-top: 0px;
+    /* margin-right: 50px; */
+    margin-left: -75px;
+    text-align: left;
+}
+#product-card .snip1401:hover h3{
   display: block;
 }
 #product-card .snip1401:hover .snip1401 h3{
   visibility:visible;
 }
-#product-card .snip1401 p {
-  font-size: 0.8em;
-  color: white;
+#product-card .snip1401:hover p{
+  display: block;
+}
+#product-card .snip1401:hover .snip1401 p{
+  visibility:visible;
 }
 #product-card .snip1401:hover img,
 #product-card .snip1401.hover img {

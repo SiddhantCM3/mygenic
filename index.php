@@ -194,6 +194,10 @@
 </section>
 
 
+<!--------------------Testimonials------------------------------------->
+<section id="testimonials" class="testimonials">
+  
+</section>
 <!--------------------contact-Form------------------------------------->
 <section id="contact-img" class="section-bg pb-4">
   <div class="container">

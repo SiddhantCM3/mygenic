@@ -10,12 +10,18 @@
         <div class="row">            
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
                 <h3 data-aos="fade-up" data-aos-delay="1000">Top Quality Product Is Always Our First Priority</h3>                
-                <p data-aos="fade-up" data-aos-delay="1000">The global pharmaceutical sector has been pressed to handle the supply of medicines and treatments in response to the coronavirus epidemic. Demands and supplies were severely limited in the initial months of the pandemic due to the installation of the lockdown. However, India, as the world’s largest provider of pharmaceuticals, has reduced limitations on pharmaceutical exports to developing countries, particularly in cases when certain medicines are in high demand.</p>
+                <p data-aos="fade-up" data-aos-delay="1000">Ensuring top quality products is crucial in the pharmaceutical industry, where the health and safety of patients depend on the efficacy and safety of the drugs they use. Mygenic Healthcare Private Limited, recognizes that quality is essential, and it is our top priority.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">Using medicine, technology, and assistance to lend a helping hand India’s MyGenic Healthcare helped to giving medical assistance to countries affected by COVID-19. India’s government also provided technical support to countries which are in need by assigning a fast reaction team in the event of an emergency. e-ITEC (Indian Technical & Economic Cooperation) has conducted a number of webinars around the country to explore the necessary measures for dealing and containing the epidemic by analyzing and exchanging experiences. The purpose of these webinars was to develop best practices by speaking with professionals from around the world.</p>
+                <p data-aos="fade-up" data-aos-delay="1000">To ensure top quality products, Mygenic Healthcare Private Limited follow strict regulations and guidelines set by regulatory bodies such as the FDA (Food and Drug Administration) and the WHO (World Health Organization). These guidelines set standards for the manufacturing processes, testing, and quality control of pharmaceutical products.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">In addition to following regulatory guidelines,  Mygenic Healthcare Private Limited also have their own quality control measures in place to ensure the quality of their products. This may include testing the raw materials and finished products to ensure that we meet specifications and conducting regular audits of our manufacturing facilities to identify areas for improvement.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">To maintain top quality products, we invest in research and development to stay up-to-date with the latest technology and advancements in the industry. We also ensure that our employees are well-trained and have the necessary skills and knowledge to perform their jobs effectively.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">Overall, ensuring top quality products is essential for pharmaceutical companies. By following regulatory guidelines and implementing our own quality control measures, we can ensure that our products are safe, effective, and meet the highest standards of quality.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\services\service5.png" alt="Quality Medicine Supplier" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
     </div>
@@ -24,14 +30,18 @@
         <div class="row">
             
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer 2.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\services\services4.png" alt="mygenic WHO & GMP Certified" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
                 <h3 data-aos="fade-up" data-aos-delay="1000">We are WHO & GMP Certified</h3>        
 
-                <p data-aos="fade-up" data-aos-delay="1000">MyGenic is a well-established corporation specializing in pharmaceutical wholesaler and exporter. Our company is dedicated to upholding social responsibility, core values, and extending its own support to society beyond commercial interests. As the top drug distributor and pharma distributor, the company is dedicated to alleviating mankind’s suffering and making medicines accessible to everybody at reasonable prices. We do so without discrimination, with the aim of improving the quality of medications.</p>
+                <p data-aos="fade-up" data-aos-delay="1000"><strong> WHO (World Health Organization) </strong> and <strong>GMP (Good Manufacturing Practice)</strong>  certification are both important certifications in the pharmaceutical industry.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">Employees in MyGenic are skilled and independent to decide their role in the decision making process for the company. Company believes in keeping transparency in business and within the organization too. This encourages teamwork, dedication, creative ideas and delegation and over all a good relation of employees within the company and business relation with that of consumers too.</p>
+                <p data-aos="fade-up" data-aos-delay="1000">WHO certification is awarded to pharmaceutical companies that meet the standards set by the World Health Organization. These standards are designed to ensure that pharmaceutical products are safe, effective, and of good quality. WHO certification is recognized globally and is considered a mark of excellence in the pharmaceutical industry.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">GMP certification is a set of guidelines established by regulatory bodies to ensure that pharmaceutical products are manufactured, tested, and controlled according to quality standards. GMP guidelines cover every aspect of the manufacturing process, including the raw materials, facilities, equipment, and personnel used. A company that is GMP certified has demonstrated that it meets these guidelines and is committed to maintaining the highest standards of quality in their products.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000"><strong>Mygenic Healthcare Private Limited is a company that is WHO and GMP certified. </strong>  This means that we have met the stringent standards set by these organizations and have demonstrated our commitment to producing safe, effective, and high-quality pharmaceutical products. These certifications are important for customers and regulatory bodies as they provide assurance that the products produced by Mygenic Healthcare Private Limited meet the highest standards of quality and safety.</p>
             </div>            
         </div>
     </div>
@@ -40,12 +50,18 @@
         <div class="row">            
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
                 <h3 data-aos="fade-up" data-aos-delay="1000">Crisis Supplies for COVID-19</h3>                
-                <p data-aos="fade-up" data-aos-delay="1000">The pharma producer in India provided personal protective equipment and many other drugs important in the treatment of coronavirus disease on a global scale, extending COVID-19-related medical support. Despite the crises and export limitations, India has supplied and continues to deliver medical help to over 90 countries throughout the world, establishing the country as a reputable supplier. As a result, the global healthcare sector recognizes and respects India’s contributions to doctors and humanity. Due to the rise of the ecommerce market, a medicine supply company have taken a significant step forward. Medicines are extremely vital in light of the ever-increasing need. Previously, you had to go to a certain market to buy pharmaceuticals, but now you can order them online. We are a reputable online medicine distributor with thousands of medicines to choose from.</p>
+                <p data-aos="fade-up" data-aos-delay="1000">The COVID-19 pandemic has created an unprecedented demand for medical supplies, including personal protective equipment (PPE) and medical devices such as ventilators. To help address the crisis, Mygenic Healthcare Private Limited, have shifted their focus towards manufacturing and supplying critical medical supplies for COVID-19.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">MyGenic has gradually but significantly expanded its reach both internationally and domestically as a prominent drug wholesaler. We are pharmaceutical makers and wholesalers with the ability to produce tablets, capsules, liquids, powder, ointments, and injectables, as well as parental products. With over ten years of experience as a pharmaceutical distributor, the company has established a reputation for quality and efficacy, and we work with clients from all over the world. With a wide range of medicines, MyGenic is India’s leading pharma wholesaler and supplier, and one of the country's top drug providers. We are a third-party manufacturer maker association-certified pharmacy with a wide range of pharmacy items and a supplier of over 300 different medicines.</p>
+                <p data-aos="fade-up" data-aos-delay="1000">Mygenic Healthcare Private Limited has been working tirelessly to produce and supply a range of medical supplies needed for COVID-19, such as face masks, hand sanitizers, and other PPE. They have also been involved in the production and supply of medical devices such as ventilators, which are crucial for the treatment of severe cases of COVID-19.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">To ensure that these critical supplies are available to those who need them, Mygenic Healthcare Private Limited has ramped up their production capacity and streamlined their supply chain to ensure a timely delivery of these products to hospitals and healthcare providers.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">In addition to producing and supplying these critical medical supplies, Mygenic Healthcare Private Limited has also been involved in COVID-19 research and development efforts, such as the development of COVID-19 vaccines and therapies. These efforts are crucial in the fight against the pandemic, and Mygenic Healthcare Private Limited is proud to be a part of them.</p>
+
+                <p data-aos="fade-up" data-aos-delay="1000">Overall, Mygenic Healthcare Private Limited has been playing a critical role in providing crisis supplies for COVID-19. By leveraging our expertise in the pharmaceutical industry and working closely with healthcare providers and regulatory bodies, we have been able to produce and supply essential medical supplies needed to fight the pandemic.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\services\service6.png" alt="mygenic Quality Medicine Supplier" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
     </div>

@@ -261,190 +261,190 @@
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    CONTRAST MEDIA
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">AMIDOTRIZOATE & DIATRIZOATE</li>
-                                            <li class="list-group-item">GADOBUTROL</li>
-                                            <li class="list-group-item">GADODIAMIDE</li>
-                                            <li class="list-group-item">GADOPENTETATE DIMEGLUMINE</li>
-                                            <li class="list-group-item">IODIXANOL</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                CONTRAST MEDIA
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">AMIDOTRIZOATE & DIATRIZOATE</li>
+                                        <li class="list-group-item">GADOBUTROL</li>
+                                        <li class="list-group-item">GADODIAMIDE</li>
+                                        <li class="list-group-item">GADOPENTETATE DIMEGLUMINE</li>
+                                        <li class="list-group-item">IODIXANOL</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    HEPATITIS C MEDICINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">DACLATASVIR DIHYDROCHLORIDE 60MG</li>
-                                            <li class="list-group-item">PEGYLATED INTERFERON ALFA 1A</li>
-                                            <li class="list-group-item">PEGYLATED INTERFERON ALFA 2B</li>
-                                            <li class="list-group-item">PEGYLATED INTERFERON ALFA-2B</li>
-                                            <li class="list-group-item">RIBAVIRIN 200MG</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                HEPATITIS C MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">DACLATASVIR DIHYDROCHLORIDE 60MG</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA 1A</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA 2B</li>
+                                        <li class="list-group-item">PEGYLATED INTERFERON ALFA-2B</li>
+                                        <li class="list-group-item">RIBAVIRIN 200MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    HORMONES MEDICINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">CHORIONIC GONADOTROPHIN 5000IU</li>
-                                            <li class="list-group-item">FOLLITROPIN BETA</li>
-                                            <li class="list-group-item">MENOTROPIN</li>
-                                            <li class="list-group-item">SOMATROPIN</li>
-                                            <li class="list-group-item">UROFOLLITROPIN</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                HORMONES MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CHORIONIC GONADOTROPHIN 5000IU</li>
+                                        <li class="list-group-item">FOLLITROPIN BETA</li>
+                                        <li class="list-group-item">MENOTROPIN</li>
+                                        <li class="list-group-item">SOMATROPIN</li>
+                                        <li class="list-group-item">UROFOLLITROPIN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    LIFE SAVING MEDICINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">ALBUMIN 20%</li>
-                                            <li class="list-group-item">Aprotinin (3000KIU) + Fibrinogen (70mg) + Thrombin (500IU)</li>
-                                            <li class="list-group-item">HUMAN NORMAL IMMUNOGLOBULIN 5GM</li>
-                                            <li class="list-group-item">SOMAINTERFERON BETA 1ATROPIN</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>  
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    NEPHROLOGY & KIDNEY MEDICINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">ANTI-THYMOCYTE GLOBULIN</li>
-                                            <li class="list-group-item">CYCLOSPORIN 100MG</li>
-                                            <li class="list-group-item">CYCLOSPORINE 25MG</li>
-                                            <li class="list-group-item">CYCLOSPORINE 50MG</li>
-                                            <li class="list-group-item">DARBEPOITIN ALPHA 100MCG</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                LIFE SAVING MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ALBUMIN 20%</li>
+                                        <li class="list-group-item">Aprotinin (3000KIU) + Fibrinogen (70mg) + Thrombin (500IU)</li>
+                                        <li class="list-group-item">HUMAN NORMAL IMMUNOGLOBULIN 5GM</li>
+                                        <li class="list-group-item">SOMAINTERFERON BETA 1ATROPIN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    NEW PRODUCTS
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">AMPHOTERICIN B</li>
-                                            <li class="list-group-item">CALCIUM LEUCOVORIN</li>
-                                            <li class="list-group-item">CETUXIMAB 500MG</li>
-                                            <li class="list-group-item">DABIGATRAN ETEXILATE 110MG</li>
-                                            <li class="list-group-item">DABIGATRAN ETEXILATE 150MG</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                NEPHROLOGY & KIDNEY MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ANTI-THYMOCYTE GLOBULIN</li>
+                                        <li class="list-group-item">CYCLOSPORIN 100MG</li>
+                                        <li class="list-group-item">CYCLOSPORINE 25MG</li>
+                                        <li class="list-group-item">CYCLOSPORINE 50MG</li>
+                                        <li class="list-group-item">DARBEPOITIN ALPHA 100MCG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    PHARMACEUTICAL MEDICINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">ABCIXIMAB</li>
-                                            <li class="list-group-item">ALBUMIN 20%</li>
-                                            <li class="list-group-item">ALL TRANCE RETIONIC ACID</li>
-                                            <li class="list-group-item">ALPHA KETOANALOGUES</li>
-                                            <li class="list-group-item">AMBRISENTAN</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                NEW PRODUCTS
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">AMPHOTERICIN B</li>
+                                        <li class="list-group-item">CALCIUM LEUCOVORIN</li>
+                                        <li class="list-group-item">CETUXIMAB 500MG</li>
+                                        <li class="list-group-item">DABIGATRAN ETEXILATE 110MG</li>
+                                        <li class="list-group-item">DABIGATRAN ETEXILATE 150MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    PSORIASIS MEDICINE
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">APREMILAST</li>
-                                            <li class="list-group-item">SECUKINUMAB 150MG</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                PHARMACEUTICAL MEDICINES
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ABCIXIMAB</li>
+                                        <li class="list-group-item">ALBUMIN 20%</li>
+                                        <li class="list-group-item">ALL TRANCE RETIONIC ACID</li>
+                                        <li class="list-group-item">ALPHA KETOANALOGUES</li>
+                                        <li class="list-group-item">AMBRISENTAN</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    SKIN & COSMETOLOGY
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">BOTULINUM TOXIN TYPE A</li>
-                                            <li class="list-group-item">CLOSTRIDIUM BOLULINUM TYPE A</li>
-                                            <li class="list-group-item">HYALURONIC ACID 15MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
-                                            <li class="list-group-item">HYALURONIC ACID 24MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                PSORIASIS MEDICINE
+                                </button>
+                            </h2>
+                            <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">APREMILAST</li>
+                                        <li class="list-group-item">SECUKINUMAB 150MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    VACCINES
-                                    </button>
-                                </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">ANTI SNAKE VENON</li>
-                                            <li class="list-group-item">HAEMOPHILUS TYPE B CONJUGATE</li>
-                                            <li class="list-group-item">HEPATITIS A VACCINE</li>
-                                            <li class="list-group-item">HEPATITIS B VACCINE (RDNA)</li>
-                                            <li class="list-group-item">HUMAN PAPILLOMAVIRUS 9 - VALENT VACCINE, RECOMBINANT</li>
-                                            <li class="list-group-item">And Much More...</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFifteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                SKIN & COSMETOLOGY
+                                </button>
+                            </h2>
+                            <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">BOTULINUM TOXIN TYPE A</li>
+                                        <li class="list-group-item">CLOSTRIDIUM BOLULINUM TYPE A</li>
+                                        <li class="list-group-item">HYALURONIC ACID 15MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
+                                        <li class="list-group-item">HYALURONIC ACID 24MG & LIDOCAIN HYDROCHLORIDE 3MG</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
                                 </div>
                             </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSixteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                                VACCINES
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ANTI SNAKE VENON</li>
+                                        <li class="list-group-item">HAEMOPHILUS TYPE B CONJUGATE</li>
+                                        <li class="list-group-item">HEPATITIS A VACCINE</li>
+                                        <li class="list-group-item">HEPATITIS B VACCINE (RDNA)</li>
+                                        <li class="list-group-item">HUMAN PAPILLOMAVIRUS 9 - VALENT VACCINE, RECOMBINANT</li>
+                                        <li class="list-group-item">And Much More...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </ul>
                 </div>

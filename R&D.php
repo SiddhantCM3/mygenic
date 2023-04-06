@@ -17,7 +17,7 @@
                 <p data-aos="fade-up" data-aos-delay="1000">We, at MyGenic, work persistently towards the production of apex quality generic products, branded generics, specialty products, active pharmaceutical ingredients and nutraceuticals, which are marketed in India as well as globally.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\r&d 1.jpg" alt="mygenic r&d" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
         <div class="row">
             
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer 2.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\r&d 2.jpg" alt="mygenic r&d" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <h3 data-aos="fade-up" data-aos-delay="1000">RESEARCH FACILITIES</h3>        
@@ -49,7 +49,7 @@
 
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\contract manufacturer.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                <img src="assets\img\r&d 3.jpg" alt="mygenic award" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
 
@@ -76,7 +76,9 @@
                 </div>
 
                 <div id="Project2" class="tabcontent">
-                    <img src="https://i.pinimg.com/564x/7c/9d/36/7c9d36c29e3df7c82b89fbe73f3779e9.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    <div class="zoom">
+                        <img src="https://i.pinimg.com/564x/7c/9d/36/7c9d36c29e3df7c82b89fbe73f3779e9.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    </div>                    
                     <p class="fs-6 fw-bold">Project 2</p>
                     <p>Lorem ipsum dolor sit amet..</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos animi quaerat omnis, reiciendis velit corporis pariatur facere exercitationem suscipit itaque ipsa eum dignissimos consectetur deleniti cumque ad quibusdam eaque unde sint, tempore voluptas? Tenetur!</p>
@@ -86,7 +88,9 @@
                 </div>
 
                 <div id="Project3" class="tabcontent">
-                    <img src="https://i.pinimg.com/564x/f6/91/d7/f691d726cd46fe6d9fd27608f7bdbe80.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    <div class="zoom">
+                        <img src="https://i.pinimg.com/564x/f6/91/d7/f691d726cd46fe6d9fd27608f7bdbe80.jpg" alt="mygenic contract manufacturer" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    </div>
                     <p class="fs-6 fw-bold">Project 3</p>
                     <p>Lorem ipsum dolor sit amet..</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos animi quaerat omnis, reiciendis velit corporis pariatur facere exercitationem suscipit itaque ipsa eum dignissimos consectetur deleniti cumque ad quibusdam eaque unde sint, tempore voluptas? Tenetur!</p>
