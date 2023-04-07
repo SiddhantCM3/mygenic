@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 intro-img">
-        <img src="assets\img\about_img01.png" alt="" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+        <img src="assets\img\experience.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
       </div>
     </div>    
   </div>
@@ -67,15 +67,15 @@
   <div class="container">
 
     <figure class="snip1401">
-      <img src="assets\img\products\pharmaceutical_tablets.png" alt="sample67" class="img-fluid" />
+      <img src="assets\img\BULK-PHARMA-EXPORT.jpg" alt="bulk pharma export" class="img-fluid" />
       <figcaption>
-        <h3>Hospital Supplies</h3>
-        <p>Medical equipment and materials provision.</p>
+        <h3>Bulk Pharma Export</h3>
+        <p>Export of pharmaceutical products in large quantities.</p>
       </figcaption>
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\products\pharmaceutical_injections.png" alt="sample67" class="img-fluid" />
+      <img src="assets\img\government supplies.jpg" alt="Government Supplies" class="img-fluid" />
       <figcaption>
         <h3>Government Supplies</h3>
         <p>Public sector procurement and distribution.</p>
@@ -83,7 +83,7 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\products\pharmaceutical_tablets-2.png" alt="sample67" class="img-fluid" />
+      <img src="assets\img\CONTRACT-MANUFACTURE.jpg" alt="Contract Manufacturer" class="img-fluid" />
       <figcaption>
         <h3>Contract Manufacturer</h3>
         <p>Outsourced manufacturing services provider.</p>
@@ -91,7 +91,7 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\products\anti_cancer_injections.png" alt="sample67" class="img-fluid" />
+      <img src="assets\img\COLD-CHAIN-SHIPPING.jpg" alt="Cold Chain Shipping" class="img-fluid" />
       <figcaption>
         <h3>Cold Chain Shipping</h3>
         <p>Temperature-controlled transport of goods.</p>
@@ -99,10 +99,10 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\products\anti_cancer_capsule.png" alt="sample67" class="img-fluid" />
+      <img src="assets\img\HOSPITAL-SUPPLIES.jpg" alt="Hospital Supplies" class="img-fluid" />
       <figcaption>
-        <h3>Bulk Pharma Export</h3>
-        <p>Export of pharmaceutical products in large quantities.</p>
+        <h3>Hospital Supplies</h3>
+        <p>Medical equipment and materials provision.</p>
       </figcaption>
     </figure>
         
@@ -196,63 +196,112 @@
 
 <!--------------------Testimonials------------------------------------->
 <section id="testimonials" class="testimonials">
-  
+<div class="section-head pb-5">
+    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Testimonials</h2>
+  </div>
+<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card d-flex mx-auto">
+                        <div class="card-image">
+                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/3TlwnLF.jpg">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title">Lorem Ipsum!</div>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                            Maecenas nec odio et ante tincidunt tempus
+                            Duis leo. Donec sodales sagittis magna
+                        </div>
+                        <div class="footer">
+                            <span id="name">Micheal Smith<br></span>
+                            <span id="position">CEO of <a href="#">Google.com</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card d-flex mx-auto">
+                        <div class="card-image">
+                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/Uz4FjGZ.jpg">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title">Lorem Ipsum!</div>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                            Maecenas nec odio et ante tincidunt tempus
+                            Duis leo. Donec sodales sagittis magna
+                        </div>
+                        <div class="footer">
+                            <span id="name">Angellia Miller<br></span>
+                            <span id="position">CEO of <a href="#">Facebook.com</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card d-flex mx-auto ">
+                        <div class="card-image">
+                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/udGH5tO.jpg">
+                        </div>
+                        <div class="card-text">
+                            <div class="card-title">Lorem Ipsum!</div>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                            Maecenas nec odio et ante tincidunt tempus
+                            Duis leo. Donec sodales sagittis magna
+                        </div>
+                        <div class="footer">
+                            <span id="name">Christina Williams<br></span>
+                            <span id="position">UX Designer at <a href="#">Youtube.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
-<!--------------------contact-Form------------------------------------->
-<section id="contact-img" class="section-bg pb-4">
-  <div class="container">
-    <div class="section-head">
-      <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>CONTACT </span>US</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
-        <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="1000">REACH US</h3>
-        <P data-aos="zoom-out" data-aos-delay="1000">My Genic healthcare private limited</P>
-        <P data-aos="zoom-out" data-aos-delay="1000">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
-        <P data-aos="zoom-out" data-aos-delay="1000">Namrata Patil (Manager)</P>
-        <P data-aos="zoom-out" data-aos-delay="1000">Call- 08043851554</P>
-        <div data-aos="zoom-out" data-aos-delay="1000">
-        </div>
-        <br>
-        <div class="social-icons"data-aos="zoom-out" data-aos-delay="1000">
-          <p class="text-capitalize fw-bold">Share Us Via</p>
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-whatsapp"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-twitter"></i></a>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
-        <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="1000"> GET IN TOUCH WITH US</h3>
-        <form>
-          <div class="form-group" data-aos="fade-up" data-aos-delay="1000">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12">
-                  <input type="text" name="fname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name"><br>
-                </div>
-                <div class="col-lg-12">
-                  <input type="email"  name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"><br>
-                </div>
-                <div class="col-lg-12">
-                  <input type="phone" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone No."><br>
-                </div>
-                <div class="col-lg-12">
-                  <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject"><br>
-                </div>
-                <div class="col-lg-12">
-                  <input type="text" name="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message"><br>
-                </div>
-                <button type="button" class="btn btn-lg">SEND MASSAGE</button>
-              </div>
+
+<!--------------------Clientels------------------------------------->
+<section id="clientel">
+  <div class="section" style=" background-color:#ffffff">
+    <div class="section_wrapper clearfix">
+      <div class="items_group clientslogo clearfix">
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+          <div class="col-lg-12">
+            <div class="row" style=" flex-wrap: nowrap;">
+              <img src="assets\img\clientels\GLENMARK.png">
+              <img src="assets\img\clientels\BRISTOL.png">
+              <img src="assets\img\clientels\zydus.png">
+              <img src="assets\img\clientels\LILLY.png">
+              <img src="assets\img\clientels\RELIANCE.png">
+              <img src="assets\img\clientels\astrazeneca-logo.png">
+              <img src="assets\img\clientels\bayer.png">
+              <img src="assets\img\clientels\SANOFI.png">
+              <img src="assets\img\clientels\NOVARTIS.png">
+              <img src="assets\img\clientels\BOEHRINGER.png">
+              <img src="assets\img\clientels\natco.png">
+              <img src="assets\img\clientels\MSD.png">
+              <img src="assets\img\clientels\LUPIN.png">
+              <img src="assets\img\clientels\janseen.png">
+              <img src="assets\img\clientels\DR.REDDY.png">
+              <img src="assets\img\clientels\fresenius kabi.png">
+              <img src="assets\img\clientels\ROCHE.png">
+              <img src="assets\img\clientels\bharat serum.png">
+              <img src="assets\img\clientels\biocon.png">
+              <img src="assets\img\clientels\MYLAN.png">
+              <img src="assets\img\clientels\WOCKHARDT.png">
+              <img src="assets\img\clientels\CIPLA.png">
+              <img src="assets\img\clientels\biochem.png">
+              <img src="assets\img\clientels\gsk.png">
+              <img src="assets\img\clientels\PANACEA.svg">
+              <img src="assets\img\clientels\HETERO.png">
+              <img src="assets\img\clientels\EMCURE.png">
+              <img src="assets\img\clientels\INTAS.png">
+              <img src="assets\img\clientels\GILEAD.svg">
             </div>
           </div>
-        </div>
-      </form>
+        </marquee>
+      </div>
     </div>
   </div>
 </section>
-
-
 
 <?php include("footer.php")?>

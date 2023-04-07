@@ -357,65 +357,34 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                        <img src="assets\img\products\pharmaceutical_tablets.png" width="70%"alt="" class="mx-auto d-block">
+            <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <!-- Topic Cards -->
+                <div id="cards_landscape_wrap-2">
+                    <div class="items">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title uppercase">ALECENSA 150MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\alecensa-150mg-500x500.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg">
+                            </div>
+                            <p class="text-end z-3 pe-2 capitalized">-by roche products india pvt ltd.</p>
+                        </div>
                     </div>
-                    <div class="col-7">
-                        <p class="fl">Pharmaceutical Tablets</p>
-                        <p>Pioneers in the industry, we offer Afatinib Dimaleate Tablets, Tenofovir Alafenamide Tablets, Tenofovir Alafenamide and Emtricitabine Tablets, Emtricitabine and Tenofovir Alafenamide Tablets, Dolutegravir Emtricitabine and Tenofovir Alafenamide Tablets and Azacitidine Tablets from India.</p>
-                        <!-- <button class="btn">View More</button> -->
-                    </div>
-                </div>
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                    <img src="assets\img\products\pharmaceutical_injections.png" width="70%"alt="" class="mx-auto d-block">
-                    </div>
-                    <div class="col-7">
-                        <p class="fl">Pharmaceutical Injection</p>
-                        <p>Providing you the best range of Degarelix For Injection, Carfilzomib For Injection, L-Asparaginase For Injection, Bleomycin Injection IP and Arsenic Trioxide Injection with effective & timely delivery.</p>
-                        <!-- <button class="btn">View More</button> -->
-                    </div>
-                </div>
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                    <img src="assets\img\products\anti_cancer_injections.png" width="70%"alt="" class="mx-auto d-block">
-                    </div>
-                    <div class="col-7">
-                        <p class="fl">Anti Cancer Injection</p>
-                        <p>Our range of products include Romiplostim Powder and Solvent For Solution For Injection, Peg L-Asparaginase Injection, Mitoxantrone Injection USP, Azacitidine For Injection and Mitomycin Injection IP.</p>
-                        <!-- <button class="btn">View More</button> -->
-                    </div>
-                </div>
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                    <img src="assets\img\products\anti_cancer_capsule.png" width="70%"alt="" class="mx-auto d-block">
-                    </div>
-                    <div class="col-7">
-                        <p class="fl">Anti Cancer Capsules</p>
-                        <p>Prominent & Leading Exporter from Raigad, we offer Exemestane Tablets IP, Etoposide Capsule USP, Lenvatinib Capsules and Enzalutamide Capsules.</p>
-                        <!-- <button class="btn">View More</button> -->
-                    </div>
-                </div>
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                    <img src="assets\img\products\pharmaceutical_tablets-2.png" width="70%"alt="" class="mx-auto d-block">
-                    </div>
-                    <div class="col-7">
-                        <p class="fl">Pharmaceutical Tablet</p>
-                        <p>Our range of products include Lamivudine Stavudine and Nevirapine Tablets IP, Qvir Tablet Kit, Methotrexate Tablets IP, Imatinib Tablets IP and Imatinib Tablets.</p>
-                        <!-- <button class="btn">View More</button> -->
-                    </div>
-                </div>
-                <div class="row pt-3 pb-3 item">
-                    <div class="col-5">
-                    <img src="assets\img\products\new_item.png" width="70%"alt="" class="mx-auto d-block">
-                    </div>
-                    <div class="col-7">
-                        <p class="fl">New Items</p>
-                        <p>We are a leading Exporter of Urografin Injection and from Raigad, India.</p>
-                        <!-- <button class="btn">View More</button> -->
+                    <div class="items">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">CANTRET CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
+                        </div>
                     </div>
                 </div>
             </div>
