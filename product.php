@@ -24,14 +24,14 @@
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">ALECTINIB 150MG</li>
-                                        <li class="list-group-item">ALTRETAMINE</li>
-                                        <li class="list-group-item">APREPITANT 125/80MG</li>
-                                        <li class="list-group-item">CERITINIB 150MG</li>
-                                        <li class="list-group-item">CRIZOTINIB 250MG</li>
-                                        <li class="list-group-item">DIMETHYL FUMARATE 120MG</li>
-                                        <li class="list-group-item">DIMETHYL FUMARATE 240MG</li>
-                                        <li class="list-group-item">ENZALUTAMIDE 40MG</li>
+                                        <li class="list-group-item"><a href="#cat1">ALECTINIB 150MG</a></li>
+                                        <li class="list-group-item"><a href="#cat2">ALTRETAMINE</a></li>
+                                        <li class="list-group-item"><a href="#cat3">APREPITANT 125/80MG</a></li>
+                                        <li class="list-group-item"><a href="#cat4">CERITINIB 150MG</a></li>
+                                        <li class="list-group-item"><a href="#cat5">CRIZOTINIB 250MG</a></li>
+                                        <li class="list-group-item"><a href="#cat6">DIMETHYL FUMARATE 120MG</a></li>
+                                        <li class="list-group-item"><a href="#cat7">DIMETHYL FUMARATE 240MG</a></li>
+                                        <li class="list-group-item"><a href="#cat8">ENZALUTAMIDE 40MG</a></li>
                                         <li class="list-group-item">ESTRAMUSTINE 140MG</li>
                                         <li class="list-group-item">ETOPOSIDE 50MG</li>
                                         <li class="list-group-item">HYDROXYUREA 500MG</li>
@@ -360,7 +360,7 @@
             <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <!-- Topic Cards -->
                 <div id="cards_landscape_wrap-2">
-                    <div class="items">
+                    <div class="items" id="cat1">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                <a href="#">
@@ -373,7 +373,8 @@
                             <p class="text-end z-3 pe-2 capitalized">-by roche products india pvt ltd.</p>
                         </div>
                     </div>
-                    <div class="items">
+
+                    <div class="items" id="cat2">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                <a href="#">
@@ -384,6 +385,90 @@
                                 <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
                             </div>
                             <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">APRECAP CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by GLENMARK PHARMACEUTICALS LTD.</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">NOXALK 150MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by NATCO PHARMA LIMITED</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat5">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">CRIZALK 250MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by PFIZER PRODUCTS INDIA PVT. LTD.</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat6">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">TECFIDERA 120MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by EISAI PHARMACEUTICALS INDIA PVT. LTD.</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat7">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">TECFIDERA 240MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by EISAI PHARMACEUTICALS INDIA PVT. LTD.</p>                    
+                        </div>
+                    </div>
+
+                    <div class="items" id="cat8">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                               <a href="#">
+                                <h5 class="card-title">BDENZA 40MG CAPSULE</h5>
+                               </a>
+                            </div>
+                            <div class="card-img">
+                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
+                            </div>
+                            <p class="text-end z-3 pe-2 text-capitalize">-by BDR PHARMACEUTICALS INTL PVT. LTD. </p>                    
                         </div>
                     </div>
                 </div>
