@@ -74,6 +74,9 @@
                             <a class="nav-link underline" href="about.php" style="color:#048a9a">About Us</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link underline" href="view-products.php" style="color:#048a9a">View Products</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link underline" href="product.php" style="color:#048a9a">Our Products</a>
                         </li>
                         <li class="nav-item dropdown">
