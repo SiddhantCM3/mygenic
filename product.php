@@ -359,103 +359,45 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div id="cards_landscape_wrap-2">
+                <?php
+           require 'Admin/connect.php';
+            
+           $sql = "SELECT * FROM `crud`";
+           $result = mysqli_query($conn,$sql);
+           $check_crud = mysqli_num_rows($result) > 0;
 
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <a href="alecensa-150mg-capsule.php" target="_blank">
-                                    <div class="productImage" id="" onclick="revealDescription()">
-                                        <div class="items" id="cat1">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="img-title">
-                                                    <h5 class="card-title">CANTRET CAPSULE</h5>
-                                                </div>
-                                                <div class="card-img">
-                                                    <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                                </div>
-                                                <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="productDescription" style="display: none;" onclick="stopPropagation(event)">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+           if($check_crud)
+           {
+              while($row = mysqli_fetch_array($result))
+              {
+                ?>
+            <div class="col-md-4">
+               <div class="card" style="width: 18rem;">
+                     <?php echo '<img class="card-img-top" src="admin_panel\Images'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
                     </div>
-                    
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <div class="productImage" id="" onclick="revealDescription()">
-                                    <div class="items" id="cat2">
-                                        <div class="card" style="width: 18rem;">
-                                            <div class="img-title">
-                                                <h5 class="card-title">CANTRET CAPSULE</h5>
-                                            </div>
-                                            <div class="card-img">
-                                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\APRECAP CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                            </div>
-                                            <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="productDescription" style="display: none;">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <div class="productImage" id="" onclick="revealDescription()">
-                                    <div class="items" id="cat2">
-                                        <div class="card" style="width: 18rem;">
-                                            <div class="img-title">
-                                                <h5 class="card-title">CANTRET CAPSULE</h5>
-                                            </div>
-                                            <div class="card-img">
-                                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\APRECAP CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                            </div>
-                                            <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="productDescription" style="display: none;">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Product Chemical:</b> <?php echo $row['product_chemical']; ?></li>
+                        <li class="list-group-item"><b>Product Form:</b> <?php echo $row['product_form']; ?></li>
+                        <li class="list-group-item"><b>Company Name:</b> <?php echo $row['company_name']; ?></li>
+                        <li class="list-group-item"><b>Product Storage:</b> <?php echo $row['product_storage']; ?></li>
+                        <li class="list-group-item"><b>Product Packing:</b> <?php echo $row['product_packing']; ?></li>
+                        <li class="list-group-item"><b>Product Category:</b> <?php echo $row['product_category']; ?></li>
+                    </ul>
+               </div>
+           </div>
+                <?php
+                
+              }
+           }
+           else
+           {
+
+           }
+
+        ?>
 
                 </div>
             </div>
