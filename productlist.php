@@ -1,14 +1,4 @@
-<?php include("header.php"); ?>
-<?php include("carousel.php"); ?>
-
-<section id="product" class="section-bg">
-    <div class="container">
-        <div class="section-head">
-            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>our </span>products</h2>
-        </div>
-        <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Pharmaceutical Tablets And Pharmaceutical Injections</p>
-        <div class="row pt-3">
-            <div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+<div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <ul class="list-group border border-dark rounded-0">
                     <li class="list-group-item list-heading" aria-current="true">
                         <h3 class="text-white">Our Products</h3>
@@ -24,9 +14,9 @@
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item"><a href="#cat1">ALECTINIB 150MG</a></li>
-                                        <li class="list-group-item"><a href="#cat2">ALTRETAMINE</a></li>
-                                        <li class="list-group-item"><a href="#cat3">APREPITANT 125/80MG</a></li>
+                                        <li class="list-group-item"><a href="alectinib-150mg.php">ALECTINIB 150MG</a></li>
+                                        <li class="list-group-item"><a href="altretamine.php">ALTRETAMINE</a></li>
+                                        <li class="list-group-item"><a href="aprepitant-125-80mg.php">APREPITANT 125/80MG</a></li>
                                         <li class="list-group-item"><a href="#cat4">CERITINIB 150MG</a></li>
                                         <li class="list-group-item"><a href="#cat5">CRIZOTINIB 250MG</a></li>
                                         <li class="list-group-item"><a href="#cat6">DIMETHYL FUMARATE 120MG</a></li>
@@ -357,117 +347,3 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <div id="cards_landscape_wrap-2">
-
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <a href="alecensa-150mg-capsule.php" target="_blank">
-                                    <div class="productImage" id="" onclick="revealDescription()">
-                                        <div class="items" id="cat1">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="img-title">
-                                                    <h5 class="card-title">CANTRET CAPSULE</h5>
-                                                </div>
-                                                <div class="card-img">
-                                                    <img src="assets\img\product-page\ANTI CANCER CAPSULES\CANTRET CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                                </div>
-                                                <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="productDescription" style="display: none;" onclick="stopPropagation(event)">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <div class="productImage" id="" onclick="revealDescription()">
-                                    <div class="items" id="cat2">
-                                        <div class="card" style="width: 18rem;">
-                                            <div class="img-title">
-                                                <h5 class="card-title">CANTRET CAPSULE</h5>
-                                            </div>
-                                            <div class="card-img">
-                                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\APRECAP CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                            </div>
-                                            <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="productDescription" style="display: none;">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="new-card" style="display: inline-block;">
-                        <div class="card" style="max-width: 540px;">
-                            <div class="card-row d-flex">
-                                <div class="productImage" id="" onclick="revealDescription()">
-                                    <div class="items" id="cat2">
-                                        <div class="card" style="width: 18rem;">
-                                            <div class="img-title">
-                                                <h5 class="card-title">CANTRET CAPSULE</h5>
-                                            </div>
-                                            <div class="card-img">
-                                                <img src="assets\img\product-page\ANTI CANCER CAPSULES\APRECAP CAPSULE.jpg" class="card-img-top" alt="ANTI CANCER CAPSULES alecensa-150mg"> 
-                                            </div>
-                                            <p class="text-end z-3 pe-2 text-capitalize">-by natco pharma limited</p>                    
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="productDescription" style="display: none;">
-                                    <div class="card-body">
-                                        <button type="button" class="btn-close closeButton" onclick="hideDescription()" aria-label="Close" style="float:right" id=""></button>
-                                        <!-- <h5 class="card-title">ALECENSA 150MG CAPSULE</h5> -->
-                                        <p><strong>Product Chemical: </strong>ALECTINIB 150MG</p>
-                                        <p><strong>Product Form: </strong>CAPSULE</p>
-                                        <p><strong>Company Name : </strong>ROCHE PRODUCTS INDIA PVT LTD.</p>
-                                        <p><strong>Product Storage : </strong></p>
-                                        <p><strong>Product Packing : </strong>224 CAPSULE</p>
-                                        <p><strong>Product Category : </strong>ANTI CANCER CAPSULES</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-<?php include("footer.php")?>

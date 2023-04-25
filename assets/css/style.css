@@ -447,13 +447,13 @@ background: white;
   flex-wrap: wrap;
   justify-content: center;
 }
-#product #cards_landscape_wrap-2 .items{
-  margin: 20px;
-}
-#product #cards_landscape_wrap-2 .card-body{
+#product #cards_landscape_wrap-2 .img-title{
   background-color: var(--primary);
   color: white;
   text-align: center;
+  display: grid;
+  place-content: center;
+  height: 40px ;
 }
 #product #cards_landscape_wrap-2 .card-img{
   overflow: hidden;
@@ -462,7 +462,10 @@ background: white;
   transition: transform .5s ease;
 }
 #product #cards_landscape_wrap-2 .card-img:hover img{
-  transform: scale(1.1);
+  transform: scale(1.5);
+}
+#product #cards_landscape_wrap-2 .new-card{
+  margin: 5px;
 }
 
 /*About us*/
@@ -1497,4 +1500,18 @@ animation: float 6s ease-in-out infinite;
   width: 10%;
   aspect-ratio: 3/2;
   object-fit: contain;
+}
+
+
+
+.new-card {
+  cursor: pointer;
+  display: inline-block;
+}
+/* .new-card .productDescription{
+  display: none;
+} */
+
+.btn-close:focus {
+  box-shadow: none;
 }
