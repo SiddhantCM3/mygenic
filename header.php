@@ -11,6 +11,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/card.scss">
+    <link rel="stylesheet" href="assets/css/viewproducts.css">
     
     <!-- External javascript -->
     <script src="assets/js/script.js"></script>

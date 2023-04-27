@@ -359,7 +359,7 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div id="cards_landscape_wrap-2">
-                            <?php
+                <?php
                     require 'Admin/connect.php';
                         
                     $sql = "SELECT * FROM `crud`";
@@ -372,23 +372,18 @@
                         {
                             ?>
                         <div class="col-md-6">
-                        <div class="card" style="width: 18rem;">
-                                <?php echo '<img class="card-img-top" src="admin_panel\Images'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                        <a href="view-products.php?parent_id=<?php echo $row['parent_id']; ?>">
+                            <div class="card" style="width: 18rem;">
+                                    <?php echo '<img class="card-img-top" src="admin_panel\Images'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 
-                                <div class="card-body">
-                                    <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><b>Product Chemical:</b> <?php echo $row['product_chemical']; ?></li>
-                                    <li class="list-group-item"><b>Product Form:</b> <?php echo $row['product_form']; ?></li>
-                                    <li class="list-group-item"><b>Company Name:</b> <?php echo $row['company_name']; ?></li>
-                                    <li class="list-group-item"><b>Product Storage:</b> <?php echo $row['product_storage']; ?></li>
-                                    <li class="list-group-item"><b>Product Packing:</b> <?php echo $row['product_packing']; ?></li>
-                                    <li class="list-group-item"><b>Product Category:</b> <?php echo $row['product_category']; ?></li>
-                                    <li class="list-group-item"><b>Parent ID:</b> <?php echo $row['parent_id']; ?></li>
-                                </ul>
-                        </div>
-                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><b> View More </b></li>
+                                    </ul>
+                            </div>
+                        </a> </div>
                             <?php
                             
                         }
@@ -398,8 +393,7 @@
 
                     }
 
-                    ?>
-
+                ?>
                 </div>
             </div>
         </div>
