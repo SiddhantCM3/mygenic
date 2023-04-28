@@ -4,11 +4,11 @@
 <section id="product" class="section-bg">
     <div class="container">
         <div class="section-head">
-            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>our </span>products</h2>
+            <h2 class="text-center" ><span>our </span>products</h2>
         </div>
-        <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Pharmaceutical Tablets And Pharmaceutical Injections</p>
+        <p class="text-center" >Pharmaceutical Tablets And Pharmaceutical Injections</p>
         <div class="row pt-3">
-            <div class="col-lg-4 col-md-4 col-sm-12 mt-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="col-lg-4 col-md-4 col-sm-12 mt-2"  >
                 <ul class="list-group border border-dark rounded-0">
                     <li class="list-group-item list-heading" aria-current="true">
                         <h3 class="text-white">Our Products</h3>
@@ -357,7 +357,7 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="col-lg-8 col-md-8 col-sm-12" >
                 <div id="cards_landscape_wrap-2">
                 <?php
                     require 'Admin/connect.php';
@@ -374,14 +374,11 @@
                         <div class="col-md-6">
                         <a href="view-products.php?parent_id=<?php echo $row['parent_id']; ?>">
                             <div class="card" style="width: 18rem;">
-                                    <?php echo '<img class="card-img-top" src="admin_panel\Images'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                                    <?php echo '<img class="card-img-top" style="object-fit:contain;" src="./Admin/upload/'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 
                                     <div class="card-body">
                                         <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item"><b> View More </b></li>
-                                    </ul>
                             </div>
                         </a> </div>
                             <?php

@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 
     $ProductImage = $_FILES['product_image']['name'];
     
-    if(file_exists("../upload".$_FILES["product_image"]["name"]))
+    if(file_exists("./upload/".$_FILES["product_image"]["name"]))
     {
         $store = $_FILES["product_image"]["name"];
         $_SESSION['status'] = "Image already exist.'.$store.'";
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
         $result=mysqli_query($conn,$sql);
         if($result){
 
-            move_uploaded_file($_FILES["product_image"]["tmp_name"], "admin_panel\Images".$_FILES["product_image"]["name"]);
+            move_uploaded_file($_FILES["product_image"]["tmp_name"], "./upload/".$_FILES["product_image"]["name"]);
             $_SESSION['success'] = "data upload successfully";
             header('location:viewproducts.php');
         }
