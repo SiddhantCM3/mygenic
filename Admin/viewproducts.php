@@ -36,8 +36,8 @@ include ('connect.php');
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
-                <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
+                <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
+                <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
               </ul>
             </li>
          </ul>
@@ -51,47 +51,47 @@ include ('connect.php');
         <thead>
                 <tr>
                 <th scope="col">id</th>
-                <th scope="col">product_image</th>
-                <th scope="col">product_name</th>
-                <th scope="col">product_chemical</th>
-                <th scope="col">product_form</th>
-                <th scope="col">company_name</th>
-                <th scope="col">product_storage</th>
-                <th scope="col">product_packing</th>
-                <th scope="col">product_category</th>
-                <th scope="col">parent_id</th>
+                <th scope="col">Product_Image</th>
+                <th scope="col">Product_Name</th>
+                <th scope="col">Product_Chemical</th>
+                <th scope="col">Product_Form</th>
+                <th scope="col">Company_Name</th>
+                <th scope="col">Product_Storage</th>
+                <th scope="col">Product_Packing</th>
+                <th scope="col">Product_Category</th>
+                <th scope="col">Parent_Id</th>
                 <th scope="col">Operations</th>
                 </tr>
         </thead>
         <tbody>
             <?php
 
-            $sql="Select * from `products`";
+            $sql="SELECT * FROM `products`";
             $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
                     $id=$row['id'];
-                    $product_image=$row['product_image'];
-                    $product_name=$row['product_name'];
-                    $product_chemical=$row['product_chemical'];
-                    $product_form=$row['product_form'];
-                    $company_name=$row['company_name'];
-                    $product_storage=$row['product_storage'];
-                    $product_packing=$row['product_packing'];
-                    $product_category=$row['product_category'];
-                    $parent_id=$row['parent_id'];
+                    $Product_Image=$row['product_image'];
+                    $Product_Name=$row['product_name'];
+                    $Product_Chemical=$row['product_chemical'];
+                    $Product_Form=$row['product_form'];
+                    $Company_Name=$row['company_name'];
+                    $Product_Storage=$row['product_storage'];
+                    $Product_Packing=$row['product_packing'];
+                    $Product_Category=$row['product_category'];
+                    $Parent_Id=$row['parent_id'];
 
                     echo '<tr>
                             <td scope="row">'.$id.'</td>
-                            <td>'.$product_image.'</td>
-                            <td>'.$product_name.'</td>
-                            <td>'.$product_chemical.'</td>
-                            <td>'.$product_form.'</td>
-                            <td>'.$company_name.'</td>
-                            <td>'.$product_storage.'</td>
-                            <td>'.$product_packing.'</td>
-                            <td>'.$product_category.'</td>
-                            <td>'.$parent_id.'</td>
+                            <td>'.$Product_Image.'</td>
+                            <td>'.$Product_Name.'</td>
+                            <td>'.$Product_Chemical.'</td>
+                            <td>'.$Product_Form.'</td>
+                            <td>'.$Company_Name.'</td>
+                            <td>'.$Product_Storage.'</td>
+                            <td>'.$Product_Packing.'</td>
+                            <td>'.$Product_Category.'</td>
+                            <td>'.$Parent_Id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>

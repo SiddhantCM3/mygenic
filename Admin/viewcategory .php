@@ -1,5 +1,5 @@
 <?php
-include 'connect.php'
+include_once 'connect.php';
 ?>
 
 <!doctype html>
@@ -14,83 +14,64 @@ include 'connect.php'
  <div class="container-fluid float-right">
     <!-----------------Navbar------------------------>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  #39A6A3;">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="home.php">MyGenic</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.php">Dashboard</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="addproducts.php">Add Product</a></li>
-                <li><a class="dropdown-item" href="viewproducts.php">View Products</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="Category\addcategory.php">Add Category</a></li>
-                <li><a class="dropdown-item" href="Category\viewcategory.php">View Category</a></li>
-              </ul>
-            </li>
-         </ul>
-       </div>
-     </div>        
-   </nav>
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="home.php">MyGenic</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                     Categories
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
+                                        <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Product
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="addproducts.php">Add Product</a></li>
+                                        <li><a class="dropdown-item" href="viewproducts.php">View Products</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
    <!-----------------Navbar-End----------------------->   
-    <button class="btn btn-primary my-5"><a href="addproducts.php" class="text-light">Add Products</a>
+    <button class="btn btn-primary my-5"><a href="addcategory .php" class="text-light">Add Products</a>
     </button>
     <table class="table">
         <thead>
                 <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Product_Name</th>
-                <th scope="col">Product_Chemical</th>
-                <th scope="col">Product_Form</th>
-                <th scope="col">Company_Name</th>
-                <th scope="col">Product_Storage</th>
-                <th scope="col">Product_Packing</th>
-                <th scope="col">Product_Category</th>
-                <th scope="col">Parent_id</th>
-                <th scope="col">Operations</th>
+                <th scope="col">Category_Name</th>
+                <th scope="col">Category_Image</th>
+                <th scope="col">Category_id</th>
                 </tr>
         </thead>
         <tbody>
             <?php
 
-            $sql="Select * from `crud`";
-            $result=mysqli_query($conn,$sql);
+            $sql=" SELECT * FROM `categories`";
+            $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
-                    $Id=$row['Id'];
-                    $product_name=$row['product_name'];
-                    $product_chemical=$row['product_chemical'];
-                    $product_form=$row['product_form'];
-                    $company_name=$row['company_name'];
-                    $product_storage=$row['product_storage'];
-                    $product_packing=$row['product_packing'];
-                    $product_category=$row['product_category'];
-                    $parent_id=$row['parent_id'];
+                    $Id=$row['id'];
+                    $Category_Name=$row['category_name'];
+                    $Category_Image=$row['category_image'];
+                    $Category_id=$row['category_id'];
 
                     echo '<tr>
-                            <th scope="row">'.$Id.'</th>
-                            <td>'.$product_name.'</td>
-                            <td>'.$product_chemical.'</td>
-                            <td>'.$product_form.'</td>
-                            <td>'.$company_name.'</td>
-                            <td>'.$product_storage.'</td>
-                            <td>'.$product_packing.'</td>
-                            <td>'.$product_category.'</td>
-                            <td>'.$parent_id.'</td>
-                            <td>
-                            <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
-                            <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>
-                            </td>
+                            <td scope="row">'.$Id.'</td>
+                            <td>'.$Category_Name.'</td>
+                            <td>'.$Category_Image.'</td>
+                            <td>'.$Category_id.'</td>
                         </tr>';
                 }
             }

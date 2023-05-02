@@ -4,34 +4,34 @@ session_start();
 
 include ('connect.php');
 
-if(isset($_POST['savedata'])){
-    $ProductName=$_POST['product_name'];
-    $ProductChemical=$_POST['product_chemical'];
-    $ProductForm=$_POST['product_form'];
-    $CompanyName=$_POST['company_name'];
-    $ProductStorage=$_POST['product_storage'];
-    $ProductPacking=$_POST['product_packing'];
-    $ProductCategory=$_POST['product_category'];
-    $ParentId=$_POST['parent_id'];
+if(isset($_POST['submit'])){
+    $ProductName=$_POST['Product_Name'];
+    $ProductChemical=$_POST['Product_Chemical'];
+    $ProductForm=$_POST['Product_Form'];
+    $CompanyName=$_POST['Company_Name'];
+    $ProductStorage=$_POST['Product_Storage'];
+    $ProductPacking=$_POST['Product_Packing'];
+    $ProductCategory=$_POST['Product_Category'];
+    $ParentId=$_POST['Parent_Id'];
 
 
-    $ProductImage = $_FILES['product_image']['name'];
+    $ProductImage = $_FILES['Product_Image']['name'];
     
-    if(file_exists("./upload/".$_FILES["product_image"]["name"]))
+    if(file_exists("./upload/".$_FILES["Product_Image"]["name"]))
     {
-        $store = $_FILES["product_image"]["name"];
+        $store = $_FILES["Product_Image"]["name"];
         $_SESSION['status'] = "Image already exist.'.$store.'";
         header('location:viewproducts.php');
     }
     else{
 
-        $sql="insert into `products`(product_image,product_name,product_chemical,product_form,company_name,product_storage,product_packing,product_category,parent_id)
-        values('$ProductImage','$ProductName','$ProductChemical','$ProductForm','$CompanyName','$ProductStorage','$ProductPacking','$ProductCategory','$ParentId')";
+        $sql="INSERT INTO `products`(product_image,product_name,product_chemical,product_form,company_name,product_storage,product_packing,product_category,parent_id)
+       VALUES('$ProductImage','$ProductName','$ProductChemical','$ProductForm','$CompanyName','$ProductStorage','$ProductPacking','$ProductCategory','$ParentId')";
 
         $result=mysqli_query($con,$sql);
         if($result){
 
-            move_uploaded_file($_FILES["product_image"]["tmp_name"],"./upload/".$_FILES["product_image"]["name"]);
+            move_uploaded_file($_FILES["Product_Image"]["tmp_name"],"./upload/".$_FILES["Product_Image"]["name"]);
             $_SESSION['success'] = "data upload successfully";
             header('location:viewproducts.php');
         }
@@ -82,8 +82,8 @@ if(isset($_POST['savedata'])){
                                      Category
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
-                                        <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
+                                        <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
+                                        <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -95,39 +95,39 @@ if(isset($_POST['savedata'])){
             <form method="post" enctype="multipart/form-data">
                 <div class="form-group">
                 <label>Product Name</label>
-                <input type="text" class="form-control" name="product_name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Name" autocomplete="off">
+                <input type="text" class="form-control" name="Product_Name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Name" autocomplete="off">
                 </div>  
                 <div class="form-group">
                 <label>Product Image</label>
-                <input type="file" class="form-control" name="product_image" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Select Product Image" autocomplete="off">
+                <input type="file" class="form-control" name="Product_Image" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Select Product Image" autocomplete="off">
                 </div> 
                 <div class="form-group">
                     <label>Product Chemical</label>
-                    <input type="text" class="form-control" name="product_chemical" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Chemical" autocomplete="off">
+                    <input type="text" class="form-control" name="Product_Chemical" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Chemical" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label>Product Form</label>
-                    <input type="text" class="form-control" name="product_form" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Form" autocomplete="off">
+                    <input type="text" class="form-control" name="Product_Form" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Form" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label>Company Name</label>
-                    <input type="text" class="form-control" name="company_name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Company Name" autocomplete="off">
+                    <input type="text" class="form-control" name="Company_Name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Company Name" autocomplete="off">
                 </div>
                 <div class="form-group">
                 <label>Product Storage</label>
-                <input type="text" class="form-control" name="product_storage" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Storage" autocomplete="off">
+                <input type="text" class="form-control" name="Product_Storage" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Storage" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label>Product Packing</label>
-                    <input type="text" class="form-control" name="product_packing" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Packing" autocomplete="off">
+                    <input type="text" class="form-control" name="Product_Packing" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Packing" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label>Product Category</label>
-                    <input type="text" class="form-control" name="product_category" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
+                    <input type="text" class="form-control" name="Product_Category" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Parent ID</label>
-                    <select class="form-control" name="parent_id" id="exampleFormControlSelect1"  placeholder="Enter Product Category" autocomplete="off">
+                    <select class="form-control" name="Parent_Id" id="exampleFormControlSelect1"  placeholder="Enter Product Category" autocomplete="off">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -136,7 +136,7 @@ if(isset($_POST['savedata'])){
                     <option>6</option>
                     </select>
                 </div>
-                <button type="submit" name="savedata" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </form>
       </div>
  </div>

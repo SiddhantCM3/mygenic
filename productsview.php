@@ -4,7 +4,7 @@
 <div class="container py-5">
     <div class="row">
         <?php
-               require 'Admin/connect.php';
+               require ('Admin/connect.php');
                 
                $parent_id=$_GET['parent_id'];
                $sql = "SELECT * FROM `products` WHERE parent_id='$parent_id'";
@@ -18,7 +18,7 @@
                     ?>
                 <div class="col-md-4">
                    <div class="card" style="width: 18rem;">
-                         <?php echo '<img class="card-img-top" src="./upload/'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                         <?php echo '<img class="card-img-top" src="./Admin/upload/'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
                         </div>
@@ -29,9 +29,7 @@
                             <li class="list-group-item"><b>Product Storage:</b> <?php echo $row['product_storage']; ?></li>
                             <li class="list-group-item"><b>Product Packing:</b> <?php echo $row['product_packing']; ?></li>
                             <li class="list-group-item"><b>Product Category:</b> <?php echo $row['product_category']; ?></li>
-                            <li class="list-group-item"><b>Parent ID:</b> <?php echo $row['parent_id']; ?></li>
                         </ul>
-                        <a href="productsview.php?parent_id=<?php echo $row['parent_id']; ?>"></a>
                    </div>
                </div>
              <?php

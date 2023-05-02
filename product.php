@@ -13,7 +13,7 @@
                 <?php
            require 'Admin/connect.php';
             
-           $sql = "SELECT * FROM `products` ";
+           $sql = "SELECT * FROM `categories` ";
            $result = mysqli_query($con,$sql);
            $check_crud = mysqli_num_rows($result) > 0;
 
@@ -23,12 +23,12 @@
               {
                 ?>
             <div class="col-md-4 mb-5">
-            <a href="productsview.php?parent_id=<?php echo $row['parent_id']; ?>">
+            <a href="categoryview.php?category_name=<?php echo $row['category_name']; ?>">
                <div class="card" style="width: 18rem;">
-                     <?php echo '<img class="card-img-top" src="./Admin/upload/'.$row['product_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                     <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 
                     <div class="card-body">
-                        <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
+                        <h5 class="card-title"><?php echo $row['category_name']; ?></h5>
                     </div>
                </div>
             </a> 
