@@ -80,7 +80,7 @@ include_once 'connect.php';
                     $parent_id=$row['parent_id'];
 
                     echo '<tr>
-                            <th scope="row">'.$Id.'</th>
+                            <td scope="row">'.$Id.'</td>
                             <td>'.$product_image.'</td>
                             <td>'.$product_name.'</td>
                             <td>'.$product_chemical.'</td>

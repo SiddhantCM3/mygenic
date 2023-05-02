@@ -1,116 +1,129 @@
-#viewcard.wrapper {
-height: 420px;
-width: 830px;
-margin: 50px auto;
-border-radius: 7px 7px 7px 7px;
-/* VIA CSS MATIC https://goo.gl/cIbnS */
--webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+#pro_card * {
+	box-sizing: border-box;
+}
+#pro_card.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	background: #262626;
+	width: 100%;
+	height: 100vh;
 }
 
-#viewcard.product-img {
-float: left;
-height: 420px;
-width: 327px;
-background-color: cadetblue;
+#pro_card.outer {
+	position: relative;
+	background: #fff;
+	height: 350px;
+	width: 550px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
 }
 
-#viewcard.product-img img {
-border-radius: 7px 0 0 7px;
+#pro_card img {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 0;
+	animation-delay: 0.5s;
 }
 
-#viewcard.product-info {
-float: left;
-height: 420px;
-width: 500px;
-border-radius: 0 7px 10px 7px;
-background-color: #ffffff;
+#pro_card.content {
+	animation-delay: 0.3s;
+	position: absolute;
+	left: 20px;
+	z-index: 3
+	
 }
 
-#viewcard.product-text {
-height: 300px;
-width: 327px;
+#pro_card h1 {
+	color: #111;
 }
 
-#viewcard.product-text h1 {
-margin: 0 0 0 38px;
-padding-top: 52px;
-font-size: 34px;
-color: #474747;
+#pro_card p {
+	width: 280px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #aaa;
+	margin: 20px 0;
+	
 }
 
-#viewcard.product-text h1,
-#viewcard.product-price-btn p {
-font-family: 'Bentham', serif;
+#pro_card .bg {
+	display: inline-block;
+	color: #fff;
+	background: cornflowerblue;
+	padding: 5px 10px;
+	border-radius: 50px;
+	font-size: .7em;
+}
+#pro_card .button {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	
+	
+	
 }
 
-#viewcard.product-text h2 {
-margin: 0 0 47px 38px;
-font-size: 13px;
-font-family: 'Raleway', sans-serif;
-font-weight: 400;
-text-transform: uppercase;
-color: #d2d2d2;
-letter-spacing: 0.2em;
+#pro_card .button a {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	font-size: 11px;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+	
+	
 }
 
-#viewcard.product-text p {
-height: 125px;
-margin: 0 0 0 38px;
-font-family: 'Playfair Display', serif;
-color: #8d8d8d;
-line-height: 1.7em;
-font-size: 15px;
-font-weight: lighter;
-overflow: hidden;
+#pro_card .button a:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 0%;
+	background: #111;
+	height: 100%;
+	z-index: -1;
+	transition: width 0.3s ease-in-out;
+	transform: skew(-25deg);
+	transform-origin: right;
 }
 
-#viewcard.product-price-btn {
-height: 103px;
-width: 327px;
-margin-top: 17px;
-position: relative;
+#pro_card .button a:hover:after {
+	width: 150%;
+	left: -10px;
+	transform-origin: left;
+	
 }
 
-#viewcard.product-price-btn p {
-display: inline-block;
-position: absolute;
-top: -13px;
-height: 50px;
-font-family: 'Trocchi', serif;
-margin: 0 0 0 38px;
-font-size: 28px;
-font-weight: lighter;
-color: #474747;
+#pro_card .button a:hover {
+	color: #fff;
+	transition: all 0.5s ease;
 }
 
-#viewcard span {
-display: inline-block;
-height: 50px;
-font-family: 'Suranna', serif;
-font-size: 34px;
+
+#pro_card .button a:nth-of-type(1) {
+	border-radius: 50px 0 0 50px;
+	border-right: none;
 }
 
-#viewcard .product-price-btn button {
-display: inline-block;
-height: 50px;
-width: 176px;
-margin: 0 40px 0 16px;
-box-sizing: border-box;
-border: transparent;
-border-radius: 60px;
-font-family: 'Raleway', sans-serif;
-font-size: 14px;
-font-weight: 500;
-text-transform: uppercase;
-letter-spacing: 0.2em;
-color: #ffffff;
-background-color: #9cebd5;
-cursor: pointer;
-outline: none;
+#pro_card .button a:nth-of-type(2) {
+	border-radius: 0px 50px 50px 0;
 }
 
-#viewcard .product-price-btn button:hover {
-background-color: #79b0a1;
+#pro_card .cart-icon {
+	padding-right: 8px;
+	
+}
+
+#pro_card .footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }

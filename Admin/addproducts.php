@@ -24,8 +24,8 @@ if(isset($_POST['submit'])){
     }
     else{
 
-        $sql="insert into `crud`(Product_Name,Product_Chemical,Product_Form,Company_Name,Product_Storage,Product_Packing,Product_Category,Parent_id,product_image)
-        values('$ProductName','$ProductChemical','$ProductForm','$CompanyName','$ProductStorage','$ProductPacking','$ProductCategory','$ParentId','$ProductImage')";
+        $sql="insert into `crud`(product_image,product_name,product_chemical,product_form,company_name,product_storage,product_packing,product_category,parent_id)
+        values('$ProductImage','$ProductName','$ProductChemical','$ProductForm','$CompanyName','$ProductStorage','$ProductPacking','$ProductCategory','$ParentId')";
 
         $result=mysqli_query($conn,$sql);
         if($result){
@@ -132,6 +132,7 @@ if(isset($_POST['submit'])){
                     <option>3</option>
                     <option>4</option>
                     <option>5</option>
+                    <option>6</option>
                     </select>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
