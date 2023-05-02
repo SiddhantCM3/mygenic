@@ -6,8 +6,8 @@
         <?php
                require ('Admin/connect.php');
                 
-               $categoryname=$_GET['category_name'];
-               $sql = "SELECT * FROM `categories` WHERE category_name='$categoryname'";
+               $category_id=$_GET['category_id'];
+               $sql = "SELECT * FROM `categories` WHERE category_id='$category_id'";
                $result = mysqli_query($con,$sql);
                $check_crud = mysqli_num_rows($result) > 0;
     
@@ -17,13 +17,16 @@
                   {
                     ?>
                 <div class="col-md-4">
-                   <div class="card" style="width: 18rem;">
-                         <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $row['category_name']; ?></h5>
+                  <a href="productsview.php?category_id=<?php echo $row['category_id']; ?>">
+                        <div class="card" style="width: 18rem;">
+                                <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php echo $row['category_name']; ?></h5>
+                                </div>
                         </div>
-                   </div>
+                   </a>
                </div>
+
              <?php
                   }
                 }

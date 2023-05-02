@@ -79,7 +79,7 @@ include ('connect.php');
                     $Product_Storage=$row['product_storage'];
                     $Product_Packing=$row['product_packing'];
                     $Product_Category=$row['product_category'];
-                    $Parent_Id=$row['parent_id'];
+                    $Category_Id=$row['category_id'];
 
                     echo '<tr>
                             <td scope="row">'.$id.'</td>
@@ -91,7 +91,7 @@ include ('connect.php');
                             <td>'.$Product_Storage.'</td>
                             <td>'.$Product_Packing.'</td>
                             <td>'.$Product_Category.'</td>
-                            <td>'.$Parent_Id.'</td>
+                            <td>'.$Category_Id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>

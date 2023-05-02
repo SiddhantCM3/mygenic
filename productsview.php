@@ -6,8 +6,8 @@
         <?php
                require ('Admin/connect.php');
                 
-               $parent_id=$_GET['parent_id'];
-               $sql = "SELECT * FROM `products` WHERE parent_id='$parent_id'";
+               $category_id=$_GET['category_id'];
+               $sql = "SELECT * FROM `products` WHERE category_id='$category_id'";
                $result = mysqli_query($con,$sql);
                $check_crud = mysqli_num_rows($result) > 0;
     
