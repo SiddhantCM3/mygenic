@@ -1,5 +1,7 @@
 <?php
-include_once 'connect.php';
+
+include ('connect.php');
+
 ?>
 
 <!doctype html>
@@ -48,27 +50,27 @@ include_once 'connect.php';
     <table class="table">
         <thead>
                 <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Product_Image</th>
-                <th scope="col">Product_Name</th>
-                <th scope="col">Product_Chemical</th>
-                <th scope="col">Product_Form</th>
-                <th scope="col">Company_Name</th>
-                <th scope="col">Product_Storage</th>
-                <th scope="col">Product_Packing</th>
-                <th scope="col">Product_Category</th>
-                <th scope="col">Parent_id</th>
+                <th scope="col">id</th>
+                <th scope="col">product_image</th>
+                <th scope="col">product_name</th>
+                <th scope="col">product_chemical</th>
+                <th scope="col">product_form</th>
+                <th scope="col">company_name</th>
+                <th scope="col">product_storage</th>
+                <th scope="col">product_packing</th>
+                <th scope="col">product_category</th>
+                <th scope="col">parent_id</th>
                 <th scope="col">Operations</th>
                 </tr>
         </thead>
         <tbody>
             <?php
 
-            $sql="Select * from `crud`";
-            $result=mysqli_query($conn,$sql);
+            $sql="Select * from `products`";
+            $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
-                    $Id=$row['Id'];
+                    $id=$row['id'];
                     $product_image=$row['product_image'];
                     $product_name=$row['product_name'];
                     $product_chemical=$row['product_chemical'];
@@ -80,7 +82,7 @@ include_once 'connect.php';
                     $parent_id=$row['parent_id'];
 
                     echo '<tr>
-                            <td scope="row">'.$Id.'</td>
+                            <td scope="row">'.$id.'</td>
                             <td>'.$product_image.'</td>
                             <td>'.$product_name.'</td>
                             <td>'.$product_chemical.'</td>
@@ -91,8 +93,8 @@ include_once 'connect.php';
                             <td>'.$product_category.'</td>
                             <td>'.$parent_id.'</td>
                             <td>
-                            <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
-                            <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>
+                            <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
+                            <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>
                             </td>
                         </tr>';
                 }

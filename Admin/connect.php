@@ -1,11 +1,8 @@
 <?php
 
-$conn = new mysqli('localhost','root','yes','crudoperation');
+$con = new mysqli('localhost','root','yes','mygenic');
 
-if(!$conn){
-    die(mysqli_error($conn));
+if(!$con){
+    die(mysqli_error($con));
 }
 ?>
-
-
-

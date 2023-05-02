@@ -2,8 +2,8 @@
 include_once 'connect.php';
 
 $Id=$_GET['updateid'];
-$sql="Select * from `crud` where id=$Id";
-$result=mysqli_query($conn,$sql);
+$sql="Select * from `products` where id=$Id";
+$result=mysqli_query($con,$sql);
 $row=mysqli_fetch_assoc($result);
 $product_image=$row['product_image'];
 $product_name=$row['product_name'];
@@ -25,16 +25,16 @@ if(isset($_POST['submit'])){
     $ProductCategory=$_POST['Product_Category'];
 
 
-    $sql="update `crud` set Id=$Id,product_image='$ProductImage',Product_Name='$ProductName',Product_Chemical='$ProductChemical',
+    $sql="update `products` set Id=$Id,product_image='$ProductImage',Product_Name='$ProductName',Product_Chemical='$ProductChemical',
       Product_Form='$ProductForm',Company_Name='$CompanyName',Product_Storage='$ProductStorage',
       Product_Packing='$ProductPacking',Product_Category='$ProductCategory' where id=$Id";
 
-    $result=mysqli_query($conn,$sql);
+    $result=mysqli_query($con,$sql);
     if($result){
         header('location:viewproducts.php');
     }
     else{
-        die(mysqli_error($conn));
+        die(mysqli_error($con));
     }
 
 }
