@@ -2,7 +2,7 @@
 
 session_start();
 
-include_once 'connect.php';
+include ('connection.php');
 if(isset($_POST['submit'])){
     $Category_Name=$_POST['category_name'];
     $Category_Id =$_POST['category_id'];

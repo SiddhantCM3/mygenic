@@ -2,7 +2,7 @@
 
 session_start();
 
-include ('connect.php');
+include ('connection.php');
 
 if(isset($_POST['submit'])){
     $ProductName=$_POST['Product_Name'];
