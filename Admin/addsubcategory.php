@@ -5,6 +5,7 @@ session_start();
 include_once 'connect.php';
 if(isset($_POST['submit'])){
     $Category_Name=$_POST['category_name'];
+    $Product_Name=$_POST['product_name'];
     $Category_Id =$_POST['category_id'];
 
 
@@ -18,8 +19,8 @@ if(isset($_POST['submit'])){
     }
     else{
 
-        $sql= "INSERT INTO `categories`(category_name,category_image,category_id)
-        VALUES('$Category_Name','$Category_Image','$Category_Id')";
+        $sql= "INSERT INTO `categories`(category_name,product_name,category_image,category_id)
+        VALUES('$Category_Name','$Product_Name','$Category_Image','$Category_Id')";
 
         $result=mysqli_query($con,$sql);
         if($result){
@@ -69,6 +70,15 @@ if(isset($_POST['submit'])){
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Subcategory
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="addsubcategory.php">Add Subcategory</a></li>
+                                        <li><a class="dropdown-item" href="viewsubcategory.php">View Subcategory</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       Product
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -87,6 +97,10 @@ if(isset($_POST['submit'])){
                 <label>Category Name</label>
                 <input type="text" class="form-control" name="category_name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter category Name" autocomplete="off">
                 </div>  
+                <div class="form-group">
+                <label>Product Name</label>
+                <input type="text" class="form-control" name="product_name" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Name" autocomplete="off">
+                </div> 
                 <div class="form-group">
                 <label>Category Image</label>
                 <input type="file" class="form-control" name="category_image" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Select category Image" autocomplete="off">
