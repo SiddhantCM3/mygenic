@@ -1,5 +1,5 @@
 <?php
-include_once 'connect.php';
+include_once 'connection.php';
 ?>
 
 <!doctype html>
@@ -15,7 +15,7 @@ include_once 'connect.php';
     <!-----------------Navbar------------------------>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  #39A6A3;">
                 <div class="container-fluid">
-                    <a class="navbar-brand fw-bold" href="home.php">MyGenic</a>
+                    <a class="navbar-brand fw-bold" href="index.php">MyGenic</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -44,7 +44,7 @@ include_once 'connect.php';
                 </div>
             </nav>
    <!-----------------Navbar-End----------------------->   
-    <button class="btn btn-primary my-5"><a href="addcategory .php" class="text-light">Add Products</a>
+    <button class="btn btn-primary my-5"><a href="addcategory.php" class="text-light">Add Products</a>
     </button>
     <table class="table">
         <thead>
@@ -58,8 +58,8 @@ include_once 'connect.php';
         <tbody>
             <?php
 
-            $sql=" SELECT * FROM `category`";
-            $result=mysqli_query($conn,$sql);
+            $sql=" SELECT * FROM `categories`";
+            $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
                     $Id=$row['id'];
