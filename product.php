@@ -23,7 +23,7 @@
               {
                 ?>
             <div class="col-md-4 mb-5">
-            <a href="categoryview.php?category_id=<?php echo $row['category_id']; ?>">
+            <a href="subcategoryview.php?category_id=<?php echo $row['category_id']; ?>">
                <div class="card" style="width: 18rem;">
                      <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 
