@@ -11,7 +11,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div id="cards_landscape_wrap-2">
                 <?php
-           require 'Admin/connect.php';
+           require 'admin/connection.php';
             
            $sql = "SELECT * FROM `categories` ";
            $result = mysqli_query($con,$sql);

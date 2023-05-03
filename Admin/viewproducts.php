@@ -36,8 +36,8 @@ include ('connection.php');
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
-                <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
+                <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
+                <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
               </ul>
             </li>
          </ul>
@@ -79,7 +79,7 @@ include ('connection.php');
                     $Product_Storage=$row['product_storage'];
                     $Product_Packing=$row['product_packing'];
                     $Product_Category=$row['product_category'];
-                    $Parent_Id=$row['parent_id'];
+                    $Category_Id=$row['category_id'];
 
                     echo '<tr>
                             <td scope="row">'.$id.'</td>
@@ -91,7 +91,7 @@ include ('connection.php');
                             <td>'.$Product_Storage.'</td>
                             <td>'.$Product_Packing.'</td>
                             <td>'.$Product_Category.'</td>
-                            <td>'.$Parent_Id.'</td>
+                            <td>'.$Category_Id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>

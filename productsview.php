@@ -4,7 +4,7 @@
 <div class="container py-5">
     <div class="row">
         <?php
-               require ('Admin/connect.php');
+               require ('admin/connection.php');
                 
                $category_id=$_GET['category_id'];
                $sql = "SELECT * FROM `products` WHERE category_id='$category_id'";
