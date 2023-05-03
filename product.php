@@ -11,7 +11,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div id="cards_landscape_wrap-2">
                 <?php
-           require 'admin/connect.php';
+           require 'admin/connection.php';
             
            $sql = "SELECT * FROM `categories` ";
            $result = mysqli_query($con,$sql);
@@ -23,7 +23,7 @@
               {
                 ?>
             <div class="col-md-4 mb-5">
-            <a href="subcategoryview.php?category_id=<?php echo $row['category_id']; ?>">
+            <a href="categoryview.php?category_id=<?php echo $row['category_id']; ?>">
                <div class="card" style="width: 18rem;">
                      <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 

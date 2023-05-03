@@ -2,7 +2,7 @@
 
 session_start();
 
-include ('connection.php');
+include ('connect.php');
 
 if(isset($_POST['submit'])){
     $ProductName=$_POST['Product_Name'];
@@ -82,8 +82,8 @@ if(isset($_POST['submit'])){
                                      Category
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
-                                        <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
+                                        <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
+                                        <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
                                     </ul>
                                 </li>
                             </ul>

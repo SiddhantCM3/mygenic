@@ -63,8 +63,8 @@ if(isset($_POST['submit'])){
                                      Categories
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="addcategory .php">Add Category</a></li>
-                                        <li><a class="dropdown-item" href="viewcategory .php">View Category</a></li>
+                                        <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
+                                        <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">

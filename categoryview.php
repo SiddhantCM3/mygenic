@@ -4,7 +4,7 @@
 <div class="container py-5">
     <div class="row">
         <?php
-               require ('admin/connect.php');
+               require ('Admin/connection.php');
                 
                $category_id=$_GET['category_id'];
                $sql = "SELECT * FROM `categories` WHERE category_id='$category_id'";
@@ -17,7 +17,7 @@
                   {
                     ?>
                 <div class="col-md-4">
-                  <a href="subcategoryview.php?category_id=<?php echo $row['category_id']; ?>">
+                  <a href="productsview.php?category_id=<?php echo $row['category_id']; ?>">
                         <div class="card" style="width: 18rem;">
                                 <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
                                 <div class="card-body">
