@@ -11,10 +11,10 @@
             <div class="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div id="cards_landscape_wrap-2">
                 <?php
-           require 'admin/connection.php';
+           require ('connection/connect.php');
             
-           $sql = "SELECT * FROM `categories` ";
-           $result = mysqli_query($con,$sql);
+           $insert_query=" SELECT * FROM `category`";
+           $result=mysqli_query($con,$insert_query);
            $check_crud = mysqli_num_rows($result) > 0;
 
            if($check_crud)
@@ -23,9 +23,9 @@
               {
                 ?>
             <div class="col-lg-4 col-md-4 col-sm-4 mb-5">
-            <a href="categoryview.php?category_id=<?php echo $row['category_id']; ?>">
+            <a href="subcategoryview.php?category_id=<?php echo $row['category_id']; ?>">
                <div class="card" style="width: 18rem;">
-                     <?php echo '<img class="card-img-top" src="./Admin/categoryimages/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
+                     <?php echo '<img class="card-img-top" src="./admin/category_images/'.$row['category_image'].'" width="100px"; height="100px"; alt=" ">' ?>
 
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row['category_name']; ?></h5>
@@ -47,7 +47,10 @@
                 </div>
         </div>
     </div>
+
 </section>
+
+
 
 
 <?php include("footer.php")?>
