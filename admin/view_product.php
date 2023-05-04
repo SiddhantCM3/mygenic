@@ -26,7 +26,7 @@ include("../admin/includes/header.php");
         <tbody>
             <?php
 
-            $sql="Select * from `product`";
+            $sql="Select * from `products`";
             $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){

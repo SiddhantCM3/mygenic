@@ -9,7 +9,7 @@
                require ('connection/connect.php');
                 
                $category_id=$_GET['category_id'];
-               $sql = "SELECT * FROM `product` WHERE category_id='$category_id'";
+               $sql = "SELECT * FROM `products` WHERE category_id='$category_id'";
                $result = mysqli_query($con,$sql);
                $check_crud = mysqli_num_rows($result) > 0;
     
