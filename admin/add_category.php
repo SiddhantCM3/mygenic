@@ -23,6 +23,7 @@ if(isset($_POST['submit'])){
     $result = mysqli_query($con, $insert_query);
     if($result){
         echo "<script> alert('Category has been inserted successfully')</script>";
+        header('location:view_category.php');
     }
 }
 }
@@ -43,35 +44,6 @@ if(isset($_POST['submit'])){
     </form>
 </div>
 
-<!-- display inserted category -->
-<table class="table">
-        <thead>
-                <tr>
-                <th scope="col">Category ID</th>
-                <th scope="col">Category Name</th>
-                <th scope="col">Category Image</th>
-                </tr>
-        </thead>
-        <tbody>
-            <?php
 
-            $sql=" SELECT * FROM `category`";
-            $result=mysqli_query($con,$sql);
-            if($result){
-                while($row=mysqli_fetch_assoc($result)){
-                    $Id=$row['category_id'];
-                    $Category_Name=$row['category_name'];
-                    $Category_Image=$row['category_image'];
-
-                    echo '<tr>
-                            <td scope="row">'.$Id.'</td>
-                            <td>'.$Category_Name.'</td>
-                            <td>'.$Category_Image.'</td>
-                        </tr>';
-                }
-            }
-            ?>
-        </tbody>
-    </table>
 
     <?php include("../admin/includes/footer.php");?>

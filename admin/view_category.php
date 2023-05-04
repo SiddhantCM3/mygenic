@@ -1,5 +1,7 @@
 <?php
+include('../connection/connect.php');
 include("../admin/includes/header.php");
+
 ?>
 
 <!-- display inserted category -->
@@ -17,7 +19,7 @@ include("../admin/includes/header.php");
             <?php
 
             $insert_query=" SELECT * FROM `category`";
-            $result=mysqli_query($conn,$insert_query);
+            $result=mysqli_query($con,$insert_query);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
                     $category_Id=$row['category_id'];

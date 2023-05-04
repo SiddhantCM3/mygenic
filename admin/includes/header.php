@@ -23,21 +23,21 @@
                                 <a class="nav-link active" aria-current="page" href="home.php">Dashboard</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="add_product.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       Product
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="add_product.php">Add Product</a></li>
-                                        <li><a class="dropdown-item" href="viewproducts.php">View Products</a></li>
+                                        <li><a class="dropdown-item" href="view_product.php">View Products</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="add_category.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                      Category
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="addcategory.php">Add Category</a></li>
-                                        <li><a class="dropdown-item" href="viewcategory.php">View Category</a></li>
+                                        <li><a class="dropdown-item" href="add_category.php">Add Category</a></li>
+                                        <li><a class="dropdown-item" href="view_category.php">View Category</a></li>
                                     </ul>
                                 </li>
                             </ul>

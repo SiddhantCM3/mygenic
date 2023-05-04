@@ -36,6 +36,8 @@ if(isset($_POST['submit'])){
 
         if($result_query){
             echo "<script>alert('Product Added Succcessfully!')</script>";
+            header('location:view_product.php');
+
         }
     }
 }
