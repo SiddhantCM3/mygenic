@@ -24,7 +24,7 @@
                                  <div class="col-md-3">
                                         <?php echo '<img class="card-img-top border border-2 m-2" src="./admin/product_images/'.$row['Product_Image'].'" width="250px"; height="300px"; alt=" ">' ?>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8">
                                     <div class="card-body">
                                         <h4 class="card-title" style="color:#ed6f1e;font-size: 1.5em;"><?php echo $row['Product_Name']; ?></h4><br>
                                         <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Chemical:</b> <?php echo $row['Product_Chemical']; ?></p>
