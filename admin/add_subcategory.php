@@ -3,8 +3,10 @@ include('../connection/connect.php');
 include("../admin/includes/header.php");
 
 if(isset($_POST['submit'])){
+    $category_id = $_POST['category_id'];
     $category_name = $_POST['category_name'];
     $product_name = $_POST['product_name'];
+
 
     $category_image=$_FILES['category_image']['name'];
 
@@ -20,7 +22,7 @@ if(isset($_POST['submit'])){
     else{
         move_uploaded_file($tmp_image, "./subcategory_images/$category_image");
 
-    $insert_query = "insert into `sub_category` (category_name, product_name, category_image) values ('$category_name','$product_name','$category_image')";
+    $insert_query = "insert into `sub_category` (category_id, category_name, product_name, category_image) values ($category_id,'$category_name','$product_name','$category_image')";
     $result = mysqli_query($con, $insert_query);
     if($result){
         echo "<script> alert('Category has been inserted successfully')</script>";
@@ -38,6 +40,10 @@ if(isset($_POST['submit'])){
         <div class="mb-3">
         <label for="cat_name" class="form-label">product Name</label>
         <input type="text" class="form-control" id="cat_name" name="product_name">
+        </div>
+        <div class="mb-3">
+        <label for="cat_name" class="form-label">Category ID</label>
+        <input type="text" class="form-control" id="cat_name" name="category_id">
         </div>
         <div class="mb-3">
         <label for="cat_image" class="form-label">Category Image</label>

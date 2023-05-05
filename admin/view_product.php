@@ -18,8 +18,8 @@ include("../admin/includes/header.php");
                 <th scope="col">Company_Name</th>
                 <th scope="col">Product_Storage</th>
                 <th scope="col">Product_Packing</th>
-                <th scope="col">Product_Category</th>
-                <th scope="col">Parent_id</th>
+                <th scope="col">Category_Name</th>
+                <th scope="col">Category_Id</th>
                 <th scope="col">Operations</th>
                 </tr>
         </thead>
@@ -38,8 +38,8 @@ include("../admin/includes/header.php");
                     $company_name=$row['Company_Name'];
                     $product_storage=$row['Product_Storage'];
                     $product_packing=$row['Product_Packing'];
-                    $product_category=$row['Product_Category'];
-                    $parent_id=$row['Parent_Id'];
+                    $category_name=$row['category_name'];
+                    $category_id=$row['category_id'];
 
                     echo '<tr>
                             <td scope="row">'.$Id.'</td>
@@ -50,8 +50,8 @@ include("../admin/includes/header.php");
                             <td>'.$company_name.'</td>
                             <td>'.$product_storage.'</td>
                             <td>'.$product_packing.'</td>
-                            <td>'.$product_category.'</td>
-                            <td>'.$parent_id.'</td>
+                            <td>'.$category_name.'</td>
+                            <td>'.$category_id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>
