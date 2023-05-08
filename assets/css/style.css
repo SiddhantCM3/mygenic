@@ -213,10 +213,7 @@ p, h5{
   position: absolute;
   font-size: 3vw;
 }
-#carousel .item:hover p{
-  color: var(--primary);
-  background-position: 0 100%;
-}
+
 #carousel .item p span{
   color: var(--secondary);
 }
@@ -258,12 +255,6 @@ p, h5{
   }
 } */
 
-#carousel .item img{
-  transition: transform 4s;
-}
-#carousel .item:hover img{
-  transform: scale(1.5);
-}
 
 /* -----------------------------------what we provide--------------------------------------- */
 #what-we-provide{
