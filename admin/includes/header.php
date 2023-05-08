@@ -40,15 +40,6 @@
                                         <li><a class="dropdown-item" href="view_category.php">View Category</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Subcategory
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="add_subcategory.php">Add Subcategory</a></li>
-                                        <li><a class="dropdown-item" href="view_category.pp">View Subcategory</a></li>
-                                    </ul>
-                                </li>
                             </ul>
                         </div>
                 </div>
