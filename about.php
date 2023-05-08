@@ -1,5 +1,12 @@
 <?php include("header.php"); ?>
-<?php include("carousel.php"); ?>
+
+        <!--Start breadcrumb area paroller-->
+        <section class="breadcrumb-area">
+            <div class="breadcrumb-area-bg">
+              <img class="img-fluid" src="assets/img/breadcrumb/RWQdmA.jpg" alt="">
+            </div>
+        </section>
+        <!--End breadcrumb area-->
 <!-----------------------about-us----------------------------------->
 <section id="about-us" class="section-bg">
         <div class="container about">
