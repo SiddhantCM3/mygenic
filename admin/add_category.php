@@ -4,6 +4,8 @@ include("../admin/includes/header.php");
 
 if(isset($_POST['submit'])){
     $category_title = $_POST['cat_name'];
+    $category_id = $_POST['category_id'];
+
 
     $product_image=$_FILES['cat_image']['name'];
 
@@ -19,7 +21,7 @@ if(isset($_POST['submit'])){
     else{
         move_uploaded_file($tmp_image, "./category_images/$product_image");
 
-    $insert_query = "insert into `category` (category_name, category_image) values ('$category_title','$product_image')";
+    $insert_query = "insert into `categories` (category_name, category_image, category_id) values ('$category_title','$product_image','$category_id')";
     $result = mysqli_query($con, $insert_query);
     if($result){
         echo "<script> alert('Category has been inserted successfully')</script>";
@@ -37,6 +39,10 @@ if(isset($_POST['submit'])){
         <div class="mb-3">
         <label for="cat_image" class="form-label">Category Image</label>
         <input type="file" class="form-control" id="cat_image" name="cat_image">
+        </div>
+        <div class="mb-3">
+        <label for="cat_image" class="form-label">Category Id</label>
+        <input type="number" class="form-control" id="category_id" name="category_id">
         </div>
         <div class="mb-3">
         <input type="submit" class="form-control  bg-danger" id="submit" name="submit" value="submit">

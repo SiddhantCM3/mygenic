@@ -26,11 +26,11 @@ include("../admin/includes/header.php");
         <tbody>
             <?php
 
-            $sql="Select * from `products`";
+            $sql="Select * from `productdetails`";
             $result=mysqli_query($con,$sql);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){
-                    $Id=$row['product_id'];
+                    $Id=$row['Id'];
                     $product_image=$row['Product_Image'];
                     $product_name=$row['Product_Name'];
                     $product_chemical=$row['Product_Chemical'];
@@ -38,8 +38,8 @@ include("../admin/includes/header.php");
                     $company_name=$row['Company_Name'];
                     $product_storage=$row['Product_Storage'];
                     $product_packing=$row['Product_Packing'];
-                    $category_name=$row['category_name'];
-                    $category_id=$row['category_id'];
+                    $Product_Category=$row['category_name'];
+                    $Parent_Id=$row['Parent_Id'];
 
                     echo '<tr>
                             <td scope="row">'.$Id.'</td>
@@ -50,8 +50,8 @@ include("../admin/includes/header.php");
                             <td>'.$company_name.'</td>
                             <td>'.$product_storage.'</td>
                             <td>'.$product_packing.'</td>
-                            <td>'.$category_name.'</td>
-                            <td>'.$category_id.'</td>
+                            <td>'.$Product_Category.'</td>
+                            <td>'.$Parent_Id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>

@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
         move_uploaded_file($tmp_image, "./product_images/$product_image");
 
         // Insert Query
-        $insert_products = "insert into `products` (Product_Name, Product_Image, Product_Chemical, Product_Form, Company_Name, Product_Storage, Product_Packing, Product_Category, Parent_Id) values ('$Product_Name', '$product_image', '$Product_Chemical', '$Product_Form', '$Company_Name', '$Product_Storage', '$Product_Packing', '$Product_Category', $Parent_Id)";
+        $insert_products = "insert into `productdetails` (Product_Name, Product_Image, Product_Chemical, Product_Form, Company_Name, Product_Storage, Product_Packing, category_name, Parent_Id) values ('$Product_Name', '$product_image', '$Product_Chemical', '$Product_Form', '$Company_Name', '$Product_Storage', '$Product_Packing', '$Product_Category', $Parent_Id)";
 
         $result_query=mysqli_query($con, $insert_products);
 

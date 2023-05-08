@@ -18,7 +18,7 @@ include("../admin/includes/header.php");
         <tbody>
             <?php
 
-            $insert_query=" SELECT * FROM `category`";
+            $insert_query=" SELECT * FROM `categories`";
             $result=mysqli_query($con,$insert_query);
             if($result){
                 while($row=mysqli_fetch_assoc($result)){

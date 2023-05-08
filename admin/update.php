@@ -1,8 +1,8 @@
 <?php
 include('../connection/connect.php');
 
-$product_id=$_GET['updateid'];
-$sql="Select * from `product` where product_id=$product_id";
+$Id=$_GET['updateid'];
+$sql="Select * from `productdetails` where Id=$Id";
 $result=mysqli_query($con,$sql);
 $row=mysqli_fetch_assoc($result);
 $product_image=$row['Product_Image'];
@@ -12,7 +12,7 @@ $product_form=$row['Product_Form'];
 $company_name=$row['Company_Name'];
 $product_storage=$row['Product_Storage'];
 $product_packing=$row['Product_Packing'];
-$product_category=$row['Product_Category'];
+$category_name=$row['category_name'];
 
 if(isset($_POST['submit'])){
     $ProductImage=$_POST['Product_Image'];
@@ -22,19 +22,19 @@ if(isset($_POST['submit'])){
     $CompanyName=$_POST['Company_Name'];
     $ProductStorage=$_POST['Product_Storage'];
     $ProductPacking=$_POST['Product_Packing'];
-    $ProductCategory=$_POST['Product_Category'];
+    $CategoryName=$_POST['category_name'];
 
 
-    $sql="update `product` set product_id=$product_id,Product_Image='$ProductImage',Product_Name='$ProductName',Product_Chemical='$ProductChemical',
+    $sql="update `productdetails` set Id=$Id,Product_Image='$ProductImage',Product_Name='$ProductName',Product_Chemical='$ProductChemical',
     Product_Form='$ProductForm',Company_Name='$CompanyName',Product_Storage='$ProductStorage',
-    Product_Packing='$ProductPacking',Product_Category='$ProductCategory' where product_id=$product_id";
+    Product_Packing='$ProductPacking',category_name='$CategoryName' where Id=$Id";
 
     $result=mysqli_query($con,$sql);
     if($result){
         header('location:view_product.php');
     }
     else{
-        die(mysqli_error($conn));
+        die(mysqli_error($con));
     }
 
 }
@@ -83,7 +83,7 @@ if(isset($_POST['submit'])){
             </div>
             <div class="form-group">
                 <label>Product Category</label>
-                <input type="text" class="form-control" name="Product_Category" value="<?php echo $product_category?>" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
+                <input type="text" class="form-control" name="Category_Name" value="<?php echo $category_name?>" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
             </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
