@@ -54,5 +54,20 @@
         </div>
     </div>
 </section>
+
+<div class="container enquiry mb-2 p-2">
+    <div class="row">
+        <div class="col-lg-4 text-center">
+            <p class="para1">Have any questions?</p>
+            <h4 class="head"><a href="#" class="text-"><i class="bi bi-telephone-forward-fill"></i> +91 12345 67890</a></h4>
+        </div>
+        <div class="col-lg-4 text-center para-2">
+            <p>More Information about to the Mygenic</p>
+        </div>
+        <div class="col-lg-4 text-center Enquirybtn">
+           <a href="contact.php"><button class="btn-f btn btn-bottom-animation-1">Enquiry Here</button></a>
+        </div>
+    </div>
+</div>
  
 <?php include("footer.php")?>

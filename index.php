@@ -75,7 +75,7 @@
     </figure>
 
     <figure class="snip1401">
-      <img src="assets\img\government supplies.jpg" alt="Government Supplies" class="img-fluid" />
+      <img src="assets\img\government-supplies.jpg" alt="Government Supplies" class="img-fluid" />
       <figcaption>
         <h3>Government Supplies</h3>
         <p>Public sector procurement and distribution.</p>

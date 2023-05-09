@@ -564,7 +564,40 @@ background: white;
 #footer a:hover{
   text-shadow:1px 1px 2px #2b2a29;
 }
-
+ 
+/*---------enquiry-----------*/
+.enquiry{
+  background-color: rgb(4, 110, 122, 0.4);
+  display: grid;
+  align-items: center;
+  border-top: 5px solid #046e7a;
+  border-radius: 25px;
+}
+.head{
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #ed6f1e;
+}
+.para1 {
+  display: grid;
+  align-items: end;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.para-2 {
+  display: grid;
+  align-items: end;
+  word-break: break-word;
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 2px 0px 5px black;
+  font-weight: bold;
+}
+.Enquirybtn {
+  display: grid;
+  align-items: center;
+}
 
 
 /* Company Album */ 
