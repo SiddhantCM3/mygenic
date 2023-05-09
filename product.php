@@ -3,7 +3,7 @@
 <!--Start breadcrumb area paroller-->
     <section class="breadcrumb-area">
         <div class="breadcrumb-area-bg">
-            <img class="img-fluid" src="assets/img/breadcrumb/ourproducts.jpg" alt="">
+            <img class="img-fluid" src="assets/img/breadcrumb/Our-Products.jpg" alt="">
         </div>
     </section>
 <!--End breadcrumb area-->
@@ -53,10 +53,6 @@
         </div>
         </div>
     </div>
-
 </section>
-
-
-
-
+ 
 <?php include("footer.php")?>

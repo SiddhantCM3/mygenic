@@ -1,12 +1,13 @@
 <?php include("header.php"); ?>
 
-        <!--Start breadcrumb area paroller-->
-        <section class="breadcrumb-area">
-            <div class="breadcrumb-area-bg">
-              <img class="img-fluid" src="assets/img/breadcrumb/RWQdmA.jpg" alt="">
-            </div>
-        </section>
-        <!--End breadcrumb area-->
+<!--Start breadcrumb area paroller-->
+<section class="breadcrumb-area">
+        <div class="breadcrumb-area-bg">
+            <img class="img-fluid" src="assets/img/breadcrumb/About-Us.jpg" alt="">
+        </div>
+    </section>
+<!--End breadcrumb area-->
+
 <!-----------------------about-us----------------------------------->
 <section id="about-us" class="section-bg">
         <div class="container about">
@@ -111,12 +112,12 @@
                     <div class="row">
                         <h3 class="text-center list-heading p-3">FACTSHEET</h3>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <h5 class="fw-bolder text-decoration-underline">Basic Information</h5> 
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Nature of Business:</p>
                                 </div>
@@ -126,7 +127,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Additional Business:</p>
                                 </div>
@@ -141,7 +142,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Company CEO:</p>
                                 </div>
@@ -151,7 +152,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Registered Address:</p>
                                 </div>
@@ -161,7 +162,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Total Number of Employees:</p>
                                 </div>
@@ -171,7 +172,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Year of Establishment:</p>
                                 </div>
@@ -181,7 +182,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Legal Status of Firm:</p>
                                 </div>
@@ -191,7 +192,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Annual Turnover:</p>
                                 </div>
@@ -201,12 +202,12 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <h5 class="fw-bolder text-decoration-underline">Trade & Market </h5>
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold"> Export Percentage:</p>
                                 </div>
@@ -216,12 +217,12 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <h5 class="fw-bolder text-decoration-underline">Statutory Profile</h5>
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Import Export Code (IEC):</p>
                                 </div>
@@ -231,7 +232,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold"> Tan No.:</p>
                                 </div>
@@ -241,7 +242,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">GST No.:</p>
                                 </div>
@@ -251,7 +252,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">CIN No.:</p>
                                 </div>
@@ -261,12 +262,12 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <h5 class="fw-bolder text-decoration-underline">Packaging/Payment and Shipment Details</h5>
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Payment Mode:</p>
                                 </div>
@@ -276,7 +277,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row px-5">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <p class="fw-bold">Shipment Mode:</p>
                                 </div>

@@ -1,6 +1,16 @@
 <?php include("header.php"); ?>
-<?php include("carousel.php"); ?>
 
+<!--Start breadcrumb area paroller-->
+<section class="breadcrumb-area">
+        <div class="breadcrumb-area-bg">
+            <img class="img-fluid" src="assets/img/breadcrumb/Our-Products.jpg" alt="">
+        </div>
+    </section>
+<!--End breadcrumb area-->
+
+<div class="text-end">
+    <a href="product.php"><button class="btn-f btn btn-bottom-animation-1">All Category</button></a>
+</div>
 
 <div class="container py-5">
     <div class="row">

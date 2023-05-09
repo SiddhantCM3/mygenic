@@ -3,7 +3,7 @@
 <!--Start breadcrumb area paroller-->
 <section class="breadcrumb-area">
         <div class="breadcrumb-area-bg">
-            <img class="img-fluid" src="assets/img/breadcrumb/pharmaceutical_export1.png" alt="">
+            <img class="img-fluid" src="assets/img/breadcrumb/Leading-Pharmaceutical-Exporter.jpg" alt="">
         </div>
     </section>
 <!--End breadcrumb area-->

@@ -619,6 +619,7 @@ background: white;
     animation-play-state: paused;
   }
   
+  
   @keyframes cycle {
     0% {
       top: 0px;
