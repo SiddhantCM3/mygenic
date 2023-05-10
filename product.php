@@ -30,7 +30,7 @@
               {
                 ?>
             <div class="col-lg-3 col-md-4 col-sm-4 d-flex align-items-stretch">
-                <a href="sub-product.php?category_name=<?php echo $row['category_name']; ?>">
+                <a href="category.php?category_name=<?php echo $row['category_name']; ?>">
                     <div class="card mb-3" style="max-width: 50rem; box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
                         <div class="card-header text-center"><p class="card-title" style="color:#048a9a;font-size:1.0em;"><b><?php echo $row['category_name']; ?></b></p></div>
                         <div class="card-body text-primary">
