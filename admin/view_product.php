@@ -39,7 +39,7 @@ include("../admin/includes/header.php");
                     $product_storage=$row['Product_Storage'];
                     $product_packing=$row['Product_Packing'];
                     $Product_Category=$row['category_name'];
-                    $Parent_Id=$row['Parent_Id'];
+                    $Category_Id=$row['category_id'];
 
                     echo '<tr>
                             <td scope="row">'.$Id.'</td>
@@ -51,7 +51,7 @@ include("../admin/includes/header.php");
                             <td>'.$product_storage.'</td>
                             <td>'.$product_packing.'</td>
                             <td>'.$Product_Category.'</td>
-                            <td>'.$Parent_Id.'</td>
+                            <td>'.$Category_Id.'</td>
                             <td>
                             <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
                             <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>

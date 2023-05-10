@@ -16,8 +16,8 @@
           <?php
                require ('connection/connect.php');
                 
-               $category_name=$_GET['category_name'];
-               $sql = "SELECT * FROM `productdetails` WHERE category_name='$category_name'";
+               $category_id=$_GET['category_id'];
+               $sql = "SELECT * FROM `productdetails` WHERE category_id='$category_id'";
                $result = mysqli_query($con,$sql);
                $check_crud = mysqli_num_rows($result) > 0;
     

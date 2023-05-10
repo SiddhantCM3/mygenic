@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     $Product_Storage = $_POST['Product_Storage'];
     $Product_Packing = $_POST['Product_Packing'];
     $Product_Category = $_POST['Product_Category'];
-    $Parent_Id = $_POST['Parent_Id'];
+    $Category_Id = $_POST['category_id'];
 
     // Accessing Images
     $product_image=$_FILES['Product_Image']['name'];
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
         move_uploaded_file($tmp_image, "./product_images/$product_image");
 
         // Insert Query
-        $insert_products = "insert into `productdetails` (Product_Name, Product_Image, Product_Chemical, Product_Form, Company_Name, Product_Storage, Product_Packing, category_name, Parent_Id) values ('$Product_Name', '$product_image', '$Product_Chemical', '$Product_Form', '$Company_Name', '$Product_Storage', '$Product_Packing', '$Product_Category', $Parent_Id)";
+        $insert_products = "insert into `productdetails` (Product_Name, Product_Image, Product_Chemical, Product_Form, Company_Name, Product_Storage, Product_Packing, category_name, category_id) values ('$Product_Name', '$product_image', '$Product_Chemical', '$Product_Form', '$Company_Name', '$Product_Storage', '$Product_Packing', '$Product_Category', $Category_Id)";
 
         $result_query=mysqli_query($con, $insert_products);
 
@@ -80,7 +80,7 @@ if(isset($_POST['submit'])){
                 </div>
                 <div class="mb-3">
                     <label for="cat_image" class="form-label">Parent ID</label>
-                    <input type="number" class="form-control" id="category_id" name="Parent_Id">
+                    <input type="number" class="form-control" id="category_id" name="category_id">
                </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </form>

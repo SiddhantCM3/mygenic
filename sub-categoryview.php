@@ -27,7 +27,7 @@
                   while($row = mysqli_fetch_array($result))
                   {
                     ?>
-                    <div class="col-md-3 ">
+                    <div class="col-md-3">
                       <a href="product-details.php?Product_Name=<?php echo $row['Product_Name']; ?>">  
                         <div class="card  mb-3 sub-pro h-100 ">
                           <div class="card-header bg-transparent text-center"><h5 class="card-title" style="color:#ed6f1e;"><?php echo $row['Product_Name']; ?></h5></div>

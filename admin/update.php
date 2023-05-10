@@ -13,6 +13,7 @@ $company_name=$row['Company_Name'];
 $product_storage=$row['Product_Storage'];
 $product_packing=$row['Product_Packing'];
 $category_name=$row['category_name'];
+$category_id=$row['category_id'];
 
 if(isset($_POST['submit'])){
     $ProductImage=$_POST['Product_Image'];
@@ -23,11 +24,13 @@ if(isset($_POST['submit'])){
     $ProductStorage=$_POST['Product_Storage'];
     $ProductPacking=$_POST['Product_Packing'];
     $CategoryName=$_POST['category_name'];
+    $CategoryId=$row['category_id'];
+
 
 
     $sql="update `productdetails` set Id=$Id,Product_Image='$ProductImage',Product_Name='$ProductName',Product_Chemical='$ProductChemical',
     Product_Form='$ProductForm',Company_Name='$CompanyName',Product_Storage='$ProductStorage',
-    Product_Packing='$ProductPacking',category_name='$CategoryName' where Id=$Id";
+    Product_Packing='$ProductPacking',category_name='$CategoryName',category_id='$CategoryId' where Id=$Id";
 
     $result=mysqli_query($con,$sql);
     if($result){
@@ -85,6 +88,10 @@ if(isset($_POST['submit'])){
                 <label>Product Category</label>
                 <input type="text" class="form-control" name="Category_Name" value="<?php echo $category_name?>" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
             </div>
+            <div class="form-group">
+                    <label>Parent ID</label>
+                    <input type="number" class="form-control"  name="category_id" value="<?php echo $category_id?>" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
+               </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label">Check me out</label>
