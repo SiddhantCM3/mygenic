@@ -78,17 +78,10 @@ if(isset($_POST['submit'])){
                     <label>Product Category</label>
                     <input type="text" class="form-control" name="Product_Category" id="exampleInputProduct" aria-describedby="emailHelp" placeholder="Enter Product Category" autocomplete="off">
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Parent ID</label>
-                    <select class="form-control" name="Parent_Id" id="exampleFormControlSelect1"  placeholder="Enter Product Category" autocomplete="off">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    </select>
-                </div>
+                <div class="mb-3">
+                    <label for="cat_image" class="form-label">Parent ID</label>
+                    <input type="number" class="form-control" id="category_id" name="Parent_Id">
+               </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </form>
       </div>

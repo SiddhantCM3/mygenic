@@ -27,13 +27,13 @@
                   {
                     ?>
                   <div class="col-md-3 ">
-                    <a href="product-details.php?Product_Name=<?php echo $row['Product_Name']; ?>">  
+                    <a href="sub-categoryview.php?Product_Chemical=<?php echo $row['Product_Chemical']; ?>">  
                       <div class="card  mb-3 sub-pro h-100 ">
                         <div class="card-header bg-transparent text-center"><h5 class="card-title" style="color:#ed6f1e;"><?php echo $row['Product_Name']; ?></h5></div>
                         <div class="card-body text-success">
                               <h5 class="geeks"><?php echo '<img class="card-img-top" src="./admin/product_images/'.$row['Product_Image'].'" width="20px"; height="100px"; alt=" ">' ?></h5>
                         </div>
-                        <div class="card-footer bg-transparent"><p><b style="color:#046e7a;font-size: 1.0em;">Product Category:</b></p><?php echo $row['category_name']; ?></div>
+                        <div class="card-footer bg-transparent"><p><b style="color:#046e7a;font-size: 1.0em;">Product Chemical:</b></p><?php echo $row['Product_Chemical']; ?></div>
                       </div>
                     </a> 
                   </div>
