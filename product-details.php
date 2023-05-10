@@ -27,25 +27,54 @@
                   while($row = mysqli_fetch_array($result))
                   {
                     ?>
-                  <section class="container">
+                  <section class="container" id="product-details">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 p-5" style="box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
                         <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 p-5" style="box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
+                          <div class="col-lg-4 details">
+                            <?php echo '<img class="card-img-top" src="./admin/product_images/'.$row['Product_Image'].'" width="250px"; height="300px"; alt=" ">' ?>
+                          </div>
+                          <div class="col-lg-8">
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12 text-center">
+                                <p class="card-title" style="color:#ed6f1e;font-size: 1.8em;"><?php echo $row['Product_Name']; ?></p><br>
+                              </div>
+                              <div class="col-lg-12">
                                 <div class="row">
-                                    <div class="col-lg-4" style="border-right: 5px solid rgba(0, 0, 0, .2);">
-                                      <?php echo '<img class="card-img-top" src="./admin/product_images/'.$row['Product_Image'].'" width="250px"; height="300px"; alt=" ">' ?>
-                                    </div>
-                                    <div class="col-lg-8">
-                                      <h4 class="card-title" style="color:#ed6f1e;font-size: 1.5em;"><?php echo $row['Product_Name']; ?></h4><br>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Chemical:</b> <?php echo $row['Product_Chemical']; ?></p>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Form:</b> <?php echo $row['Product_Form']; ?></p>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Company Name:</b> <?php echo $row['Company_Name']; ?></p>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Storage:</b> <?php echo $row['Product_Storage']; ?></p>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Packing:</b> <?php echo $row['Product_Packing']; ?></p>
-                                        <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;">Product Category:</b> <?php echo $row['category_name']; ?></p>                                    </div>
-                                   </div>
-                             </div>
-                         </div>
-                    </section>
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4 col-md-4 d-flex">Product Chemical:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['Product_Chemical']; ?></div></p>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4  col-md-4 d-flex">Product Form:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['Product_Form']; ?></div></p>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4 col-md-4 d-flex">Company Name:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['Company_Name']; ?></div></p>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4 col-md-4 d-flex">Product Storage:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['Product_Storage']; ?></div></p>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4 col-md-4 d-flex">Product Packing:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['Product_Packing']; ?></div></p>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                                  <p class="card-text"><b style="color:#046e7a;font-size: 1.0em;"><div class="col-lg-4 col-md-4 d-flex">Product Category:</div></b> <div class="col-lg-8 col-md-8"><?php echo $row['category_name']; ?></div></p> 
+                                </div>
+                              </div>                                
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                   </div>
+                </section>
              <?php
                   }
                 }

@@ -207,15 +207,11 @@
                             <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/3TlwnLF.jpg">
                         </div>
                         <div class="card-text">
-                            <div class="card-title">Lorem Ipsum!</div>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-                            Maecenas nec odio et ante tincidunt tempus
-                            Duis leo. Donec sodales sagittis magna
+                            “The team at MyGenic Healthcare responded quickly to an urgent project request. Our project timelines were jeopardized by an unforeseen issue with another vendor and MyGenic came to the rescue.”
                         </div>
                         <div class="footer">
                             <span id="name">Micheal Smith<br></span>
-                            <span id="position">CEO of <a href="#">Google.com</a></span>
+                            <span id="position">Chief Development Officer <a href="#">Google.com</a></span>
                         </div>
                     </div>
                 </div>
@@ -225,15 +221,11 @@
                             <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/Uz4FjGZ.jpg">
                         </div>
                         <div class="card-text">
-                            <div class="card-title">Lorem Ipsum!</div>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-                            Maecenas nec odio et ante tincidunt tempus
-                            Duis leo. Donec sodales sagittis magna
+                            “In my first project with MyGenic Healthcare I was so impressed with their responsiveness and scientific approach to issues that I have them at the top of my list for quoting on any work in their wheelhouse.”
                         </div>
                         <div class="footer">
                             <span id="name">Angellia Miller<br></span>
-                            <span id="position">CEO of <a href="#">Facebook.com</a></span>
+                            <span id="position">Chief Development Officer <a href="#">Facebook.com</a></span>
                         </div>
                     </div>
                 </div>
@@ -243,15 +235,11 @@
                             <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/udGH5tO.jpg">
                         </div>
                         <div class="card-text">
-                            <div class="card-title">Lorem Ipsum!</div>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-                            Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-                            Maecenas nec odio et ante tincidunt tempus
-                            Duis leo. Donec sodales sagittis magna
+                            “MyGenic Healthcare came to our rescue and allowed us to get our Phase I trial back on track after a well-known CDMO failed to release our CTM.  We are now recruiting patients, thanks to MyGenic Healthcare!.”
                         </div>
                         <div class="footer">
                             <span id="name">Christina Williams<br></span>
-                            <span id="position">UX Designer at <a href="#">Youtube.com</a></span>
+                            <span id="position">Chief Development Officer <a href="#">Youtube.com</a></span>
                         </div>
                     </div>
                 </div>

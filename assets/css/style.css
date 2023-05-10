@@ -1309,6 +1309,14 @@ a:focus {
   transform: translateX(0);
 }
 
+.details{
+  border-right: 5px solid rgba(0, 0, 0, .2);
+}
+@media (min-width: 0px) and (max-width: 992px){
+  #product-details .details{
+    border-right: none;
+  }
+}
 /* --------------------------Services----------------------------- */
 .service h3{
   font-weight: 500;
