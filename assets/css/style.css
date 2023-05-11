@@ -118,6 +118,9 @@ p, h5{
 .capitalized{
   text-transform: capitalize;
 }
+.process-img{
+  width: auto !important; 
+}
 /* Header */
 .top-header{
   background-color: var(--primary);

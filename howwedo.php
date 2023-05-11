@@ -26,7 +26,7 @@
                 
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\how we do\raw material.jpg" alt="mygenic leading_pharma" class="img-fluid"
+                <img src="assets\img\how we do\raw-material.png" alt="mygenic leading_pharma" class="img-fluid process-img"
                     data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
@@ -36,7 +36,7 @@
         <div class="row">
 
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\services\service8.png" alt="mygenic iso certified" class="img-fluid"
+                <img src="assets\img\how we do\manufacturing.png" alt="mygenic iso certified" class="img-fluid process-img" 
                     data-aos="zoom-in" data-aos-delay="1000">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
@@ -66,7 +66,7 @@
 
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\services\service9.png" alt="mygenic contract manufacturer" class="img-fluid"
+                <img src="assets\img\how we do\storage.png" alt="mygenic contract manufacturer" class="img-fluid process-img"
                     data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
@@ -75,7 +75,7 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\services\service9.png" alt="mygenic contract manufacturer" class="img-fluid"
+                <img src="assets\img\how we do\transport.png" alt="mygenic contract manufacturer" class="img-fluid process-img"
                     data-aos="zoom-in" data-aos-delay="1000">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
@@ -103,7 +103,7 @@
                 <p data-aos="fade-up" data-aos-delay="1000"><strong>Normal Export: </strong>Normal export refers to the without specific temperature controls or requirements. It typically involves shipping products that are stable at ambient temperatures and do not require specialized temperature-controlled packaging or transport.</p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
-                <img src="assets\img\services\service9.png" alt="mygenic contract manufacturer" class="img-fluid"
+                <img src="assets\img\how we do\export.png" alt="mygenic contract manufacturer" class="img-fluid process-img"
                     data-aos="zoom-in" data-aos-delay="1000">
             </div>
         </div>
