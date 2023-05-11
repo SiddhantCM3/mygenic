@@ -311,6 +311,7 @@ p, h5{
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
+  min-height: 180px;
 }
 .card1::before{
   content: "";
@@ -323,7 +324,7 @@ p, h5{
     width: 35px;
     border-radius: 32px;
     transform: scale(1);
-    transform-origin: 50% 50%;
+    transform-origin: 60% 50%;
     transition: transform 0.25s ease-out;
 }
 .card1:hover::before {
