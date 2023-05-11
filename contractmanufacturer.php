@@ -11,9 +11,9 @@
 <!------------------------------------Contract Manufacturer------------------------------------->
 <section id="contract-manufacturer" class="section-bg service">
    <div class="section-head">
-        <h1 class="text-center" data-aos="fade-up" data-aos-delay="1000"><span>Our </span>Services</h1>
+        <h1 class="text-center mb-5" data-aos="fade-up" data-aos-delay="1000"><span>Contract </span>Manufacturer</h1>
     </div>
-    <div class="container">
+    <div class="container"> 
         <div class="row">            
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
                 <h3 data-aos="fade-up" data-aos-delay="1000">Top Pharmaceutical Contract Manufacturer in India</h3>                

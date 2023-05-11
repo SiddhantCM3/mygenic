@@ -11,9 +11,9 @@
 <!------------------------------------Quality Medicine Supplier------------------------------------->
 <section id="quality-medicine-supplier" class="section-bg service">
    <div class="section-head">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our </span>Services</h1>
+        <h1 class="text-center mb-5" data-aos="zoom-in" data-aos-delay="1000"><span>Leading </span>Pharmaceutical Exporter</h1>
     </div>
-    <div class="container">
+    <div class="container"> 
         <div class="row">            
             <div class="col-lg-6 col-md-6 col-sm-12 intro-text">
                 <h3 data-aos="fade-up" data-aos-delay="1000">How We became a Top Leading Pharmaceutical Export Company?</h3>
