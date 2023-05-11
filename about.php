@@ -21,7 +21,7 @@
                             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>about </span>us</h1>
                         </div>
                         <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
-                        <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
+                        <p data-aos="zoom-out" data-aos-delay="1000" class="text-center"><strong>We have experties in pharmaceutical products from 25 years!</strong></p>
                     </div>
                 </div>                
             </div>    
@@ -305,19 +305,19 @@
                     <div class="mask">
                         <ul>
                             <li class="anim1">
-                                <img src="assets\img\certificate-1.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificates\certificate-1.png" alt="" class="img-fluid">
                             </li>
                             <li class="anim2">
-                                <img src="assets\img\certificate-2.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificates\certificate-2.jpg" alt="" class="img-fluid">
                             </li>
                             <li class="anim3">
-                                <img src="assets\img\certificate-3.png" alt="" class="img-fluid">
+                                <img src="assets\img\certificates\certificate-5.png" alt="" class="img-fluid">
                             </li>
                             <li class="anim4">
-                                <img src="assets\img\certificate-4.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificates\certificate-4.png" alt="" class="img-fluid">
                             </li>
                             <li class="anim5">
-                                <img src="assets\img\certificate-5.jpg" alt="" class="img-fluid">
+                                <img src="assets\img\certificates\certificate-5.png" alt="" class="img-fluid">
                             </li>
                         </ul>
                     </div>
