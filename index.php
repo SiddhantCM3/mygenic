@@ -247,6 +247,122 @@
         </div>
 </section>
 
+<!--------------------Team------------------------------------->
+<section id="team" class="team">
+  <div class="section-head pb-3">
+    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our </span> team </h2>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center d-flex">
+      <div class=" col my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-1.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Namrata Patil</span>
+                </h5>
+                <div class="designation">
+                  Manager
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col  my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-2.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Sapana Gupta</span>
+                </h5>
+                <div class="designation">
+                  Assistant Manager
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-3.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Vikrant Pawar</span>
+                </h5>
+                <div class="designation">
+                HR
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col  my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-4.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Shrikant Bhalekar </span>
+                </h5>
+                <div class="designation">
+                Executive Engineer
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!--------------------Clientels------------------------------------->
 <section id="clientel">
   <div class="section" style=" background-color:#ffffff">
