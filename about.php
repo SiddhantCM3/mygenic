@@ -13,14 +13,15 @@
         <div class="container about">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 intro-img text-center">
-                    <img src="assets\img\about us.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    <img src="assets\img\about-us.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
                     <div class="intro-text">
                         <div class="section-head">
                             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>about </span>us</h1>
                         </div>
-                        <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
+                        <p data-aos="zoom-out" data-aos-delay="1000">We are a leading pharmaceutical company dedicated to providing high-quality products and services to businesses in the healthcare industry. With our extensive expertise, cutting-edge technologies and commitment to excellence, we aim to be your trusted partner in achieving success and improving patient outcomes.</p>                        
+                        <p data-aos="zoom-out" data-aos-delay="1000">We are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
                         <p data-aos="zoom-out" data-aos-delay="1000" class="text-center"><strong>We have experties in pharmaceutical products from 25 years!</strong></p>
                     </div>
                 </div>                

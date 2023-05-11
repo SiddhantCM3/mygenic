@@ -83,10 +83,11 @@
                                 <a href="thirdparty.php">Third Party Pharma Manufacturer</a>
                                 <a href="qualitymedicine.php">Quality Medicine Supplier</a>
                                 <a href="leadingpharma.php">Leading Pharmaceutical Exporter</a>
+                                <a href="R&D.php">Research and Development</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link underline" href="R&D.php" style="color:#048a9a">R&D</a>
+                            <a class="nav-link underline" href="howwedo.php" style="color:#048a9a">How We Do?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link underline" href="contact.php" style="color:#048a9a">Contact Us</a>

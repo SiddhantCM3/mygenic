@@ -52,7 +52,7 @@
 <section id="introduction">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
+      <div class="col-lg-8 col-md-8 col-sm-12 intro-box">
         <div class="intro-text">
           <div class="section-head">
             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Introduction</h1>
@@ -72,9 +72,9 @@
               years!</strong></p>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 intro-img">
-        <img src="assets\img\experience1.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in"
-          data-aos-delay="1000">
+      <div class="col-lg-4 col-md-4 col-sm-12 intro-img">
+        <img src="assets\img\25 Years of excellence unit_02.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in"
+          data-aos-delay="1500">
       </div>
     </div>
   </div>
