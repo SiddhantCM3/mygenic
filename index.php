@@ -7,33 +7,44 @@
     <h1 class="text-center" data-aos="zoom-in" data-aos-delay="2000"><span>what we</span> provide</h1>
   </div>
   <div class="container">
+    <div class="row">
+    <div class="col">
     <a class="card1" href="#">
       <h3>Manufacturing</h3>
-      <p class="small">MyGenic Healthcare Private Limited may manufacture a range of pharmaceutical products including tablets, injections, and anti-cancer capsules.</p>
+      <p class="small">MyGenic Healthcare Private Limited may manufacture a range of pharmaceutical products including
+        tablets, injections, and anti-cancer capsules.</p>
       <div class="go-corner" href="#">
         <div class="go-arrow">
           →
         </div>
       </div>
-    </a>  
+    </a>
+    </div>
+    <div class="col">
     <a class="card1" href="#">
       <h3>Exporting</h3>
-      <p class="small">By developing effective processes and partnerships, the company can efficiently export their pharmaceutical products to a range of global markets.</p>
+      <p class="small">By developing effective processes and partnerships, the company can efficiently export their
+        pharmaceutical products to a range of global markets.</p>
       <div class="go-corner" href="#">
         <div class="go-arrow">
           →
         </div>
       </div>
-    </a>  
+    </a>
+    </div>
+    <div class="col">
     <a class="card1" href="#">
       <h3>Quality Control</h3>
-      <p class="small">MyGenic Healthcare Private Limited likely has a quality control system in place to ensure that their products meet industry standards and regulations.</p>
+      <p class="small">MyGenic Healthcare Private Limited likely has a quality control system in place to ensure that
+        their products meet industry standards and regulations.</p>
       <div class="go-corner" href="#">
         <div class="go-arrow">
           →
         </div>
       </div>
-    </a>  
+    </a>
+    </div>
+    </div>
   </div>
 </section>
 
@@ -46,24 +57,34 @@
           <div class="section-head">
             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Introduction</h1>
           </div>
-          <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">MyGenic Healthcare Private Limited is a reputable company that specializes in the production and export of high-quality pharmaceutical products. We are based in Navi Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing superior products and services to our clients.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">We offer a wide range of pharmaceutical products, including tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using the latest technology and in strict adherence to industry regulations and quality standards. This ensures that our products are safe, effective, and of the highest quality.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 21 years!</strong></p>
+          <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare
+            Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets,
+            Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">MyGenic Healthcare Private Limited is a reputable company that
+            specializes in the production and export of high-quality pharmaceutical products. We are based in Navi
+            Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing
+            superior products and services to our clients.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">We offer a wide range of pharmaceutical products, including
+            tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using
+            the latest technology and in strict adherence to industry regulations and quality standards. This ensures
+            that our products are safe, effective, and of the highest quality.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 25
+              years!</strong></p>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 intro-img">
-        <img src="assets\img\experience.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+        <img src="assets\img\experience1.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in"
+          data-aos-delay="1000">
       </div>
-    </div>    
+    </div>
   </div>
 </section>
 
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
-   <div class="section-head">
-        <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Services</span> we provide</h1>
-    </div>
+  <div class="section-head">
+    <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Services</span> we provide</h1>
+  </div>
   <div class="container">
 
     <figure class="snip1401">
@@ -105,7 +126,7 @@
         <p>Medical equipment and materials provision.</p>
       </figcaption>
     </figure>
-        
+
   </div>
 </section>
 
@@ -174,18 +195,24 @@
           <div class="section-head">
             <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Who</span> we are?</h1>
           </div>
-          <p data-aos="zoom-out" data-aos-delay="1000">We are a pharmaceutical company that is committed to improving the health and wellbeing of people globally. Our team of experienced professionals includes scientists, researchers, and pharmaceutical experts who are dedicated to developing innovative solutions to address some of the most pressing healthcare issues of our time.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">We specialize in the development, manufacturing, and distribution of high-quality pharmaceutical products that meet the needs of patients, healthcare providers, and partners worldwide. Our products are made using the latest technologies and adhere to strict quality control measures to ensure safety and efficacy.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">At our core, we are a customer-focused company that believes in building long-term relationships with our customers and partners by providing exceptional customer service and support. We listen to our customers' needs and work collaboratively to develop tailored solutions that meet their unique requirements.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations. Our commitment to quality, innovation, and regulatory compliance has earned us a reputation as a reliable and trusted partner in the pharmaceutical industry.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">Overall, we are a company that is driven by a passion for improving healthcare outcomes and making a positive impact on the lives of people around the world.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">We are a pharmaceutical company that is committed to improving
+            the health and wellbeing of people globally. Our team of experienced professionals includes scientists,
+            researchers, and pharmaceutical experts who are dedicated to developing innovative solutions to address some
+            of the most pressing healthcare issues of our time.</p>
+          <p data-aos="zoom-out" data-aos-delay="1000">We specialize in the development, manufacturing, and distribution
+            of high-quality pharmaceutical products that meet the needs of patients, healthcare providers, and partners
+            worldwide. Our products are made using the latest technologies and adhere to strict quality control measures
+            to ensure safety and efficacy.</p>
+          <!-- <p data-aos="zoom-out" data-aos-delay="1000">At our core, we are a customer-focused company that believes in building long-term relationships with our customers and partners by providing exceptional customer service and support. We listen to our customers' needs and work collaboratively to develop tailored solutions that meet their unique requirements.</p> -->
+          <!-- <p data-aos="zoom-out" data-aos-delay="1000">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations. Our commitment to quality, innovation, and regulatory compliance has earned us a reputation as a reliable and trusted partner in the pharmaceutical industry.</p> -->
+          <!-- <p data-aos="zoom-out" data-aos-delay="1000">Overall, we are a company that is driven by a passion for improving healthcare outcomes and making a positive impact on the lives of people around the world.</p> -->
         </div>
       </div>
       <!-- Image Column -->
       <div class="image-column col-lg-6 col-md-12 col-sm-12">
         <div class="inner-column">
           <figure class="image-1">
-            <img src="https://images.unsplash.com/photo-1610833804933-264b7f75c99c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBoYXJtYWNldXRpY2FsfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+            <img src="assets\img\who we are\pharmaceutics_-automation-manufacturing.jpeg" alt="pharma manufacturing machine mygenic" class="img-fluid">
           </figure>
         </div>
       </div>
@@ -196,55 +223,173 @@
 
 <!--------------------Testimonials------------------------------------->
 <section id="testimonials" class="testimonials">
-<div class="section-head pb-5">
-    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Testimonials</h2>
+  <div class="section-head pb-5">
+    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our happy</span> clients </h2>
   </div>
-<div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/3TlwnLF.jpg">
-                        </div>
-                        <div class="card-text">
-                            “The team at MyGenic Healthcare responded quickly to an urgent project request. Our project timelines were jeopardized by an unforeseen issue with another vendor and MyGenic came to the rescue.”
-                        </div>
-                        <div class="footer">
-                            <span id="name">Micheal Smith<br></span>
-                            <span id="position">Chief Development Officer <a href="#">Google.com</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/Uz4FjGZ.jpg">
-                        </div>
-                        <div class="card-text">
-                            “In my first project with MyGenic Healthcare I was so impressed with their responsiveness and scientific approach to issues that I have them at the top of my list for quoting on any work in their wheelhouse.”
-                        </div>
-                        <div class="footer">
-                            <span id="name">Angellia Miller<br></span>
-                            <span id="position">Chief Development Officer <a href="#">Facebook.com</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card d-flex mx-auto ">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://i.imgur.com/udGH5tO.jpg">
-                        </div>
-                        <div class="card-text">
-                            “MyGenic Healthcare came to our rescue and allowed us to get our Phase I trial back on track after a well-known CDMO failed to release our CTM.  We are now recruiting patients, thanks to MyGenic Healthcare!.”
-                        </div>
-                        <div class="footer">
-                            <span id="name">Christina Williams<br></span>
-                            <span id="position">Chief Development Officer <a href="#">Youtube.com</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card d-flex mx-auto">
+          <div class="card-image">
+            <img class="img-fluid d-flex mx-auto" src="assets\img\testimonials\testimonial-1.png">
+          </div>
+          <div class="card-text">
+            “The team at MyGenic Healthcare responded quickly to an urgent project request. Our project timelines were
+            jeopardized by an unforeseen issue with another vendor and MyGenic came to the rescue.”
+          </div>
+          <div class="footer">
+            <span id="name">Jatin Chopra<br></span>
+            <span id="position">Production Executive</span>
+          </div>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card d-flex mx-auto">
+          <div class="card-image">
+            <img class="img-fluid d-flex mx-auto" src="assets\img\testimonials\testimonial-2.png">
+          </div>
+          <div class="card-text">
+            “In my first project with MyGenic Healthcare I was so impressed with their responsiveness and scientific
+            approach to issues that I have them at the top of my list for quoting on any work in their wheelhouse.”
+          </div>
+          <div class="footer">
+            <span id="name">Shweta Chavhan<br></span>
+            <span id="position">Analytical Chemist</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card d-flex mx-auto ">
+          <div class="card-image">
+            <img class="img-fluid d-flex mx-auto" src="assets\img\testimonials\testimonial-3.png">
+          </div>
+          <div class="card-text">
+            “MyGenic Healthcare came to our rescue and allowed us to get our Phase I trial back on track after a
+            well-known CDMO failed to release our CTM. We are now recruiting patients, thanks to MyGenic Healthcare!.”
+          </div>
+          <div class="footer">
+            <span id="name">Nikhil Shinde<br></span>
+            <span id="position">R and D chemist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--------------------Team------------------------------------->
+<section id="team" class="team">
+  <div class="section-head pb-3">
+    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our </span> team </h2>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center d-flex">
+      <div class=" col my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-1.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Namrata Patil</span>
+                </h5>
+                <div class="designation">
+                  Manager
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col  my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-2.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Sapana Gupta</span>
+                </h5>
+                <div class="designation">
+                  Assistant Manager
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-3.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Vikrant Pawar</span>
+                </h5>
+                <div class="designation">
+                HR
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col  my-3">
+        <div class="">
+          <div class="inner-box">
+            <div class="image">
+              <img width="240" height="240" src="assets\img\team\team-4.png" alt="team-mygenic"
+                decoding="async">
+            </div>
+            <div class="lower-content">
+              <div class="content">
+                <h5>
+                  <span>Shrikant Bhalekar </span>
+                </h5>
+                <div class="designation">
+                Executive Engineer
+                </div>
+                <!-- social box -->
+                <ul class="social-box">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--------------------Clientels------------------------------------->
@@ -292,4 +437,4 @@
   </div>
 </section>
 
-<?php include("footer.php")?>
+<?php include("footer.php") ?>

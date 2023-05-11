@@ -303,11 +303,11 @@ p, h5{
 .card1{
   display: block;
   position: relative;
-  max-width: 290px;
+  /* max-width: 340px; */
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 32px 24px;
-  margin: 12px;
+  /* margin: 12px; */
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
@@ -327,7 +327,7 @@ p, h5{
     transition: transform 0.25s ease-out;
 }
 .card1:hover::before {
-  transform: scale(21);
+  transform: scale(25);
 }
 #what-we-provide a:hover p{
   transition: all 0.3s ease-out;
@@ -378,6 +378,9 @@ background: white;
 #introduction .intro-img{
   display: grid;
   place-content: center;
+}
+#introduction p{
+  text-align: justify;
 }
 .section-head{
   padding: 20px;
@@ -494,6 +497,9 @@ background: white;
 }
 .about{
   margin-bottom: 30px;
+}
+.about p{
+  text-align: justify;
 }
 #ourproducts{
     color: black;
@@ -1434,10 +1440,6 @@ font-size: 1.2em;
 } */
 
 /* <!--------------------Who We are-------------------------------------> */
-.about-section img {
-max-width: 100%;
-height: auto;
-}
 /* .about-section section {
     padding: 60px 0;
 } */
@@ -1445,9 +1447,15 @@ height: auto;
 position: relative;
 padding: 120px 0 70px;
 }
+.about-section p{
+  text-align: justify;
+}
 .about-section .content-column{
-position: relative;
+/* position: relative; */
 margin-bottom: 50px;
+display: grid;
+justify-content: center;
+vertical-align: middle;
 }
 .about-section .content-column .inner-column{
 position: relative;
@@ -1455,6 +1463,7 @@ padding-left: 30px;
 }
 .about-section .image-column{
 position: relative;
+margin-top: 50px;
 }
 .about-section .image-column .inner-column{
 position: relative;
@@ -1470,7 +1479,7 @@ top: -80px;
 left: -3px;
 background: transparent;
 z-index: 0;
-border: 30px solid var(--primary);
+border: 25px solid var(--primary);
 }
 .about-section .image-column .image-1{
 position: relative;
@@ -1479,7 +1488,10 @@ position: relative;
 box-shadow: 0 30px 50px rgba(8,13,62,.15);
 border-radius: 46px;
 animation: float 6s ease-in-out infinite;
+/* max-width: 100%;
+max-height: auto; */
 }
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -1569,4 +1581,94 @@ animation: float 6s ease-in-out infinite;
 
 .btn-close:focus {
   box-shadow: none;
+}
+
+
+/* Team */
+#team .inner-box{
+  padding: 15px 15px;
+  background-color: #ffffff;
+  border-radius: 170px 170px 0px 0px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+  border-color: #048a9a;
+}
+#team .inner-box:hover .image img{
+  transition: all .5s ease-in;
+  transform: scale(1.1);
+}
+#team .inner-box:hover .image{
+  box-shadow: rgba(4, 138, 154, 0.8) 0px 0px 15px;
+}
+#team .inner-box .image{
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid var(--primary);
+}
+#team .inner-box .image img{
+  position: relative;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+#team .inner-box .lower-content{
+  position: relative;
+}
+#team .inner-box .lower-content .content{
+  position: relative;
+  text-align: center;
+    padding: 18px 5px 18px;
+}
+#team .inner-box .lower-content h5{
+  position: relative;
+    color: #001024;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0px;
+    background: none;
+}
+#team .inner-box .lower-content h5 a{
+  position: relative;
+  color: #001024;
+  cursor: pointer;
+}
+#team .inner-box .lower-content .designation{
+  position: relative;
+    color: #323d4c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 7px;
+    display: block;
+}
+#team .inner-box .lower-content ul{
+  list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#team .inner-box .lower-content .social-box{
+  position: relative;
+    margin-top: 18px;
+}
+#team .inner-box .lower-content .social-box li{
+  position: relative;
+    display: inline-block;
+    margin: 0px 5px;
+    list-style: none;
+}
+#team .inner-box .lower-content .social-box li a{
+  position: relative;
+    
+    font-size: 20px;
+}
+#team .inner-box .lower-content .social-box li a:hover{
+  color: var(--primary);
 }
