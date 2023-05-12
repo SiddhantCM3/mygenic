@@ -118,6 +118,9 @@ p, h5{
 .capitalized{
   text-transform: capitalize;
 }
+.process-img{
+  width: auto !important; 
+}
 /* Header */
 .top-header{
   background-color: var(--primary);
@@ -491,10 +494,8 @@ background: white;
   justify-content: center;
 }
 #about-us .intro-img img{
-  border-radius: 50%;
+  border-radius: 20px;
   filter: drop-shadow(3px 3px 5px rgb(0, 0, 0, 0.6));
-  margin-bottom: 15px;
-  max-width: 70%;
 }
 .about{
   margin-bottom: 30px;
