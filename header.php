@@ -32,11 +32,7 @@
 
     <title>MyGenic Healthcare</title>
   </head>
-  <body style="background-image:
-            linear-gradient(45deg,
-              rgba(255, 255, 255, 0.9),
-              rgba(255, 255, 255, 0.9)), url(
-'https://cdn.dribbble.com/users/3279469/screenshots/9298302/media/03587e0940a854f32f9414805ec238a5.gif'); background-repeat:repeat;">
+  <body style="background-image: url('assets/img/body-bg.jpg'); background-repeat:repeat;">
     <header>
         <div class="container-fluid p-1 top-header">
             <div class="">
