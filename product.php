@@ -11,9 +11,9 @@
 <section id="product" class="section-bg">
     <div class="container">
         <div class="section-head">
-            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>our </span>products</h2>
+            <h2 class="text-center" data-aos="zoom-in"><span>our </span>products</h2>
         </div>
-        <p class="text-center" data-aos="zoom-out" data-aos-delay="200">Pharmaceutical Tablets And Pharmaceutical Injections</p>
+        <p class="text-center" data-aos="zoom-out">Pharmaceutical Tablets And Pharmaceutical Injections</p>
         <div class="row pt-3">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div id="cards_landscape_wrap-2" style="grid-gap: 0px 10px;">
