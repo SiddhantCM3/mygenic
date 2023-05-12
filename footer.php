@@ -13,7 +13,8 @@
           <p><a href="index.php">Home</a></p>
           <p><a href="about.php">About Us</a></p>
           <p><a href="product.php">Our Products</a></p>
-          <p><a href="R&D.php">R&D</a></p>
+          <p><a href="howwedo.php">How We Do?</a></p>
+          <p><a href="R&D.php">Research & Development</a></p>
           <p><a href="contact.php">Contact Us</a></p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 icons">
@@ -34,8 +35,8 @@
           <p class="text-capitalize">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</p>
           <p class="text-capitalize"><a href="https://goo.gl/maps/EPZ2zYVmfmYVzYjL8"><i class="bi bi-arrow-return-right"></i> Get Directions</a></p>
           <p class="text-capitalize">Namrata Patil (Manager)</p>
-          <a href="#"><button class="btn-f btn btn-bottom-animation-1">Send SMS</button></a>
-          <a href="#"><button class="btn-f btn btn-bottom-animation-1">Send Email</button></a>
+          <a href="contact.php"><button class="btn-f btn btn-bottom-animation-1">Send SMS</button></a>
+          <a href="contact.php"><button class="btn-f btn btn-bottom-animation-1">Send Email</button></a>
         </div>
       </div>
 

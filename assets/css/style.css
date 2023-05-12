@@ -121,6 +121,9 @@ p, h5{
 .process-img{
   width: auto !important; 
 }
+strong{
+  color: #000000;
+}
 /* Header */
 .top-header{
   background-color: var(--primary);
