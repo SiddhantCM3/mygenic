@@ -17,7 +17,7 @@
     </div>
     <div class="item">
         <div class="zoomin">
-            <img src="assets\img\covid-still-life-with-vaccine.jpg" alt="e-waste-mart-banner" class="img-fluid">
+            <img src="assets\img\carousel\3-1.jpg" alt="e-waste-mart-banner" class="img-fluid">
         </div>
         <p class="right" onslide="grow()"><span style="color:#ed6f1e;">Committed to</span> improving </p>
         <p class="right" style="top:35%;" onslide="grow()">lives through innovation and  </p>

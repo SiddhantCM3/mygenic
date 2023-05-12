@@ -3,7 +3,7 @@
 <!--Start breadcrumb area paroller-->
 <section class="breadcrumb-area">
     <div class="breadcrumb-area-bg">
-        <img class="img-fluid" src="assets/img/breadcrumb/Leading-Pharmaceutical-Exporter.jpg" alt="">
+        <img class="img-fluid" src="assets\img\breadcrumb\How-We-Do.jpg" alt="how we do?">
     </div>
 </section>
 <!--End breadcrumb area-->
@@ -20,7 +20,7 @@
 
                 <p data-aos="fade-up" data-aos-delay="1000">Raw materials play a crucial role in the pharmaceutical industry as they are the building blocks for the production of drugs and medications. These materials, also known as active pharmaceutical ingredients (APIs), are the substances responsible for the therapeutic effects of the drugs.</p>
                 
-                <p data-aos="fade-up" data-aos-delay="1000">APIs are the primary raw materials in drug formulation. They are chemically active substances that have a direct impact on the treatment of a specific disease or condition. Excipients are non-active substances used in drug formulation alongside APIs. Solvents are used during the manufacturing process to dissolve APIs and excipients, facilitating their combination and formulation into a final dosage form.</p>
+                <p data-aos="fade-up" data-aos-delay="1000"><strong>APIs</strong> are the primary raw materials in drug formulation. They are chemically active substances that have a direct impact on the treatment of a specific disease or condition. <strong>Excipients</strong> are non-active substances used in drug formulation alongside APIs. <strong>Solvents</strong> are used during the manufacturing process to dissolve APIs and excipients, facilitating their combination and formulation into a final dosage form.</p>
                 
                 <p data-aos="fade-up" data-aos-delay="1000">In addition to the above, the pharmaceutical industry may use other raw materials such as antimicrobial agents, antioxidants, chelating agents, and pH modifiers. These materials assist in preserving the stability of the drug product, preventing microbial growth, and maintaining its quality over its shelf life.</p>
                 
@@ -44,11 +44,11 @@
 
                 <p data-aos="fade-up" data-aos-delay="1000">Manufacturing pharmaceutical products such as tablets (tabs), syrups, and injections involves distinct processes and considerations.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">Tablets are solid dosage forms that contain one or more active pharmaceutical ingredients (APIs) along with excipients. The manufacturing process typically involves Blending, Granulation, Compression, Coating, Packaging process.</p>
+                <p data-aos="fade-up" data-aos-delay="1000"><strong>Tablet: </strong>Tablets are solid dosage forms that contain one or more active pharmaceutical ingredients (APIs) along with excipients. The manufacturing process typically involves Blending, Granulation, Compression, Coating, Packaging process.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">Syrups are liquid dosage forms containing dissolved or suspended APIs and flavoring agents. The manufacturing process typically involves Preparation of Solution/Suspension, Mixing and Homogenization, Filtration, Flavoring and Sweetening, Packaging process.</p>
+                <p data-aos="fade-up" data-aos-delay="1000"><strong>Syrup: </strong>Syrups are liquid dosage forms containing dissolved or suspended APIs and flavoring agents. The manufacturing process typically involves Preparation of Solution/Suspension, Mixing and Homogenization, Filtration, Flavoring and Sweetening, Packaging process.</p>
 
-                <p data-aos="fade-up" data-aos-delay="1000">Injections are sterile formulations intended for parenteral administration. The manufacturing process for injections involves strict aseptic techniques and may vary depending on the type of injection (e.g., intravenous, intramuscular, subcutaneous). Some general steps involved in injection manufacturing are Sterilization, Preparation of API Solution, Filtration and Clarification, Filling and Sealing, Quality Control, Packaging.</p>
+                <p data-aos="fade-up" data-aos-delay="1000"><strong>Injection: </strong>Injections are sterile formulations intended for parenteral administration. The manufacturing process for injections involves strict aseptic techniques and may vary depending on the type of injection (e.g., intravenous, intramuscular, subcutaneous). Some general steps involved in injection manufacturing are Sterilization, Preparation of API Solution, Filtration and Clarification, Filling and Sealing, Quality Control, Packaging.</p>
             </div>
         </div>
     </div>
