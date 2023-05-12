@@ -13,16 +13,16 @@
         <div class="container about">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 intro-img text-center">
-                    <img src="assets\img\about-us.jpg" alt="" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
+                    <img src="assets\img\about-us.jpg" alt="" class="img-fluid" data-aos="zoom-in">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 intro-box">
                     <div class="intro-text">
                         <div class="section-head">
-                            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>about </span>us</h1>
+                            <h1 class="text-center" data-aos="zoom-in"><span>about </span>us</h1>
                         </div>
-                        <p data-aos="zoom-out" data-aos-delay="1000">We are a leading pharmaceutical company dedicated to providing high-quality products and services to businesses in the healthcare industry. With our extensive expertise, cutting-edge technologies and commitment to excellence, we aim to be your trusted partner in achieving success and improving patient outcomes.</p>                        
-                        <p data-aos="zoom-out" data-aos-delay="1000">We are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
-                        <p data-aos="zoom-out" data-aos-delay="1000" class="text-center"><strong>We have experties in pharmaceutical products from 25 years!</strong></p>
+                        <p data-aos="zoom-out">We are a leading pharmaceutical company dedicated to providing high-quality products and services to businesses in the healthcare industry. With our extensive expertise, cutting-edge technologies and commitment to excellence, we aim to be your trusted partner in achieving success and improving patient outcomes.</p>                        
+                        <p data-aos="zoom-out">We are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
+                        <p data-aos="zoom-out" class="text-center"><strong>We have experties in pharmaceutical products from 25 years!</strong></p>
                     </div>
                 </div>                
             </div>    
@@ -33,12 +33,12 @@
         <section class="vision-mission" style="background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.8)),url('assets/img/vision-mission-bg.jpg');">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-right" data-aos-delay="1000">
+                <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-right">
                     <span class="stmt-1">Who We Are What We Do</span>
                     <div class="stmt-2">Our Mission</div>
                     <div class="stmt-3">Our mission at MyGenic Healthcare Private Limited is to provide high-quality, affordable pharmaceutical products to patients around the world. We are committed to developing innovative solutions to complex health challenges and improving patient outcomes through research and development, clinical trials, and partnerships with healthcare professionals.</div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-left" data-aos-delay="1000">
+                <div class="col-lg-4 col-md-4 col-sm-12 m-3" data-aos="fade-down-left">
                     <span class="stmt-1">What We Aspire Today</span>
                     <div class="stmt-2">Our Vision</div>
                     <div class="stmt-3">Our vision at MyGenic Healthcare Private Limited is to become a global leader in the pharmaceutical industry, known for our excellence in research and development, quality products, and customer-centric approach. We aim to improve the lives of patients and make a significant contribution to global healthcare through our commitment to innovation, sustainability, and social responsibility.</div>
@@ -300,7 +300,7 @@
 <section id="about-company" class="section-bg">
             <div class="container">
                 <div class="section-head">
-                    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Certificates</h2>
+                    <h2 class="text-center" data-aos="zoom-in">Certificates</h2>
                 </div>
                 <div class="slider">
                     <div class="mask">

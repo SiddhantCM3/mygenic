@@ -12,17 +12,17 @@
 <section id="contact-img" class="section-bg">
     <div class="container">
         <div class="section-head">
-            <h2 class="text-center" data-aos="zoom-in" data-aos-delay="200"><span>CONTACT </span>US</h2>
+            <h2 class="text-center" data-aos="zoom-in"><span>CONTACT </span>US</h2>
         </div>
         <div class="row mt-1">
             <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
-                <h3 class="text-start mb-5" data-aos="zoom-in" data-aos-delay="200">REACH US</h3>
-                <P data-aos="zoom-out" data-aos-delay="200">My Genic healthcare private limited</P>
-                <P data-aos="zoom-out" data-aos-delay="200">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
-                <P data-aos="zoom-out" data-aos-delay="200">Namrata Patil (Manager)</P>
-                <P data-aos="zoom-out" data-aos-delay="200">Call- 08043851554</P>
+                <h3 class="text-start mb-5" data-aos="zoom-in">REACH US</h3>
+                <P data-aos="zoom-out">My Genic healthcare private limited</P>
+                <P data-aos="zoom-out">Office No- 2 Plot No- 98, Sector 35 Dolphin Platinum Kamothe, Navi Mumbai, Raigarh, Raigad-410209, Maharashtra, India</P>
+                <P data-aos="zoom-out">Namrata Patil (Manager)</P>
+                <P data-aos="zoom-out">Call- 08043851554</P>
                 <br>
-                <div class="social-icons"data-aos="zoom-out" data-aos-delay="200">
+                <div class="social-icons"data-aos="zoom-out">
                     <p class="text-capitalize fw-bold">Share Us Via</p>
                     <a href="#"><i class="bi bi-facebook"></i></a>
                     <a href="#"><i class="bi bi-whatsapp"></i></a>
@@ -31,9 +31,9 @@
                 </div>                
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
-                <h3 class="text-start text-center" data-aos="zoom-in" data-aos-delay="200"> GET IN TOUCH WITH US</h3>
+                <h3 class="text-start text-center" data-aos="zoom-in"> GET IN TOUCH WITH US</h3>
                 <form>
-                    <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="form-group" data-aos="fade-up">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">

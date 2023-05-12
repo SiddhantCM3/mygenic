@@ -4,7 +4,7 @@
 <!-- ----------------------------------------what we provide----------------------------------- -->
 <section id="what-we-provide" class="section-bg">
   <div class="section-head">
-    <h1 class="text-center" data-aos="zoom-in" data-aos-delay="2000"><span>what we</span> provide</h1>
+    <h1 class="text-center" data-aos="zoom-in"><span>what we</span> provide</h1>
   </div>
   <div class="container">
     <div class="row">
@@ -55,26 +55,25 @@
       <div class="col-lg-8 col-md-8 col-sm-12 intro-box">
         <div class="intro-text">
           <div class="section-head">
-            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000">Introduction</h1>
+            <h1 class="text-center" data-aos="zoom-in">Introduction</h1>
           </div>
-          <p data-aos="zoom-out" data-aos-delay="1000">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare
+          <p data-aos="zoom-out">Established at Navi Mumbai (Maharashtra), We,“MyGenic Healthcare
             Private Limited” are one of the leading Exporter of a premium range of Pharmaceutical Tablets,
             Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">MyGenic Healthcare Private Limited is a reputable company that
+          <p data-aos="zoom-out">MyGenic Healthcare Private Limited is a reputable company that
             specializes in the production and export of high-quality pharmaceutical products. We are based in Navi
             Mumbai, Maharashtra, and have gained a strong foothold in the industry through our commitment to providing
             superior products and services to our clients.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">We offer a wide range of pharmaceutical products, including
+          <p data-aos="zoom-out">We offer a wide range of pharmaceutical products, including
             tablets, injections, capsules, and more. Our products are manufactured in state-of-the-art facilities using
             the latest technology and in strict adherence to industry regulations and quality standards. This ensures
             that our products are safe, effective, and of the highest quality.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000"><strong>We have experties in pharmaceutical products from 25
+          <p data-aos="zoom-out"><strong>We have experties in pharmaceutical products from 25
               years!</strong></p>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 intro-img">
-        <img src="assets\img\25 Years of excellence unit_02.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in"
-          data-aos-delay="1000">
+        <img src="assets\img\25 Years of excellence unit_02.png" alt="mygenic experience" class="img-fluid" data-aos="zoom-in">
       </div>
     </div>
   </div>
@@ -83,7 +82,7 @@
 <!------------------------------------Our Products------------------------------------->
 <section id="product-card" class="section-bg">
   <div class="section-head">
-    <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Services</span> we provide</h1>
+    <h1 class="text-center" data-aos="zoom-in"><span>Services</span> we provide</h1>
   </div>
   <div class="container">
 
@@ -133,7 +132,7 @@
 <!--------------------Why Choose Us?------------------------------------->
 <!-- <section id="why-choose-us" class="why-choose-us pb-5 pt-1">
   <div class="section-head">
-    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>why </span> choose us?</h2>
+    <h2 class="text-center" data-aos="zoom-in"><span>why </span> choose us?</h2>
   </div>
   <div class="container">
     <div class="text-center mb-2-8 mb-lg-6">
@@ -193,19 +192,19 @@
       <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
         <div class="inner-column">
           <div class="section-head">
-            <h1 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Who</span> we are?</h1>
+            <h1 class="text-center" data-aos="zoom-in"><span>Who</span> we are?</h1>
           </div>
-          <p data-aos="zoom-out" data-aos-delay="1000">We are a pharmaceutical company that is committed to improving
+          <p data-aos="zoom-out">We are a pharmaceutical company that is committed to improving
             the health and wellbeing of people globally. Our team of experienced professionals includes scientists,
             researchers, and pharmaceutical experts who are dedicated to developing innovative solutions to address some
             of the most pressing healthcare issues of our time.</p>
-          <p data-aos="zoom-out" data-aos-delay="1000">We specialize in the development, manufacturing, and distribution
+          <p data-aos="zoom-out">We specialize in the development, manufacturing, and distribution
             of high-quality pharmaceutical products that meet the needs of patients, healthcare providers, and partners
             worldwide. Our products are made using the latest technologies and adhere to strict quality control measures
             to ensure safety and efficacy.</p>
-          <!-- <p data-aos="zoom-out" data-aos-delay="1000">At our core, we are a customer-focused company that believes in building long-term relationships with our customers and partners by providing exceptional customer service and support. We listen to our customers' needs and work collaboratively to develop tailored solutions that meet their unique requirements.</p> -->
-          <!-- <p data-aos="zoom-out" data-aos-delay="1000">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations. Our commitment to quality, innovation, and regulatory compliance has earned us a reputation as a reliable and trusted partner in the pharmaceutical industry.</p> -->
-          <!-- <p data-aos="zoom-out" data-aos-delay="1000">Overall, we are a company that is driven by a passion for improving healthcare outcomes and making a positive impact on the lives of people around the world.</p> -->
+          <!-- <p data-aos="zoom-out">At our core, we are a customer-focused company that believes in building long-term relationships with our customers and partners by providing exceptional customer service and support. We listen to our customers' needs and work collaboratively to develop tailored solutions that meet their unique requirements.</p> -->
+          <!-- <p data-aos="zoom-out">We understand the importance of adhering to local and international regulations and guidelines, and we ensure that our products and processes comply with all relevant standards and regulations. Our commitment to quality, innovation, and regulatory compliance has earned us a reputation as a reliable and trusted partner in the pharmaceutical industry.</p> -->
+          <!-- <p data-aos="zoom-out">Overall, we are a company that is driven by a passion for improving healthcare outcomes and making a positive impact on the lives of people around the world.</p> -->
         </div>
       </div>
       <!-- Image Column -->
@@ -224,7 +223,7 @@
 <!--------------------Testimonials------------------------------------->
 <section id="testimonials" class="testimonials">
   <div class="section-head pb-5">
-    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our happy</span> clients </h2>
+    <h2 class="text-center" data-aos="zoom-in"><span>Our happy</span> clients </h2>
   </div>
   <div class="container">
     <div class="row">
@@ -280,7 +279,7 @@
 <!--------------------Team------------------------------------->
 <section id="team" class="team">
   <div class="section-head pb-3">
-    <h2 class="text-center" data-aos="zoom-in" data-aos-delay="1000"><span>Our </span> team </h2>
+    <h2 class="text-center" data-aos="zoom-in"><span>Our </span> team </h2>
   </div>
   <div class="container">
     <div class="row justify-content-center d-flex">
