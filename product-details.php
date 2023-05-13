@@ -93,11 +93,30 @@
             <p class="para1">Have any questions?</p>
             <h4 class="head"><a href="#" class="text-"><i class="bi bi-telephone-forward-fill"></i> +91 12345 67890</a></h4>
         </div>
-        <div class="col-lg-4 text-center para-2">
+        <div class="col-lg-4 text-center para-2" style="display: inline-block;">
             <p>More Information about to the Mygenic</p>
         </div>
         <div class="col-lg-4 text-center Enquirybtn">
-           <a href="contact.php"><button class="btn-f btn btn-bottom-animation-1">Enquiry Here</button></a>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Enquiry Here</a>
+            <div class="row">
+                <div class="col pt-3">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Enter Email</label>
+                                <input type="email" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                       </form>
+                    </div>
+                    </div>
+                </div>
+           </div>
         </div>
     </div>
 </div>
