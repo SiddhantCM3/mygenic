@@ -1677,3 +1677,16 @@ max-height: auto; */
 #team .inner-box .lower-content .social-box li a:hover{
   color: var(--primary);
 }
+
+#contact .success{
+  color: green;
+  font-weight: 700;
+  padding: 5px;
+  text-align: center;
+}
+.failed{
+  color: red;
+  font-weight: 700;
+  padding: 5px;
+  text-align: center;
+}

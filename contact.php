@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include ("header.php"); ?>
+<?php include ("mail.php"); ?>
 
 <!--Start breadcrumb area paroller-->
 <section class="breadcrumb-area">
@@ -30,7 +31,7 @@
                     <a href="#"><i class="bi bi-twitter"></i></a>
                 </div>                
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 mt-2">
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-2" id="contact">
                 <h3 class="text-start text-center" data-aos="zoom-in"> GET IN TOUCH WITH US</h3>
                 <form>
                     <div class="form-group" data-aos="fade-up">
@@ -51,7 +52,11 @@
                                 <div class="col-lg-12">
                                     <input type="text" name="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Message"><br>
                                 </div>
-                                <button type="button" class="btn btn-lg">SEND MASSAGE</button>
+                                <div>
+                                    <p class="success"> <?php echo $success;  ?></p>
+                                    <p class="failed"> <?php echo $failed;  ?></p>
+                                </div>
+                                <button type="button" name="submit" class="btn btn-lg">SEND MASSAGE</button>
                             </div>
                         </div>
                     </div>
