@@ -20,12 +20,12 @@
                         <div class="section-head">
                             <h1 class="text-center" data-aos="zoom-in"><span>about </span>us</h1>
                         </div>
-                        <p data-aos="zoom-out">We are a leading pharmaceutical company dedicated to providing high-quality products and services to businesses in the healthcare industry. With our extensive expertise, cutting-edge technologies and commitment to excellence, we aim to be your trusted partner in achieving success and improving patient outcomes.</p>                        
-                        <p data-aos="zoom-out">We are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>                        
+                        <p data-aos="zoom-out">We are a leading pharmaceutical company dedicated to providing high-quality products and services to businesses in the healthcare industry. With our extensive expertise, cutting-edge technologies and commitment to excellence, we aim to be your trusted partner in achieving success and improving patient outcomes.</p>
+                        <p data-aos="zoom-out">We are one of the leading Exporter of a premium range of Pharmaceutical Tablets, Pharmaceutical Injection & Anti Cancer Capsules and many more.</p>
                         <p data-aos="zoom-out" class="text-center"><strong>We have experties in pharmaceutical products from 25 years!</strong></p>
                     </div>
-                </div>                
-            </div>    
+                </div>
+            </div>
         </div>
 
 
@@ -111,10 +111,10 @@
                <!-------------second-colum----------------->
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-2 card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <div class="row">
-                        <h3 class="text-center list-heading p-3">FACTSHEET</h3>
+                        <h3 class="text-center p-3">FACTSHEET</h3>
                         <div class="container">
                             <div class="row px-5">
-                                <h5 class="fw-bolder text-decoration-underline">Basic Information</h5> 
+                                <h5 class="fw-bolder text-decoration-underline">Basic Information</h5>
                             </div>
                         </div>
                         <div class="container">
@@ -294,7 +294,7 @@
     </section>
 </section>
 
-    
+
 
 <!-------------------------Photo Gallery---------------------------------------->
 <section id="about-company" class="section-bg">

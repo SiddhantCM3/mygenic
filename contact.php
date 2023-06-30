@@ -29,11 +29,11 @@
                     <a href="#"><i class="bi bi-whatsapp"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
                     <a href="#"><i class="bi bi-twitter"></i></a>
-                </div>                
+                </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-2" id="contact">
                 <h3 class="text-start text-center" data-aos="zoom-in"> GET IN TOUCH WITH US</h3>
-                <form>
+                <form action="mail.php" method="post">
                     <div class="form-group" data-aos="fade-up">
                         <div class="container">
                             <div class="row">
