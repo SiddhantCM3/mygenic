@@ -31,6 +31,7 @@
 
 
     <title>MyGenic Healthcare</title>
+    <link rel="icon" href="assets/img/mygenic_favicon.png" type="image/x-icon">
   </head>
   <body style="background-image: url('assets/img/body-bg.jpg'); background-repeat:repeat;">
     <header>

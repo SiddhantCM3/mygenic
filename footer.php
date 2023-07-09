@@ -53,6 +53,7 @@
   </div>
 </section>
 
+<!---------- Google Translater---------->
 <script type="text/javascript">
   function googleTranslateElementInit()
   {

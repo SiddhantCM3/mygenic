@@ -1678,6 +1678,7 @@ max-height: auto; */
   color: var(--primary);
 }
 
+/*--------- Google Translater-------- */
 
 .goog-te-banner-frame.skiptranslate, .goog-te-gadget-simple img {
   display:none !important;
