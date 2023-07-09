@@ -48,10 +48,24 @@
       <div class="footer-bottom" style="opacity:0.6">
         <p>All Rights Reserved (Terms of Use)</p>
         <p>Developed and Managed by MyGenic Healthcare Pvt Ltd</p>
-      </div>      
+      </div>
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  function googleTranslateElementInit()
+  {
+    new google.translate.TranslateElement({
+      defaultLanguage:'en',
+      pageLanguage:'en',
+      includedLanguages:'mr,hi,bn,de,nl,en,es,it,fr,te,ta,gu,no,',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay:false,
+      multilanguagePage:true},'google_translate_element')
+  };
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- AOS Animation -->

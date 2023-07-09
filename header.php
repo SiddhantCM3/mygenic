@@ -11,7 +11,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/card.scss">
-    
+
     <!-- External javascript -->
     <script src="assets/js/script.js"></script>
 
@@ -49,6 +49,9 @@
                         <a href="#"><i class="bi bi-whatsapp"></i></a>
                         <a href="#"><i class="bi bi-instagram"></i></a>
                         <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 text-white">
+                        <span id="google_translate_element" class="navbar-nav mr-sm-2"></span>
                     </div>
                 </div>
             </div>
@@ -93,5 +96,5 @@
             </div>
         </nav>
     </header>
-    
+
 
